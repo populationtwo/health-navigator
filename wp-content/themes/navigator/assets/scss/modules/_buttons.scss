@@ -1,0 +1,121 @@
+/*-------------------------------
+Buttons
+-------------------------------*/
+
+button, .button {
+	font-family: $sans-serif;
+}
+
+// .button-action
+.small.button-action {
+	padding: rem-calc(7px) rem-calc(18px) rem-calc(8px);
+}
+
+.button-action {
+	&.fr {
+		font-weight: 400;
+	}
+	background: #43AC6A;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+	@include single-box-shadow(0, -0.063rem, 0, 0, rgba(0, 0, 0, 0.1), true);
+	@include border-radius(rem-calc(2px));
+	padding: rem-calc(11px) rem-calc(25px) rem-calc(13px);
+	&:hover {
+		text-decoration: none;
+		background: #368a55;
+
+	}
+	&.green {
+		background: $button-action-green;
+		&:hover {
+			background: $button-action-green-hover;
+		}
+	}
+	&.yellow {
+		background: $button-action-yellow;
+		&:hover {
+			background: $button-action-yellow-hover;
+		}
+	}
+	&.teal {
+		background: $button-action-teal;
+		&:hover {
+			background: $button-action-teal-hover;
+		}
+	}
+	&.blue {
+		background: $button-action-blue;
+		&:hover {
+			background: $button-action-blue-hover;
+		}
+	}
+	&.orange {
+		background: $button-action-orange;
+		&:hover {
+			background: $button-action-orange-hover;
+		}
+	}
+	&.red {
+		background: $button-action-red;
+		&:hover {
+			background: $button-action-red-hover;
+		}
+	}
+	&.primary {
+		background: $primary;
+		&:hover {
+			background: $primary-dark;
+		}
+	}
+	&.secondary {
+		background: $secondary;
+		border-color: darken($secondary, 5%);
+		@include text-shadow(0, 1px, 0, black(0.05));
+		&:hover {
+			background: $secondary-dark;
+			border-color: darken($secondary-dark, 5%);
+		}
+	}
+}
+
+// .button-basic
+.button-basic {
+	color: $gray;
+	background: $panel-4;
+	text-transform: uppercase;
+	@include border-radius(rem-calc(2px));
+	box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.12);
+	&:hover {
+		background: white;
+		color: $gray-darker;
+		text-decoration: none;
+	}
+}
+
+.small.button-basic {
+	padding: rem-calc(8px) rem-calc(20px) rem-calc(8px) rem-calc(20px);
+}
+
+.button-group-action {
+	> li .button {
+		@include single-box-shadow(0, -3px, 0, 0, rgba(0, 0, 0, 0.1), true);
+		text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+		&.primary {
+			background: $primary;
+			&:hover {
+				background: $primary-dark;
+			}
+		}
+		&.secondary {
+			background: $secondary;
+			border-color: darken($secondary, 5%);
+			@include text-shadow(0, 1px, 0, black(0.05));
+			&:hover {
+				background: $secondary-dark;
+				border-color: darken($secondary-dark, 5%);
+
+			}
+		}
+	}
+}

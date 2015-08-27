@@ -1,0 +1,41 @@
+/*-------------------------------
+Base elements
+-------------------------------*/
+body {
+	font-family: $serif;
+}
+
+.fr {
+	font-family: $serif-2;
+}
+
+// add transition effect
+a, a:visited, a:hover, a:visited:hover {
+	@include transition(all 100ms linear);
+}
+
+// add some margin for embeds in post
+figure {
+	margin: 0 auto rem-calc(20);
+}
+
+figure img {
+	@include border-radius(5px);
+}
+
+a {
+	text-decoration: none;
+	color: #316b97;
+	&:hover, &:focus {
+		color: $gray;
+	}
+}
+
+code {
+	font-family: 'andale mono', 'lucida console', monospace;
+}
+
+pre {
+	@extend code;
+	white-space: pre;
+}

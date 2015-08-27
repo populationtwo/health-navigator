@@ -1,0 +1,32 @@
+/*-------------------------------
+Breadcrumbs
+-------------------------------*/
+#brg-crumbs {
+  border-bottom: 1px solid black(0.1);
+  background: none;
+	font-family: $sans-serif;
+  // padding: 0;
+  padding-bottom: rem-calc(9px);
+  // margin-bottom: rem-
+//	@include breakpoint($medium-up) {
+//		line-height: 2;
+//	}
+	li {
+		line-height: 1.4;
+
+		@media #{$medium-up} {
+			line-height: inherit;
+		}
+	}
+  a {
+    //     color: #9F9F9F;
+    &:hover {
+      color: $primary-light;
+      text-decoration: none;
+    }
+  }
+  li:hover a {
+    text-decoration: none;
+
+  }
+}

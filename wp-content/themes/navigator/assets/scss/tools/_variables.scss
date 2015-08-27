@@ -1,0 +1,57 @@
+/* -----------------------------------------
+  Theme Variables
+----------------------------------------- */
+
+// Base color
+$anzac: #DFA237;
+$casablanca: #f4be49;
+$calypso: #32738D;
+
+$calypso-light: adjust-lightness($calypso, 20%);
+
+$primary: $calypso;
+$primary-light: lighten($calypso, 10%);
+$primary-dark: darken($calypso, 10%);
+$secondary: $casablanca;
+$secondary-light: lighten($casablanca, 10%);
+$secondary-dark: darken($casablanca, 10%);
+
+$gray-darker:  #222;
+$gray-dark:    #333;
+$gray:         #444;
+$gray-light:   #999;
+$gray-lighter: #eee;
+
+//Backgrounds
+$panel-1: #F2F1EC;
+$panel-2: #2C3133;
+$panel-3: #383838;
+$panel-4: #F6F6F6;
+$panel-5: #869791;
+$panel-6: #42505B;
+$panel-7: #3d3e42;
+
+// Typography
+$serif: 'Merriweather', serif;
+$serif-2: 'Libre Baskerville', serif;
+$sans-serif: 'Montserrat', 'Open Sans', 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+
+// Base
+$link-color: $primary;
+
+// Buttons
+$button-action-green: #25AC5E;
+$button-action-green-hover: #13964a;
+$button-action-yellow: #F2C40F;
+$button-action-yellow-hover: #F39C11;
+$button-action-teal: #19BD9B;
+$button-action-teal-hover: #17A086;
+$button-action-blue: #3598DC;
+$button-action-blue-hover: #2A80B9;
+$button-action-orange: #E77E22;
+$button-action-orange-hover: #D25400;
+$button-action-red: #E84C3D;
+$button-action-red-hover: #BF3A2B;
+
+// define content padding for later use
+$content-padding: rem-calc(50);
