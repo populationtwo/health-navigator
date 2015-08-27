@@ -1,0 +1,21 @@
+{
+  "name": "navigator",
+  "version": "0.0.1",
+  "authors": [
+    "Edwin Lunandy <elunandy@newsignature.com>"
+  ],
+  "description": "TFAH toolkit",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/bower_components/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-bootstrap": "~0.13.3",
+    "bootstrap-sass": "~3.3.5"
+  }
+}
