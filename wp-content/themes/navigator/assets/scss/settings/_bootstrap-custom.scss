@@ -28,7 +28,7 @@
 @import "bootstrap/button-groups";
 @import "bootstrap/input-groups";
 @import "bootstrap/navs";
-@import "bootstrap/navbar";
+//@import "bootstrap/navbar";
 @import "bootstrap/breadcrumbs";
 @import "bootstrap/pagination";
 @import "bootstrap/pager";
@@ -46,11 +46,17 @@
 @import "bootstrap/close";
 
 // Components w/ JavaScript
-@import "bootstrap/modals";
-@import "bootstrap/tooltip";
-@import "bootstrap/popovers";
-@import "bootstrap/carousel";
+//@import "bootstrap/modals";
+//@import "bootstrap/tooltip";
+//@import "bootstrap/popovers";
+//@import "bootstrap/carousel";
 
 // Utility classes
 @import "bootstrap/utilities";
 //@import "bootstrap/responsive-utilities";
+
+// Disable reponsive layout
+.container{
+  max-width: none !important;
+  width: 1200px;
+}

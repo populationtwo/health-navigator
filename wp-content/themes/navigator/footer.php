@@ -10,11 +10,19 @@
  */
 
 ?>
-		</div><!-- .container -->
+
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="container">
+			<?php if ( is_active_sidebar( 'footer-widgets' ) ) { ?>
+				<div class="widget-area" role="complementary">
+					<div class="row">
+						<?php dynamic_sidebar( 'footer-widgets' ); ?>
+					</div>
+				</div><!-- #secondary -->
+			<?php } ?>
+
 			<div class="site-info">
 				<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'navigator' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'navigator' ), 'WordPress' ); ?></a>
 				<span class="sep"> | </span>

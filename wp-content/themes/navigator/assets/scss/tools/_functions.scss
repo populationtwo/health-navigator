@@ -25,3 +25,11 @@
 	top: 50%;
 	@include translateY(-50%);
 }
+
+
+@mixin image-replace {
+  border: 0;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+}

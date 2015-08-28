@@ -100,13 +100,23 @@ add_action( 'after_setup_theme', 'navigator_content_width', 0 );
 function navigator_widgets_init() {
 	register_sidebar( array(
 		'name'          => esc_html__( 'Sidebar', 'navigator' ),
-		'id'            => 'sidebar-1',
+		'id'            => 'sidebar-widgets',
 		'description'   => '',
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</aside>',
 		'before_title'  => '<h2 class="widget-title">',
 		'after_title'   => '</h2>',
 	) );
+	register_sidebar( array(
+		'name'          => esc_html__( 'Footer', 'navigator' ),
+		'id'            => 'footer-widgets',
+		'description'   => '',
+		'before_widget' => '<div class="col-xs-4"><aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside></div>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+
 }
 add_action( 'widgets_init', 'navigator_widgets_init' );
 

@@ -5,21 +5,23 @@
 .main-navigation {
   clear: both;
   display: block;
-  float: left;
-  width: 100%;
+  float: right;
+  margin-top: 10px;
   ul {
-    display: none;
     list-style: none;
     margin: 0;
     padding-left: 0;
+    font-size: 16px;
   }
   li {
     float: left;
     position: relative;
+    padding: 0 25px;
   }
   a {
     display: block;
     text-decoration: none;
+    color: #FFF;
   }
   ul ul {
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
@@ -61,20 +63,10 @@
   .current_page_item > a, .current-menu-item > a, .current_page_ancestor > a {}
 }
 
-/* Small menu. */
 
-.menu-toggle, .main-navigation.toggled ul {
-  display: block;
-}
 
-@media screen and (min-width: 37.5em) {
-  .menu-toggle {
-    display: none;
-  }
-  .main-navigation ul {
-    display: block;
-  }
-}
+
+
 
 .site-main {
   .comment-navigation, .posts-navigation, .post-navigation {
