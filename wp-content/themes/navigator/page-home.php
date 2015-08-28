@@ -34,7 +34,7 @@ get_header(); ?>
 
 				<article class="post">
 					<header>
-						<h2><a href="#">Lorem ipsum dolor sit amet, adipisicing elit.</a>
+						<h2 class="post__title"><a href="#">Lorem ipsum dolor sit amet, adipisicing elit.</a>
 						</h2>
 					</header>
 					<div class="entry">
@@ -48,7 +48,7 @@ get_header(); ?>
 
 				<article class="post">
 					<header>
-						<h2><a href="#">Ipsum sit amet, consectetur adipisicing elit.</a>
+						<h2 class="post__title"><a href="#">Ipsum sit amet, consectetur adipisicing elit.</a>
 						</h2>
 					</header>
 					<div class="entry">
@@ -62,7 +62,7 @@ get_header(); ?>
 
 				<article class="post">
 					<header>
-						<h2><a href="#">Dolor sit amet, consectetur adipisicing elit.</a>
+						<h2 class="post__title"><a href="#">Dolor sit amet, consectetur adipisicing elit.</a>
 						</h2>
 					</header>
 					<div class="entry">

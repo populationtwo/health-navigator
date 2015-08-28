@@ -5,4 +5,13 @@
 
 .site-footer {
   background: $ecru;
+  padding-top: 75px;
+  .widget-area {
+    margin-bottom: 50px;
+  }
+}
+
+.widget-title {
+  @include tfah-heading;
+
 }

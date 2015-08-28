@@ -153,12 +153,12 @@ table {
 ## Links
 --------------------------------------------------------------*/
 a {
-  color: royalblue;
+  color: $biscay-light;
   &:visited {
-	color: purple;
+	color: $biscay;
   }
   &:hover, &:focus, &:active {
-	color: midnightblue;
+	color: $biscay;
   }
   &:focus {
 	outline: thin dotted;

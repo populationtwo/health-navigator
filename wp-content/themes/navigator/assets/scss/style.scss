@@ -70,6 +70,7 @@ Author: New Signature
 @import "objects/_wp";
 @import "objects/_layout";
 @import "objects/_header";
+@import "objects/_footer";
 @import "objects/_home";
 
 
@@ -82,6 +83,7 @@ Author: New Signature
 // avatar, buttons, page-title, etc
 
 @import "components/_navigation";
+@import "components/_post";
 
 
 /*------------------------------------------------------------------

@@ -11,25 +11,43 @@
 
 ?>
 
-	</div><!-- #content -->
+</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="container">
-			<?php if ( is_active_sidebar( 'footer-widgets' ) ) { ?>
-				<div class="widget-area" role="complementary">
-					<div class="row">
-						<?php dynamic_sidebar( 'footer-widgets' ); ?>
-					</div>
-				</div><!-- #secondary -->
-			<?php } ?>
+<footer id="colophon" class="site-footer" role="contentinfo">
+	<div class="container">
+		<?php if ( is_active_sidebar( 'footer-widgets' ) ) { ?>
+			<div class="widget-area" role="complementary">
+				<div class="row">
+					<?php dynamic_sidebar( 'footer-widgets' ); ?>
+				</div>
+			</div><!-- #secondary -->
+		<?php } ?>
 
-			<div class="site-info">
-				<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'navigator' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'navigator' ), 'WordPress' ); ?></a>
-				<span class="sep"> | </span>
-				<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'navigator' ), 'navigator', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
-			</div><!-- .site-info -->
+		<div class="site-info">
+			<div class="row">
+				<div class="col-xs-6">
+					<ul class="list-inline">
+						<li>
+							<a href="<?php echo esc_url( __( 'https://tfah.com/', 'navigator' ) ); ?>">Privacy
+								Policy</a>
+						</li>
+						<li>
+							<a href="<?php echo esc_url( __( 'https://tfah.com/', 'navigator' ) ); ?>">Legal
+								Information</a>
+						</li>
+						<li>
+							<a href="<?php echo esc_url( __( 'https://tfah.com/', 'navigator' ) ); ?>">Contact TFAH</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-xs-6">
+					<p class="text-right">Copyright &copy; <?php echo date("Y"); ?> Trust for America&acute;s Health. All Rights</p>
+				</div>
+			</div>
 		</div>
-	</footer><!-- #colophon -->
+		<!-- .site-info -->
+	</div>
+</footer><!-- #colophon -->
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
