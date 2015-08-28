@@ -39,7 +39,8 @@ module.exports = function (grunt) {
 					sourcemap  : true,
 					sassDir    : '<%= app.src.scss %>',
 					cssDir     : '<%= app.src.css %>/min',
-					outputStyle: 'compressed'
+					outputStyle: 'compressed',
+					importPath: '<%= app.src.bower %>/bootstrap-sass/assets/stylesheets'
 				}
 			},
 			dist: {
@@ -47,7 +48,8 @@ module.exports = function (grunt) {
 					sourcemap  : false,
 					sassDir    : '<%= app.src.scss %>',
 					cssDir     : '<%= app.src.css %>/uncompressed',
-					outputStyle: 'nested'
+					outputStyle: 'nested',
+					importPath: '<%= app.src.bower %>/bootstrap-sass/assets/stylesheets'
 				}
 			}
 		},
@@ -114,14 +116,14 @@ module.exports = function (grunt) {
 		//			// includes files within path
 		//			{
 		//				cwd   : '../',
-		//				src   : ['camden/**/*', '!camden/node_modules/**', '!camden/.sass-cache/**'],
+		//				src   : ['navigator/**/*', '!navigator/node_modules/**', '!navigator/.sass-cache/**'],
 		//				dest  : '../dist',
 		//				expand: true,
 		//				filter: 'isFile'
 		//			},
 		//			{
 		//				cwd   : '../',
-		//				src   : ['camden-child/**/*'],
+		//				src   : ['navigator-child/**/*'],
 		//				dest  : '../dist',
 		//				expand: true,
 		//				filter: 'isFile'

@@ -3,18 +3,18 @@
 ----------------------------------------- */
 
 // Base color
-$anzac: #DFA237;
-$casablanca: #f4be49;
-$calypso: #32738D;
+$biscay: #193074;
+//$anzac: #DFA237;
+//$casablanca: #f4be49;
+//$calypso: #32738D;
+//$calypso-light: adjust-lightness($calypso, 20%);
 
-$calypso-light: adjust-lightness($calypso, 20%);
-
-$primary: $calypso;
-$primary-light: lighten($calypso, 10%);
-$primary-dark: darken($calypso, 10%);
-$secondary: $casablanca;
-$secondary-light: lighten($casablanca, 10%);
-$secondary-dark: darken($casablanca, 10%);
+//$primary: $calypso;
+//$primary-light: lighten($calypso, 10%);
+//$primary-dark: darken($calypso, 10%);
+//$secondary: $casablanca;
+//$secondary-light: lighten($casablanca, 10%);
+//$secondary-dark: darken($casablanca, 10%);
 
 $gray-darker:  #222;
 $gray-dark:    #333;
@@ -37,7 +37,7 @@ $serif-2: 'Libre Baskerville', serif;
 $sans-serif: 'Montserrat', 'Open Sans', 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
 
 // Base
-$link-color: $primary;
+//$link-color: $primary;
 
 // Buttons
 $button-action-green: #25AC5E;

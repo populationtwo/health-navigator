@@ -1,41 +1,179 @@
 /*-------------------------------
 Base elements
 -------------------------------*/
-body {
-	font-family: $serif;
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+body, button, input, select, textarea {
+  color: #404040;
+  font-family: sans-serif;
+  //font-size: 16px;
+  //font-size: 1rem;
+  //line-height: 1.5;
 }
 
-.fr {
-	font-family: $serif-2;
+h1, h2, h3, h4, h5, h6 {
+  clear: both;
 }
 
-// add transition effect
-a, a:visited, a:hover, a:visited:hover {
-	@include transition(all 100ms linear);
+p {
+  margin-bottom: 1.5em;
 }
 
-// add some margin for embeds in post
-figure {
-	margin: 0 auto rem-calc(20);
+dfn, cite, em, i {
+  font-style: italic;
 }
 
-figure img {
-	@include border-radius(5px);
+blockquote {
+  margin: 0 1.5em;
 }
 
-a {
-	text-decoration: none;
-	color: #316b97;
-	&:hover, &:focus {
-		color: $gray;
-	}
-}
-
-code {
-	font-family: 'andale mono', 'lucida console', monospace;
+address {
+  margin: 0 0 1.5em;
 }
 
 pre {
-	@extend code;
-	white-space: pre;
+  background: #eee;
+  font-family: "Courier 10 Pitch", Courier, monospace;
+  font-size: 15px;
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  margin-bottom: 1.6em;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1.6em;
 }
+
+code, kbd, tt, var {
+  font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+  font-size: 15px;
+  font-size: 0.9375rem;
+}
+
+abbr, acronym {
+  border-bottom: 1px dotted #666;
+  cursor: help;
+}
+
+mark, ins {
+  background: #fff9c0;
+  text-decoration: none;
+}
+
+big {
+  font-size: 125%;
+}
+
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+html {
+  box-sizing: border-box;
+}
+
+* {
+  /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+  box-sizing: inherit;
+  &:before, &:after {
+	/* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+	box-sizing: inherit;
+  }
+}
+
+body {
+  background: #fff;
+  /* Fallback for when there is no custom background color defined. */
+}
+
+blockquote {
+  &:before, &:after {
+	content: "";
+  }
+}
+
+q {
+  &:before, &:after {
+	content: "";
+  }
+}
+
+blockquote, q {
+  quotes: "" "";
+}
+
+hr {
+  background-color: #ccc;
+  border: 0;
+  height: 1px;
+  margin-bottom: 1.5em;
+}
+
+ul, ol {
+  margin: 0 0 1.5em 3em;
+}
+
+ul {
+  list-style: disc;
+}
+
+ol {
+  list-style: decimal;
+}
+
+li > {
+  ul, ol {
+	margin-bottom: 0;
+	margin-left: 1.5em;
+  }
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin: 0 1.5em 1.5em;
+}
+
+img {
+  height: auto;
+  /* Make sure images are scaled correctly. */
+  max-width: 100%;
+  /* Adhere to container width. */
+}
+
+table {
+  margin: 0 0 1.5em;
+  width: 100%;
+}
+
+
+/*--------------------------------------------------------------
+## Links
+--------------------------------------------------------------*/
+a {
+  color: royalblue;
+  &:visited {
+	color: purple;
+  }
+  &:hover, &:focus, &:active {
+	color: midnightblue;
+  }
+  &:focus {
+	outline: thin dotted;
+  }
+  &:hover, &:active {
+	outline: 0;
+  }
+}
+
+
+
+/* Make sure embeds and iframes fit their containers. */
+embed,
+iframe,
+object {
+  max-width: 100%;
+}
+

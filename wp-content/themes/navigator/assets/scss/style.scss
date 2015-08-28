@@ -1,108 +1,92 @@
 /*
-Theme Name: Camden
-Theme URL: http://themeforest.net/user/population2/
-Author: Population2
+Theme Name: Navigator
+Theme URL: http://newsignature.com/
+Author: New Signature
 */
 
 
-// import normalize, stay at top
-// Global Foundation Settings
-// Camden comes with a standalone Foundation stylesheet already
-// @import "foundation";
+//CSS Architecture based on http://itcss.io/ and https://smacss.com/
+
+/*------------------------------------------------------------------
+
+1.  Settings
+
+------------------------------------------------------------------*/
+//Global available settings, config, brand colours, etc
+
 // Load some Compass magic, note you will need to install Compass first
-//@import "compass/css3/shared";
-//@import "compass/css3/border-radius";
-//@import "compass/css3/transition";
-//@import "compass/css3/box-shadow";
 @import "compass/css3";
 @import "compass/utilities";
 @import "compass/typography/links/hover-link";
 @import "compass/typography/links/link-colors";
 @import "compass/typography/lists/inline-list";
 
-//@import "compass";
-//@import url(http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic);
-//@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
-//@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
-//@import url(http://fonts.googleapis.com/css?family=Gentium+Basic:400,700);
-//@import url(http://fonts.googleapis.com/css?family=Gentium+Basic:400,700);
+//Import Google Fonts
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-@import url(http://fonts.googleapis.com/css?family=Merriweather:400,700,400italic,700italic);
-@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic);
-// 1. Roboto Slab & Open Sans (body)
-// 2. Open Sans & Gentium (body)
+
+@import "settings/_bootstrap-custom";
+@import "settings/_variables";
+
 
 /*------------------------------------------------------------------
 
-1.  TOOLS
+2.  Tools
 
 ------------------------------------------------------------------*/
+//Globally available tools, mixins, & functions
+
 @import "tools/_functions";
-// import color variables
-@import "tools/_variables";
+
 /*------------------------------------------------------------------
 
-2.  BASE
+3.  Generic
 
 ------------------------------------------------------------------*/
-// Base rules are the defaults. They are almost exclusively single element selectors.
+//Ground zero styles, normalize, reset, box sizing
+
+
+/*------------------------------------------------------------------
+
+4.  Base
+
+------------------------------------------------------------------*/
+// Unclassed html, h1-h6, links, list, etc
+// heading, images, links, list, page, quotes
+
 @import "base/_base";
-@import "base/_wp";
-/*------------------------------------------------------------------
+@import "base/_form";
 
-3.  LAYOUT
-
-------------------------------------------------------------------*/
-// Layout rules divide the page into sections. Layouts hold one or more modules together.
-//@import "layout/_header";
-//@import "layout/_footer";
-//@import "layout/_main";
-//@import "layout/_sidebar";
-/*------------------------------------------------------------------
-
-4.  CONTENT
-
-------------------------------------------------------------------*/
-//@import "content/_home";
-//@import "content/_post";
-//@import "content/_author";
-//@import "content/_contact";
 
 /*------------------------------------------------------------------
 
-5.  MODULES
+5.  Objects
 
 ------------------------------------------------------------------*/
-// Modules are the reusable, modular parts of our design. They are the callouts, the sidebar sections, the product lists and so on
-//@import "modules/_breadcrumbs";
-//@import "modules/_buttons";
-//@import "modules/_misc";
-//@import "modules/_pagination";
-//@import "modules/_post";
-//@import "modules/_tabs";
-//@import "modules/_thumbnails";
-//@import "modules/_widgets";
-//@import "modules/_accessibility";
-//@import "modules/_effects";
+// Design patterns, no cosmetics.
+// Layout, media, wrappers
+// .ui-list {}
+// .ui-list__item {}
+
+@import "objects/_wp";
+@import "objects/_layout";
+
 
 /*------------------------------------------------------------------
 
-6.  WP PLUGINS
+6.  Components
 
 ------------------------------------------------------------------*/
-// Optional files.
-//@import "vendor/_contactform7";
-//@import "vendor/_bbpress";
-//@import "vendor/_tribe-events";
-//@import "vendor/_woocommerce";
-//@import "vendor/_flexslider";
-//@import "vendor/_owl-slider";
-//@import "vendor/_isotope";
+// Designed components, only classes
+// avatar, buttons, page-title, etc
+
+@import "components/_navigation";
+
 
 /*------------------------------------------------------------------
 
-7.  STATE
+6.  Trumps
 
 ------------------------------------------------------------------*/
-// State rules are ways to describe how the layouts will look when in a particular state.
-//@import "state/_media-queries";
+// Helper and overrides
+
+@import "trumps/_accessibility";
