@@ -11,7 +11,30 @@
   }
 }
 
+
+.home-articles {
+  padding: 75px 0;
+}
+
+
+
+
+
+
+
+
+// Common styles
+.heading-line {
+  border-bottom: 1px solid black(0.2);
+  padding-bottom: 20px;
+}
+
+
+
+
+// Widget
 .widget-title {
-  @include tfah-heading;
+  @include post-heading;
+  @extend .heading-line;
 
 }

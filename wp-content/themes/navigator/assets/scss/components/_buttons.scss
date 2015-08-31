@@ -1,0 +1,40 @@
+@mixin button-bg($bg) {
+  background: $bg;
+  &:hover {
+    background: darken($bg,8%);
+    transition: all 0.3s ease;
+  }
+  &:active {
+    background: darken($bg,25%);
+  }
+}
+
+.btn {
+  color:white;
+  text-decoration:none;
+  padding: 20px 40px;
+  border-radius: 6px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.btn-basic {
+  @include button-bg($citron);
+  &:hover, &:active {
+    color: white;
+  }
+}
+
+.btn-ghost {
+  @extend .btn;
+  border: 1px solid $citron;
+  color: $citron;
+  &:hover {
+    background: darken($citron,8%);
+    transition: all 0.3s ease;
+    color: white;
+  }
+  &:active {
+    background: darken($citron,25%);
+  }
+}

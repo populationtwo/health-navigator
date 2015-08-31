@@ -7,25 +7,24 @@
 ----------------------------------------- */
 
 @function black($opacity) {
-	@return rgba(0, 0, 0, $opacity)
+  @return rgba(0, 0, 0, $opacity)
 }
 
 @function white($opacity) {
-	@return rgba(255, 255, 255, $opacity)
+  @return rgba(255, 255, 255, $opacity)
 }
 
 @mixin breakpoint($breakpoint) {
-	@media screen and (min-width: $breakpoint) {
-		@content;
-	}
+  @media screen and (min-width: $breakpoint) {
+    @content;
+  }
 }
 
 @mixin vertical-align {
-	position: relative;
-	top: 50%;
-	@include translateY(-50%);
+  position: relative;
+  top: 50%;
+  @include translateY(-50%);
 }
-
 
 @mixin image-replace {
   border: 0;
@@ -34,10 +33,15 @@
   color: transparent;
 }
 
-@mixin tfah-heading {
+@mixin post-heading {
   color: $falu-red;
-	 a {
-	  color: $falu-red;
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 20px;
 
-	}
+  a {
+    color: $falu-red;
+
+  }
 }
+

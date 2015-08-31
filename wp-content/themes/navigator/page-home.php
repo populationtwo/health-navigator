@@ -10,16 +10,16 @@ get_header(); ?>
 <section class="main-pov">
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-5">
+			<div class="col-xs-6">
 				<div class="main-pov__content">
-					<h1>Healty Communities Navigator</h1>
+					<h1>Healhty Communities Navigator</h1>
 
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque dolor</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus est, condimentum sit amet bibendum et, porta tincidunt dolor.</p>
 
 					<div class="main-pov__cta">
-						<a href="#">Access the Toolkit</a>
-						<br>
-						<a href="#">Learn More about the Toolkit</a>
+						<a href="#" class="btn btn-basic">Access the Toolkit</a>
+						<span>or</span>
+						<a href="#" class="btn btn-ghost">Learn More about the Toolkit</a>
 					</div>
 				</div>
 			</div>
@@ -71,9 +71,9 @@ get_header(); ?>
 							possimus, praesentium quis quo voluptatem?</p>
 
 						<p>
-							<a href="#">veritatis voluptatibus</a>
+							<a href="#">Veritatis voluptatibus</a>
 							<br>
-							<a href="#"> nesciunt numquam quibusdam</a>
+							<a href="#">Nesciunt numquam quibusdam</a>
 						</p>
 					</div>
 				</article>
