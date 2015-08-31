@@ -14,7 +14,15 @@
 
 
 
+.content-area {
+  padding: 70px 0 80px;
+}
 
+.page-title {
+  @include post-heading;
+  @extend .heading-line-bold;
+  font-size: 46px;
+}
 
 
 
