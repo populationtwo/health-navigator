@@ -12,7 +12,7 @@ if ( ! is_active_sidebar( 'sidebar-widgets' ) ) {
 }
 ?>
 <div class="col-xs-4">
-	<div id="secondary" class="widget-area" role="complementary">
+	<div id="secondary" class="widget-area main-sidebar" role="complementary">
 		<?php dynamic_sidebar( 'sidebar-widgets' ); ?>
 	</div><!-- #secondary -->
 </div>
