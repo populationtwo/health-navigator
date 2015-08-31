@@ -54,6 +54,7 @@ Author: New Signature
 // heading, images, links, list, page, quotes
 
 @import "base/_base";
+@import "base/_typography";
 @import "base/_form";
 
 
@@ -68,6 +69,7 @@ Author: New Signature
 // .ui-list__item {}
 
 @import "objects/_wp";
+@import "objects/_common";
 @import "objects/_layout";
 @import "objects/_header";
 @import "objects/_footer";
