@@ -8,7 +8,7 @@
 
 
 get_header(); ?>
-<div class="container">
+<div class="container" ng-app="navigatorApp">
 	<div class="row">
 		<div class="col-xs-12">
 			<header class="entry-header">
@@ -33,6 +33,23 @@ get_header(); ?>
 						?>
 
 					<?php endwhile; // End of the loop. ?>
+
+
+					<header>
+						<h1>
+							<a href="<?php echo site_url(); ?>">AngularJS Demo Theme</a>
+						</h1>
+					</header>
+
+					<div>
+						<input type="text" ng-model="name">
+
+						<p>Hello, {{name}}!</p>
+					</div>
+
+					<footer>
+						&copy; <?php echo date( 'Y' ); ?>
+					</footer>
 
 					<section class="state-map">
 						<div class="state-map__content">
@@ -94,6 +111,8 @@ get_header(); ?>
 							</ul>
 						</div>
 
+						<div ng-view></div>
+
 						<div class="view-grants">
 							<table class="table table-striped">
 								<thead>
@@ -148,7 +167,7 @@ get_header(); ?>
 									<div class="col-xs-6 text-right">
 										<nav>
 											<ul class="pagination">
-												
+
 												<li><a href="#">1</a></li>
 												<li><a href="#">2</a></li>
 												<li><a href="#">3</a></li>
