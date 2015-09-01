@@ -17,9 +17,10 @@ if ( ! function_exists( 'navigator_setup' ) ) :
  */
 function navigator_setup() {
 
-
-	// Add default posts and comments RSS feed links to head.
-	add_theme_support( 'automatic-feed-links' );
+	/**
+	 * Angular classes
+	 */
+	require get_template_directory() . '/inc/angular-enqueue.php';
 
 	/*
 	 * Let WordPress manage the document title.
@@ -41,35 +42,17 @@ function navigator_setup() {
 		'primary' => esc_html__( 'Primary Menu', 'navigator' ),
 	) );
 
-	/*
-	 * Switch default core markup for search form, comment form, and comments
-	 * to output valid HTML5.
-	 */
-	add_theme_support( 'html5', array(
-		'search-form',
-		'comment-form',
-		'comment-list',
-		'gallery',
-		'caption',
-	) );
-
-	/*
-	 * Enable support for Post Formats.
-	 * See https://developer.wordpress.org/themes/functionality/post-formats/
-	 */
-	add_theme_support( 'post-formats', array(
-		'aside',
-		'image',
-		'video',
-		'quote',
-		'link',
-	) );
-
 	// Set up the WordPress core custom background feature.
 	add_theme_support( 'custom-background', apply_filters( 'navigator_custom_background_args', array(
 		'default-color' => 'ffffff',
 		'default-image' => '',
 	) ) );
+
+	// Angular App setup
+	$angularScripts = new angular_enqueue();
+	$angularScripts->init();
+
+
 }
 endif; // navigator_setup
 add_action( 'after_setup_theme', 'navigator_setup' );
@@ -124,20 +107,6 @@ function navigator_scripts() {
 	wp_enqueue_script( 'navigator-skip-link-focus-fix', get_template_directory_uri() . '/assets/js/skip-link-focus-fix.js', array(), '20130115', true );
 	wp_enqueue_script( 'typekit', get_template_directory_uri() . '/assets/js/typekit.js', array(), '', true );
 
-	// Angular App setup
-	wp_enqueue_script( 'angularjs', get_template_directory_uri() . '/assets/bower_components/angular/angular.min.js' );
-	wp_enqueue_script( 'angularjs-route', get_template_directory_uri() . '/assets/bower_components/angular-route/angular-route.min.js' );
-	wp_enqueue_script('app-scripts', get_template_directory_uri() . '/app/app.module.js',
-		array( 'angularjs', 'angularjs-route' )
-	);
-	wp_localize_script(
-		'app-scripts',
-		'appLocalized',
-		array(
-			'components' => trailingslashit( get_template_directory_uri() ) . '/app/components/'
-		)
-	);
-
 	// WP Comments
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
@@ -145,28 +114,3 @@ function navigator_scripts() {
 }
 
 add_action( 'wp_enqueue_scripts', 'navigator_scripts' );
-
-/**
- * Implement the Custom Header feature.
- */
-require get_template_directory() . '/inc/custom-header.php';
-
-/**
- * Custom template tags for this theme.
- */
-require get_template_directory() . '/inc/template-tags.php';
-
-/**
- * Custom functions that act independently of the theme templates.
- */
-require get_template_directory() . '/inc/extras.php';
-
-/**
- * Customizer additions.
- */
-require get_template_directory() . '/inc/customizer.php';
-
-/**
- * Load Jetpack compatibility file.
- */
-require get_template_directory() . '/inc/jetpack.php';

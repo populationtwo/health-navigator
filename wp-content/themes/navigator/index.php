@@ -12,5 +12,5 @@
  * @package navigator
  */
 get_header(); ?>
-<div ng-view></div>
+<div ui-view></div>
 <?php get_footer(); ?>
