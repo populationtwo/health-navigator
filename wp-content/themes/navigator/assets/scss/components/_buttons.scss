@@ -26,6 +26,7 @@
     color: white;
   }
   &:active {
+    color: $citron;
     background: darken($citron,25%);
   }
 }

@@ -64,9 +64,9 @@ big {
 --------------------------------------------------------------*/
 a {
   color: $biscay-light;
-  &:visited {
-    color: $biscay;
-  }
+  //&:visited {
+  //  color: $biscay;
+  //}
   &:hover, &:focus, &:active {
     color: $biscay;
   }
