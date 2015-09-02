@@ -14,28 +14,60 @@ var app = angular
         // Now set up the states
         $stateProvider
 
-            .state( 'home', {
-                url        : '/',
+            .state('home', {
+                url: '/',
                 templateUrl: appLocalized.components + 'home/homeView.html',
                 //controller : 'homeController'
-            } )
-            .state( 'navigator', {
-                url        : '/navigator',
+            })
+
+            .state('navigator', {
+                url: '/navigator',
                 templateUrl: appLocalized.components + 'main/mainView.html',
                 controller: 'mainController'
-            } )
-            .state( 'about', {
-                url        : '/about',
+            })
+                .state('navigator.main', { // Grant Overview Page
+                    url: "/grantee",
+                    templateUrl: appLocalized.components + "grantee/granteeView.html",
+                    controller: function($scope){
+                        $scope.items = ["A", "List", "Of", "Items"];
+                    }
+                })
+                .state('navigator.grantee', { // Grant Detail Page
+                    url: "/grantee/detail",
+                    templateUrl: appLocalized.components + "grantee/granteeDetailView.html",
+                    controller: function($scope){
+                        $scope.items = ["A", "List", "Of", "Items"];
+                    }
+                })
+                .state('navigator.granteeAward', { // Grant Award & Grantee
+                    url: "/grantee/award",
+                    templateUrl: appLocalized.components + "grantee/granteeAwardView.html",
+                    controller: function($scope){
+                        $scope.things = ["A", "List", "Of", "Items"];
+                    }
+                })
+
+            .state('about', {
+                url: '/about',
                 templateUrl: appLocalized.components + 'about/aboutView.html',
-            } )
-            .state( 'faq', {
-                url        : '/faq',
+            })
+            .state('faq', {
+                url: '/faq',
                 templateUrl: appLocalized.components + 'faq/faqView.html',
-            } );
+            })
+            .state('route1', {
+                url: "/route1",
+                templateUrl: appLocalized.components + "route1.html"
+            })
 
 
         //$locationProvider.html5Mode(true);
     })
+
+
+
+
+
     .controller('homeController', function ($scope, $http, $routeParams) {
 
 

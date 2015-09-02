@@ -38,9 +38,23 @@
 					<nav id="site-navigation" class="main-navigation" role="navigation">
 						<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 					</nav>
+
+
 					<!-- #site-navigation -->
 				</div>
 
+			</div>
+			<div class="row">
+				<ul class="list-inline">
+
+					<li><a ui-sref="home">Home</a></li>
+					<li><a ui-sref="navigator.main">Grant Overview</a></li>
+					<li><a ui-sref="navigator.grantee">Grant Detail</a></li>
+					<li><a ui-sref="navigator.granteeAward">Grant Award & Grantee</a></li>
+					<li><a ui-sref="about">about</a></li>
+					<li><a ui-sref="faq">faq</a></li>
+
+				</ul>
 			</div>
 		</div>
 
