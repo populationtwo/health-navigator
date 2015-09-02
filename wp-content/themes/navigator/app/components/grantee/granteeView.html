@@ -1,121 +1,19 @@
 <section class="tool-results">
-    <div class="tool-results__nav">
 
-        <ul class="nav nav-pills" role="tablist">
-            <li role="presentation" class="active"><a href="#">Grants <span
-                    class="badge">80</span></a>
-            </li>
-            <li role="presentation"><a href="#">Stories <span class="badge">13</span></a></li>
-            <li role="presentation"><a href="#">Resources <span class="badge">8</span></a></li>
-        </ul>
+    <div ng-controller="TabsOverviewCtrl">
+
+
+        <tabset class="tab-overview">
+            <tab heading="Grants">
+                <div ng-include="'wp-content/themes/navigator/app/components/table.html'"></div>
+</tab>
+
+            <tab heading="Stories">Short Labeled Justified content</tab>
+            <tab heading="Resources">Long Labeled Justified content</tab>
+        </tabset>
     </div>
 
-    <div ng-controller="AccordionDemoCtrl">
-        <p>
-            <button type="button" class="btn btn-default btn-sm" ng-click="status.open = !status.open">Toggle last panel</button>
-            <button type="button" class="btn btn-default btn-sm" ng-click="status.isFirstDisabled = ! status.isFirstDisabled">Enable / Disable first panel</button>
-        </p>
 
-        <div class="checkbox">
-            <label>
-                <input type="checkbox" ng-model="oneAtATime">
-                Open only one at a time
-            </label>
-        </div>
-        <accordion close-others="oneAtATime">
-            <accordion-group heading="Static Header, initially expanded" is-open="status.isFirstOpen" is-disabled="status.isFirstDisabled">
-                This content is straight in the template.
-            </accordion-group>
-            <accordion-group heading="{{group.title}}" ng-repeat="group in groups">
-                {{group.content}}
-            </accordion-group>
-            <accordion-group heading="Dynamic Body Content">
-                <p>The body of the accordion group grows to fit the contents</p>
-                <button type="button" class="btn btn-default btn-sm" ng-click="addItem()">Add Item</button>
-                <div ng-repeat="item in items">{{item}}</div>
-            </accordion-group>
-            <accordion-group is-open="status.open">
-                <accordion-heading>
-                    I can have markup, too! <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>
-                </accordion-heading>
-                This is just some content to illustrate fancy headings.
-            </accordion-group>
-        </accordion>
-    </div>
-
-    <div class="view-grants">
-        <table class="table table-striped">
-            <thead>
-            <tr>
-                <th>Grant Name</th>
-                <th>Grantee Organization</th>
-                <th>Year</th>
-                <th>Amount</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>CDC: REACH</td>
-                <td>"EvidenceNOW"</td>
-                <td>2015</td>
-                <td>$100,000</td>
-
-            </tr>
-            <tr>
-                <td>CMS: Healthcare Innovation Awards</td>
-                <td>State Public Health Actions to Prevent and Control Diabetes</td>
-                <td>2015</td>
-                <td>$22,500</td>
-
-            </tr>
-            <tr>
-                <td>CMS: Healthcare Innovation Awards</td>
-                <td>National Public Health Improvement Initiative (NPHII)</td>
-                <td>2015</td>
-                <td>$55,000</td>
-
-            </tr>
-
-            <tr>
-                <td>DOE: Promise Neighborhoods</td>
-
-                <td>Chronic Disease Self-Management Education</td>
-                <td>2015</td>
-                <td>$10,000</td>
-
-            </tr>
-
-
-            </tbody>
-        </table>
-        <footer>
-            <div class="row">
-                <div class="col-xs-6">
-                    <a href="">Export grant data to spreadsheet</a>
-
-                </div>
-                <div class="col-xs-6 text-right">
-                    <nav>
-                        <ul class="pagination">
-
-                            <li><a href="#">1</a></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#">3</a></li>
-                            <li><a href="#">4</a></li>
-                            <li><a href="#">5</a></li>
-                            <li>
-                                <a href="#" aria-label="Next">
-                                    <span aria-hidden="true">&raquo;</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-
-
-                </div>
-            </div>
-        </footer>
-    </div>
 
 
 </section>
