@@ -5,15 +5,17 @@
 
         <tabset class="tab-overview">
             <tab heading="Grants">
-                <div ng-include="'wp-content/themes/navigator/app/components/table.html'"></div>
-</tab>
+                <div ng-include="'wp-content/themes/navigator/app/components/grantee/tabs/tableView.html'"></div>
+            </tab>
 
-            <tab heading="Stories">Short Labeled Justified content</tab>
-            <tab heading="Resources">Long Labeled Justified content</tab>
+            <tab heading="Stories">
+                <div ng-include="'wp-content/themes/navigator/app/components/grantee/tabs/storiesView.html'"></div>
+            </tab>
+            <tab heading="Resources">
+                <div ng-include="'wp-content/themes/navigator/app/components/grantee/tabs/resourcesView.html'"></div>
+            </tab>
         </tabset>
     </div>
-
-
 
 
 </section>
