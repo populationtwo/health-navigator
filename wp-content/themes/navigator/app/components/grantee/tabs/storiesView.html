@@ -1,1 +1,20 @@
-<h1>Stories view</h1>
+<!--Stories Tab View-->
+<div class="post-box stories-posts">
+    <article class="post stories-post-type" ng-repeat="resourcePost in posts2 | limitTo:9 ">
+        <header class="entry-header">
+            <div class="entry-meta">
+                <span class="date">{{resourcePost.date | date:"MM/dd/yyyy" }}</span>
+                <span class="sep">|</span>
+                <span class="location">Atlanta, GA</span>
+            </div>
+            <h2 class="entry-title">
+                <a href="{{ resourcePost.index }}">{{ resourcePost.title }}</a>
+            </h2>
+            <div class="entry-meta topics">
+                <span><strong>Topics:</strong> Disparities, Children, Parks, Physical Activity, Poverty</span>
+            </div>
+        </header>
+        <div class="entry-content" ng-bind-html="resourcePost.excerpt | toTrusted"></div>
+
+    </article>
+</div>
