@@ -10,10 +10,9 @@ angular.module('navigatorApp').controller('mainController', function ($scope, $h
     console.log('Main file loaded.');
 
     navigatorResources()
-        .then(function(resources) {
+        .then(function (resources) {
             $scope.resourcePosts = resources.data;
         });
-
 
 
 })

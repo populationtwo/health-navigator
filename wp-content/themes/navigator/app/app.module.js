@@ -36,16 +36,12 @@ var app = angular
             .state('navigator.grantee', { // Grant Detail Page
                 url: "/grantee/detail",
                 templateUrl: appLocalized.components + "grantee/granteeDetailView.html",
-                controller: function ($scope) {
-                    $scope.items = ["A", "List", "Of", "Items"];
-                }
+
             })
             .state('navigator.granteeAward', { // Grant Award & Grantee
                 url: "/grantee/award",
                 templateUrl: appLocalized.components + "grantee/granteeAwardView.html",
-                controller: function ($scope) {
-                    $scope.things = ["A", "List", "Of", "Items"];
-                }
+
             })
 
             .state('about', {
@@ -72,7 +68,7 @@ var app = angular
 
 
 
-
+    //TODO: Move this to separate file
     .controller('TabsOverviewCtrl', function ($scope, $window) {
         //$scope.tabs = [
         //    { title:'Dynamic Title 1', content:'Dynamic content 1' },
