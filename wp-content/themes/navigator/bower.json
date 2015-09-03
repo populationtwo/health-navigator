@@ -21,6 +21,7 @@
     "normalize.css": "~3.0.3"
   },
   "devDependencies": {
+    "angular-datamaps": "~0.1.2",
     "angular-ui-router": "~0.2.15"
   }
 }

@@ -4,7 +4,8 @@ var app = angular
 
     .module( 'navigatorApp', [
         'ui.router',
-        'ui.bootstrap'
+        'ui.bootstrap',
+        'datamaps'
     ] )
 
     .config(function ($stateProvider, $urlRouterProvider) {
@@ -85,6 +86,40 @@ var app = angular
 
 
         console.log('Main file loaded.');
+
+        $scope.mapObject = {
+            scope: 'usa',
+            options: {
+                width: 1110,
+                legendHeight: 60 // optionally set the padding for the legend
+            },
+            geographyConfig: {
+                highlighBorderColor: '#ccc',
+                highlighBorderWidth: 2
+            },
+            fills: {
+                HIGH: '#CC4731',
+                MEDIUM: '#306596',
+                LOW: '#667FAF',
+                defaultFill: '#DDDDDD'
+            },
+            data: {
+                FL: {
+                    fillKey: "MEDIUM"
+                },
+                CO: {
+                    fillKey: "HIGH"
+                },
+                DE: {
+                    fillKey: "LOW"
+                },
+                GA: {
+                    fillKey: "MEDIUM"
+                }
+            }
+        }
+
+
     })
 
 
