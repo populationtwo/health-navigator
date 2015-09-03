@@ -1,19 +1,20 @@
 var gulp = require('gulp'),
 //var uglify = require( 'gulp-uglify' );
 //var usemin = require( 'gulp-usemin' );
-//var jshint = require( 'gulp-jshint' )
+    jshint = require('gulp-jshint'),
     sass = require('gulp-sass'),
     sourcemaps = require('gulp-sourcemaps'),
     watch = require('gulp-watch'),
-    livereload = require('gulp-livereload');
+    livereload = require('gulp-livereload'),
 
 
-var basePath = ['assets'];
-var scssPath = ['assets/scss'];
-var cssPath = 'assets/css';
-var jsPath = ['assets/js'];
-var bowerPath = ['assets/bower_components'];
-var imagesPath = ['assets/img'];
+    basePath = ['assets'],
+    scssPath = ['assets/scss'],
+    cssPath = 'assets/css',
+    jsPath = ['assets/js'],
+    bowerPath = ['assets/bower_components'],
+    imagesPath = ['assets/img'],
+    appPath = ['app'];
 
 gulp.task('sass', function () {
     gulp.src(scssPath + '/*.scss')
@@ -28,14 +29,14 @@ gulp.task('watch', function () {
     livereload.listen();
     gulp.watch(scssPath + '/**/*.scss', ['sass']);
 });
-// TODO: watch js, jshint, uglify, livereload
+// TODO: watch js, jshint, uglify
 
 
-//gulp.task( 'lint', function () {
-//    gulp.src( ['./app/partials/**/*.js', './app/index.js'] )
-//        .pipe( jshint() )
-//        .pipe( jshint.reporter( 'default' ) )
-//} );
+gulp.task('lint', function () {
+    gulp.src([appPath + '**/*.js'])
+        .pipe(jshint())
+        .pipe(jshint.reporter('default'))
+});
 
 
 // Default Task
