@@ -29,8 +29,7 @@ gulp.task('watch', function () {
     livereload.listen();
     gulp.watch(scssPath + '/**/*.scss', ['sass']);
 });
-// TODO: watch js, jshint, uglify
-
+// TODO: uglify
 
 gulp.task('lint', function () {
     gulp.src([appPath + '**/*.js'])
@@ -41,4 +40,4 @@ gulp.task('lint', function () {
 
 // Default Task
 gulp.task('default', ['sass', 'watch']);
-//gulp.task( 'build', ['lint', 'usemin'] );
+gulp.task( 'build', ['lint'] );
