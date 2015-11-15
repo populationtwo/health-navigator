@@ -7,3 +7,59 @@
   @include post-heading;
   @extend .heading-line;
 }
+
+.entry-content p {
+  line-height: 1.6;
+}
+
+
+// Tab Posts
+
+.post-box {
+  .post {
+    width: 363px;
+    margin: 0 20px;
+    display: inline-block;
+    //background-color: red;
+    vertical-align: top;
+    &:nth-child(3n+1) {
+      margin-left: 0;
+    }
+    &:nth-child(3n+3) {
+      margin-right: 0;
+    }
+  }
+  .entry-title {
+    font-size: 20px;
+    margin-bottom: 4px;
+  }
+  .entry-meta, .entry-content {
+    font-size: 14px;
+    color: black(0.7);
+  }
+}
+.stories-posts {
+  .entry-title {
+    margin-top: 4px;
+  }
+  .entry-meta {
+    font-size: 14px;
+
+  }
+  .post {
+    margin-bottom: 20px;
+  }
+}
+.entry-meta {
+  .source {
+    font-weight: 600;
+  }
+  .sep {
+    display: inline-block;
+    padding: 0 4px;
+  }
+  &.topics {
+    //font-size: 14px;
+    margin-top: 12px;
+  }
+}

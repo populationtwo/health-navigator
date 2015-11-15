@@ -1,0 +1,99 @@
+<div class="view-grants">
+    <table ng-table="main.tableParams" show-filter="false" class="table table-striped grant-overview-table"
+           export-csv="csv" template-pagination="{{main.templates.pagination.url}}">
+        <tr ng-repeat="grantRow in $data">
+            <td data-title="'Grant Name'" filter="{ 'grant_id': 'number' }" sortable="'grant_name'"
+                sort-indicator="'span'" class="grant-name-col">
+                <a ng-click="main.toGrantDetailPage(grantRow.grant_id)">
+                    {{::grantRow.grant_name}}
+                    <span class="debug">{{::grantRow.grant_id}}</span>
+                </a>
+            </td>
+            <td data-title="'Grantee Organization'" filter="{ 'organization_id': 'number' }"
+                sortable="'organization_name'" class="organization-name-col">
+                <a ng-click="main.toGranteeDetailPage(grantRow.organization_id)">
+                    {{::grantRow.organization_name}} <span class="debug">{{::grantRow.organization_id}}</span>
+                </a>
+            </td>
+            <td data-title="'Year'" sortable="'year'" class="year-col">
+                {{::grantRow.year}}
+            </td>
+            <td data-title="'Amount'" sortable="'amount'" class="amount-col">
+                {{::grantRow.amount < 0 ? "N/A" : (grantRow.amount | currency:"$":0)}}
+            </td>
+        </tr>
+    </table>
+
+    <uib-alert ng-show="main.tableParams.total() < 1">No result from current search criteria. Change a few things up and
+        try submitting again.
+    </uib-alert>
+
+    <footer>
+        <div class="row">
+            <div class="col-xs-7">
+                <ul class="utility-btn list-inline">
+                    <li>
+                        <span class="glyphicon glyphicon-export" aria-hidden="true"></span>
+                        <a href ng-click='csv.generate($event, "tfah-healthy-communities-navigator.csv")'
+                           placeholder="To export all items in your current grant data view, make sure that the items per page is set to all"
+                           uib-tooltip-html="main.tooltipContent"
+                           tooltip-placement="top"
+                           tooltip-trigger="mouseenter">Export grant
+                            data to spreadsheet</a>
+                    </li>
+                    <li>
+                        <span class="glyphicon glyphicon-link" aria-hidden="true"></span>
+                        <a href clipboard text="main.urlPlaceholder" on-copied="main.successCopy()"
+                           on-error="main.fail(err)">Get URL</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                           socialshare
+                           socialshare-provider="facebook"
+                           socialshare-text="Healthy Communities Navigator"
+                           socialshare-url="{{main.urlPlaceholder}}"
+                           class="social-share">
+                            <i class="font-icon icon-facebook-squared"></i>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#"
+                           socialshare
+                           socialshare-provider="twitter"
+                           socialshare-text="Explore cross-sector grants, success stories & policy papers from the Healthy Communities Navigator"
+                           socialshare-url="{{main.shortUrl}}" class="social-share">
+                            <i class="font-icon icon-twitter"></i>
+                        </a>
+                    </li>
+                </ul>
+
+                <input class="share-btn-placeholder" type="text" ng-model="main.urlPlaceholder">
+
+            </div>
+        </div>
+    </footer>
+
+    <div class="debug">
+        <button ng-click="main.tableParams.sorting({})" class="btn btn-default pull-right">Clear sorting</button>
+        <button ng-click="main.tableParams.filter({})" class="btn btn-default pull-right">Clear filter</button>
+        <p><strong>Sorting:</strong> {{main.tableParams.sorting()|json}}</p>
+
+        <p><strong>Filter:</strong> {{main.tableParams.filter()|json}}</p>
+
+        <p>
+            main.selectedId {{main.selectedId}}
+        </p>
+
+        <p>
+            main.selectedGrantsAwardsArray {{main.selectedGrantsAwardsArray}}
+        </p>
+    </div>
+
+
+    <uib-alert ng-show="main.successCopyText === true " type="success">URL copied
+    </uib-alert>
+
+
+</div>
+

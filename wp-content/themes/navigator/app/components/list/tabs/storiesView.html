@@ -1,0 +1,89 @@
+<!--Stories Tab View-->
+<div ng-controller="storiesViewCtrl as sv" class="stories-view">
+    <div class="post-box stories-posts">
+        <article class="post stories-post-type"
+                 dir-paginate="sp in main.filteredStories = (main.wpData.stories | filter:main.topicsMatch())  | itemsPerPage: main.pageSize"
+                 current-page="main.storyCurrentPage" pagination-id="storiesPn">
+            <header class="entry-header">
+                <div class="entry-meta">
+                    <span class="date">{{::sp.date_gmt | date:"MM/dd/yyyy" }}</span>
+                    <span class="sep">|</span>
+                    <span ng-bind-html="sv.getLocation(sp) | toTrusted"></span>
+                </div>
+                <h2 class="entry-title">
+                    <a href="{{:: sp.link }}" target="_blank"><span ng-bind-html="sp.title | toTrusted"></span></a>
+                </h2>
+
+                <div class="entry-meta topics">
+                    <span><strong>Topics:</strong></span>
+                    <span ng-repeat="a in sp.terms.story_category">
+                         {{::a.name}}{{::$last ? '' : ($index==sp.terms.story_category.length-2) ? ' and ' : ', '}}
+                    </span>
+                </div>
+            </header>
+            <div class="entry-content" ng-bind-html="sp.excerpt | toTrusted"></div>
+
+        </article>
+    </div>
+    <uib-alert ng-show="main.filteredStories.length < 1">No result from current search criteria. Change a few things up
+        and
+        try submitting again.
+    </uib-alert>
+
+    <footer>
+        <div class="row">
+            <div class="col-xs-6">
+                <ul class="utility-btn list-inline">
+                    <li>
+
+                        <span class="glyphicon glyphicon-link" aria-hidden="true"></span>
+                        <a href clipboard text="main.urlPlaceholder" on-copied="main.successCopy()"
+                           on-error="main.fail(err)">Get URL</a>
+
+                    </li>
+                    <li>
+
+                        <a href="#"
+                           socialshare
+                           socialshare-provider="facebook"
+                           socialshare-text="Healthy Communities Navigator"
+                           socialshare-url="{{main.urlPlaceholder}}"
+                           class="social-share">
+                            <i class="font-icon icon-facebook-squared"></i>
+                        </a>
+                    </li>
+                    <li>
+
+                        <a href="#"
+                           socialshare
+                           socialshare-provider="twitter"
+                           socialshare-text="Explore cross-sector grants, success stories & policy papers from the Healthy Communities Navigator"
+                           socialshare-url="{{main.shortUrl}}" class="social-share">
+                            <i class="font-icon icon-twitter"></i>
+                        </a>
+                    </li>
+
+                </ul>
+
+                <input class="share-btn-placeholder" type="text" ng-model="main.urlPlaceholder">
+
+        </div>
+        <div class="col-xs-6">
+            <div ng-controller="storiesPaginationCtrl as storypagination">
+                <div class="text-right">
+                    <dir-pagination-controls boundary-links="true"
+                                             on-page-change="storypagination.pageChangeHandler(newPageNumber)"
+                                             template-url="wp-content/themes/navigator/app/shared/pagination/dirPagination.tpl.html"
+                                             pagination-id="storiesPn"></dir-pagination-controls>
+                </div>
+            </div>
+
+        </div>
+</div>
+</footer>
+
+
+<uib-alert ng-show="main.successCopyText === true " type="success">URL copied
+</uib-alert>
+</div>
+

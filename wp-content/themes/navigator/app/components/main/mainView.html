@@ -1,4 +1,4 @@
-<div id="content" class="site-content page-wrapper">
+<div id="content" class="site-content page-wrapper" ng-cloak>
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
@@ -10,58 +10,154 @@
         </div>
         <div class="row">
             <div class="col-xs-12">
+                <div class="debug">
+                    stateparam grant id: {{grId}} <br>
+                    stateparam grant Award Id: {{grAwId}}  <br>
+                    stateparam topic Id: {{tpId}}  <br>
+                    stateparam topic Id: {{termId}}  <br>
+                    topicIdArr: {{main.topicIdArr}}  <br>
+                    termsIdArr: {{main.termsIdArr}}  <br>
+                    selectedGrantId | selectedGrantsAwardsByTopic: {{main.selectedGrantId}}  <br>
+                    selectedGrantAwardId | selectedGrantsAwardsByState: {{main.selectedGrantAwardId}}  <br>
+                    selectedGrantAwardIdByCity | : {{main.selectedGrantAwardIdByCity}}  <br>
+                    selectedGrantAwardIdByCounty | : {{main.selectedGrantAwardIdByCounty}}  <br>
+                </div>
+
                 <div id="primary" class="content-area">
                     <main id="main" class="site-main" role="main">
                         <section class="state-map">
+                            <div class="state-map__overlay" ng-show="!main.$state.includes('navigator.main')"></div>
                             <div class="state-map__content">
                                 <!--<img src="http://placehold.it/1170x600" alt="">-->
-                                <datamap map="mapObject">
-                                </datamap>
+                                <a href="" class="map-label nh" ng-click="main.updateMapFromLabel('NH')"
+                                   ng-class="{active: main.labelActive.NH}">NH</a>
+                                <a href="" class="map-label ri" ng-click="main.updateMapFromLabel('RI')"
+                                   ng-class="{active: main.labelActive.RI}">RI</a>
+                                <a href="" class="map-label nj" ng-click="main.updateMapFromLabel('NJ')"
+                                   ng-class="{active: main.labelActive.NJ}">NJ</a>
+                                <a href="" class="map-label md" ng-click="main.updateMapFromLabel('MD')"
+                                   ng-class="{active: main.labelActive.MD}">MD</a>
+                                <a href="" class="map-label vt" ng-click="main.updateMapFromLabel('VT')"
+                                   ng-class="{active: main.labelActive.VT}">VT</a>
+                                <a href="" class="map-label ma" ng-click="main.updateMapFromLabel('MA')"
+                                   ng-class="{active: main.labelActive.MA}">MA</a>
+                                <a href="" class="map-label ct" ng-click="main.updateMapFromLabel('CT')"
+                                   ng-class="{active: main.labelActive.CT}">CT</a>
+                                <a href="" class="map-label de" ng-click="main.updateMapFromLabel('DE')"
+                                   ng-class="{active: main.labelActive.DE}">DE</a>
+                                <a href="" class="map-label dc" ng-click="main.updateMapFromLabel('DC')"
+                                   ng-class="{active: main.labelActive.DC}">DC</a>
+                                <datamap map="main.mapObject" on-click="main.updateActiveGeography"></datamap>
+
                             </div>
+                            <p class="debug">
+                                state name: {{::main.stateName}} <br/>
+                                state code: {{::main.stateCode}}
+                            </p>
+
                             <div class="state-map__filter">
                                 <header>
-                                    <h1 class="state-map__filter__header">Refine Your Search</h1>
-                                    <a href="">Clear All Filters</a>
+                                    <div class="row">
+                                        <div class="col-xs-8">
+                                            <h1 class="state-map__filter__header">Refine Your Search</h1>
+                                        </div>
+                                        <div class="col-xs-4 reset">
+                                            <a href="" ng-click="main.reset(); main.resetQuery()">Clear All Filters</a>
+                                        </div>
+                                    </div>
                                 </header>
                                 <div class="row">
-                                    <div class="col-xs-6">
-                                        <select class="form-control">
-                                            <option>1</option>
-                                            <option>2</option>
-                                            <option>3</option>
-                                            <option>4</option>
-                                            <option>5</option>
-                                        </select>
+                                    <div class="filter__topic"
+                                         ng-style="{ height: (main.filterVal.topics.length * 26) + 87 + 'px' }">
+                                        <label>Topics</label>
+                                        <ui-select multiple ng-model="main.filterVal.topics" theme="bootstrap"
+                                                   close-on-select="false" title="Choose topics"
+                                                   on-select="main.addGrantId($item.ID)"
+                                                   on-remove="main.removeGrantId($item.ID)"
+                                                   ng-disabled="!main.$state.includes('navigator.main')"
+                                                   append-to-body="true">
+                                            <ui-select-match placeholder="Choose topics">{{::$item.name}}
+                                            </ui-select-match>
+                                            <ui-select-choices
+                                                    repeat="topic in main.wpData.topics | filter:{name:$select.search}">
+                                                {{::topic.name}}
+                                            </ui-select-choices>
+                                        </ui-select>
+                                        <div class="line">&nbsp;</div>
+                                        <p class="debug">Selected topic_id: {{::main.filterVal.topics}}</p>
+
+                                        <p class="debug">Selected grant_id:{{::main.selectedGrantId}}</p>
+
                                     </div>
-                                    <div class="col-xs-2">
-                                        <select class="form-control">
-                                            <option>1</option>
-                                            <option>2</option>
-                                            <option>3</option>
-                                            <option>4</option>
-                                            <option>5</option>
-                                        </select>
+                                    <div class="filter__state"
+                                         ng-style="{ height: (main.filterVal.terms.length * 26) + 87 + 'px' }">
+                                        <label>State</label>
+                                        <ui-select multiple ng-model="main.filterVal.terms" theme="bootstrap"
+                                                   on-select="main.addGrantTermsId($item.ID)"
+                                                   on-remove="main.removeGrantTermsId($item.ID); main.resetCity(); main.resetCounty()"
+                                                   close-on-select="false" title="Choose state"
+                                                   ng-disabled="!main.$state.includes('navigator.main')" dupes="false">
+                                            <ui-select-match placeholder="Choose state">{{::$item.name}}</ui-select-match>
+                                            <ui-select-choices
+                                                    repeat="state in main.stateArr | filter:$select.search">
+                                                {{::state.name}}
+                                            </ui-select-choices>
+                                        </ui-select>
+
+                                        <div class="line">&nbsp;</div>
+                                        <pre class="debug">
+                                        <p>Selected: {{::main.filterVal.terms}}</p>
+                                        <p>Selected grant_awards.id:{{::main.selectedGrantAwardId}}</p>
+                                        <p>Selected grant_awards.id:{{::main.selectedGrantId}}</p>
+                                        <p>{{::main.termsIdArr}}</p>
+                                        </pre>
                                     </div>
-                                    <div class="col-xs-2">
-                                        <select class="form-control">
-                                            <option>1</option>
-                                            <option>2</option>
-                                            <option>3</option>
-                                            <option>4</option>
-                                            <option>5</option>
-                                        </select>
+                                    <div class="filter__city"
+                                         ng-style="{ height: (main.filterVal.city.length * 26) + 87 + 'px' }">
+                                        <label>City</label>
+
+                                        <ui-select multiple ng-model="main.filterVal.city" theme="bootstrap"
+                                                   on-select="main.addCity($item.ID)"
+                                                   on-remove="main.removeCity($item.ID)"
+                                                   close-on-select="false" title="Choose City"
+                                                   ng-disabled="!main.filterVal.terms.length || !filteredCity.length || !main.$state.includes('navigator.main')"
+                                                   dupes="false" append-to-body="true">
+                                            <ui-select-match placeholder="Choose city">{{::$item.name}}</ui-select-match>
+                                            <ui-select-choices
+                                                    repeat="city in filteredCity = (main.cityArr | filter:main.filterByState | filter:$select.search)">
+                                                {{::city.name}}
+                                            </ui-select-choices>
+                                        </ui-select>
+                                        <div class="line">&nbsp;</div>
+                                        <p class="debug">Selected: {{::main.filterVal.city}}</p>
+
+
                                     </div>
-                                    <div class="col-xs-2">
-                                        <select class="form-control">
-                                            <option>1</option>
-                                            <option>2</option>
-                                            <option>3</option>
-                                            <option>4</option>
-                                            <option>5</option>
-                                        </select>
+                                    <div class="filter__county"
+                                         ng-style="{ height: (main.filterVal.county.length * 26) + 87 + 'px' }">
+                                        <label>County</label>
+                                        <ui-select multiple ng-model="main.filterVal.county" theme="bootstrap"
+                                                   on-select="main.addCounty($item.ID)"
+                                                   on-remove="main.removeCounty($item.ID)"
+                                                   close-on-select="false" title="Choose City"
+                                                   ng-disabled="!main.filterVal.terms.length || !filteredCounty.length || !main.$state.includes('navigator.main')"
+                                                   dupes="false">
+                                            <ui-select-match placeholder="Choose county">{{::$item.name}}
+                                            </ui-select-match>
+                                            <ui-select-choices
+                                                    repeat="county in filteredCounty = (main.countyArr | filter:main.filterByState | filter:$select.search)">
+                                                {{::county.name}}
+                                            </ui-select-choices>
+                                        </ui-select>
+                                        <div class="line">&nbsp;</div>
+
+                                        <p class="debug">Selected: {{::main.filterVal.county}}</p>
                                     </div>
+
                                 </div>
                             </div>
+
+
                         </section>
 
                         <div ui-view></div>

@@ -1,0 +1,1303 @@
+[
+  {
+    "ID": 960,
+    "title": "Introduction By Governor Lowell Weicker, Jr.",
+    "status": "publish",
+    "type": "story",
+    "author": {
+      "ID": 2,
+      "username": "albert",
+      "name": "albert",
+      "first_name": "Albert",
+      "last_name": "Lang",
+      "nickname": "albert",
+      "slug": "albert",
+      "URL": "",
+      "avatar": "http:\/\/0.gravatar.com\/avatar\/c0be3abe4f44ef824791c7c929085222?s=96",
+      "description": "",
+      "registered": "2011-06-17T15:21:35+00:00",
+      "meta": {
+        "links": {
+          "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/users\/2",
+          "archives": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/users\/2\/posts"
+        }
+      }
+    },
+    "content": "<p>Ten years ago, the September 11th and anthrax tragedies shook the country to our core.<\/p>\n<p>All of us at the Trust for America\u2019s Health (TFAH) wanted to take the anniversary to remember those we lost and their loved ones \u2014 and to commemorate those who worked tirelessly and heroically to respond and protect us.<\/p>\n<p>This project features first hand accounts from public health professionals who were pivotal in the response efforts \u2014 and these stories reveal the selflessness and bravery of these individuals, as well as illustrating the vital role that public health plays in protecting the health and safety of Americans.\u00a0We know these memories are tough ones.<\/p>\n<p>The stories range from the steps health officials took on September 11th in the face of uncertainty to practitioners who diagnosed and treated anthrax victims to lab directors who tested thousands of potential anthrax samples in rapid response time.<\/p>\n<p>The contribution that public health makes in preventing, detecting and containing threats is often overlooked and underappreciated.<\/p>\n<p>At TFAH, we believe every community in the United States should be prepared to meet the threats of bioterrorism, infectious disease outbreaks and natural disasters.In 2001, we experienced the unimaginable.<\/p>\n<p>In 2011, we know we need to expect the unexpected.Over the past decade, we learned a lot of hard lessons about what it means to be adequately prepared for diseases, disasters and bioterrorism. We\u2019ve made smart, strategic investments,and there\u2019s been a lot of progress to show for it. We can be proud of the improvements that have been made. Of course, there is a lot left to be done, which will require further effort and investment. But, regardless, the field of public health preparedness was forever changed 10 years ago, and we should never forget why.<\/p>\n<p>The top lesson we learn and relearn in each tragedy and emergency is that being prepared means we must sustain enough resources and vigilance so we can prevent what we can and respond when we have to.<\/p>\n<p>TFAH would like to extend our thanks to all of the public health professionals who work unwaveringly to help keep us healthy and safe \u2013 and our thanks to all of the individuals and organizations who participated in this project, including the Robert Wood Johnson Foundation, the Association of State and Territorial Health Officials, the National Association of County and City Health Officials, the Association of Public Health Laboratories,the American Public Health Association,the U.S. Centers for Disease Control and Prevention(CDC), the Center for Biosecurity of UPMC,and numerous state and local health officials.<\/p>\n<p><em><em>Governor Lowell Weicker, Jr., is a former three-term U.S. Senator and Governor of Connecticut and President of the Board of Directors of TFAH<\/em><\/em><\/p>\n<p><a href=\"http:\/\/healthyamericans.org\/health-issues\/wp-content\/uploads\/2011\/08\/TFAH911Anthrax10YrAnnv10Intro.pdf\">You can download a PDF of the introduction here.<\/a><\/p>\n",
+    "parent": null,
+    "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/story\/introduction-by-governor-lowell-weicker",
+    "date": "2011-08-04T20:05:56",
+    "modified": "2011-08-04T20:02:03",
+    "format": "standard",
+    "slug": "introduction-by-governor-lowell-weicker",
+    "guid": "http:\/\/healthyamericans.org\/health-issues\/?post_type=story&#038;p=960",
+    "excerpt": "<p>Ten years ago, the September 11th and anthrax tragedies shook the country to our core. All of us at the Trust for America\u2019s Health (TFAH) wanted to take the anniversary to remember those we lost and their loved ones \u2014 and to commemorate those who worked tirelessly and heroically to respond and protect us.<\/p>\n",
+    "menu_order": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "date_tz": "UTC",
+    "date_gmt": "2011-08-04T20:05:56",
+    "modified_tz": "UTC",
+    "modified_gmt": "2011-08-04T20:02:03",
+    "meta": {
+      "links": {
+        "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/posts\/960",
+        "author": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/users\/2",
+        "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/posts",
+        "replies": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/posts\/960\/comments",
+        "version-history": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/posts\/960\/revisions"
+      }
+    },
+    "featured_image": null,
+    "terms": {
+      "states": [
+        {
+          "ID": 37,
+          "name": "Connecticut",
+          "slug": "connecticut",
+          "description": "",
+          "taxonomy": "states",
+          "parent": null,
+          "count": 4,
+          "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/states\/connecticut",
+          "meta": {
+            "links": {
+              "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms",
+              "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms\/37"
+            }
+          }
+        }
+      ],
+      "story_category": [
+        {
+          "ID": 36,
+          "name": "State Public Health Response",
+          "slug": "state-public-health-response",
+          "description": "",
+          "taxonomy": "story_category",
+          "parent": null,
+          "count": 8,
+          "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/story_category\/state-public-health-response",
+          "meta": {
+            "links": {
+              "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+              "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/36"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "ID": 1172,
+    "title": "Public Health Response to Terrorism and Bioterrorism: Inventing the Wheel By Dan Hanfling",
+    "status": "publish",
+    "type": "story",
+    "author": {
+      "ID": 2,
+      "username": "albert",
+      "name": "albert",
+      "first_name": "Albert",
+      "last_name": "Lang",
+      "nickname": "albert",
+      "slug": "albert",
+      "URL": "",
+      "avatar": "http:\/\/0.gravatar.com\/avatar\/c0be3abe4f44ef824791c7c929085222?s=96",
+      "description": "",
+      "registered": "2011-06-17T15:21:35+00:00",
+      "meta": {
+        "links": {
+          "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/users\/2",
+          "archives": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/users\/2\/posts"
+        }
+      }
+    },
+    "content": "<p>On the cloudless, blue sky morning of September 11, 2001, I was driving to Chantilly, VA to the National Reconnaissance Office (NRO) to give a presentation to their facility leadership on steps to take to protect workers in the event of a terrorist attack. Drawing upon some of my experiences as a medical team manager for the Fairfax County, Virginia Urban Search and Rescue team, my intent was to focus on some of the simple steps everyone can take to better prepare themselves to respond to a disaster.<\/p>\n<p>It was a beautiful day. Later, I was going to meet my wife at her office at the National Academy of Sciences (right across the street from U.S. Department of State) for lunch. When I got to the NRO at 9:30 am, less than an hour after the attacks began, the gates to the facility were closed and there was a guard standing out front with the biggest machine gun I had ever seen.<\/p>\n<p>He lifted it towards my car. The guard was quite adamant about me turning my vehicle around. I kept asking him why and finally he shouted \u201cbecause the U.S. is under attack.\u201d I thought I was in a movie.<\/p>\n<p>I pulled my car over, turned off the Grateful Dead and dialed in the radio to WTOP. I also picked up my pager, which was flashing from a dozen missed pages, and heard the first reports of an attack on the Pentagon. Immediately, I made a beeline back to the hospital, knowing I would have to oversee implementation of the hospital emergency operations plan, and thinking I might be activated for search and rescue. This was the first and only time in the three years I had served as the operational medical director of Fairfax County Fire and Rescue Department that I put the \u201cKojak\u201d light on top of my car. On the way, I spoke with hospital officials to activate the disaster plan.<\/p>\n<p>As I continued my drive towards the Inova Fairfax Hospital with the news on, I heard the report of a bomb at the State Department. It was surreal, it seemed there was chaos everywhere and everyone was in danger. My immediate thought was \u2014that\u2019s exactly where my wife parks her car, directly across the street from the front entrance of State. While I was scared for her safety, and I thought about our little kids in school, I knew there was little I could do about what I had just heard. So I focused on the task at hand. Around noontime I was picked up by a first responder and hurriedly driven down to the fire station where the search and rescue team was assembling. Soon thereafter, we were at the Pentagon and our team members were making entry into a building that was on fire and had already collapsed.<\/p>\n<p>Over the course of the next couple of hours, it became clear that it was going to be a recovery mission\u2026that there wouldn\u2019t be any more survivors. The hardest phone call I ever had to make was to the hospital telling them to stand down the emergency response. I know it was an incredibly hard call to receive.<\/p>\n<p>I didn\u2019t learn until later that afternoon that there hadn\u2019t been a bomb at the State Department. There had been a kitchen fire that morning which prompted a fire department response, and the mistaken news report regarding an explosion. I was also able to make a quick call to my wife, who told me she needed two hours to complete what is normally a 20 minute commute home. It was a great relief to know she was safe.<\/p>\n<p>Over the next few days, we stabilized the Pentagon and shored-up the many support columns that had been wiped out. We worked inside an unbelievably dangerous tangle of debris, metal, fire, smoke and water \u2014 it was like Dante\u2019s Inferno. But we made important discoveries. We found the black box and located information on some of the hijackers. We also recovered a number of bodies, helping to bring closure to many families whose lives were tragically upended on that September morning.<\/p>\n<p>I felt incredibly fortunate to have the ability to contribute at a time of utter helplessness. It was important for me to be there and to be able to do something.<\/p>\n<p><strong>On October 2, 2001, Robert L.<\/strong> Stevens was admitted to a hospital in Palm Beach County, Florida after a camping trip to North Carolina. Two days later, he was diagnosed with inhalational anthrax. Shortly thereafter, Health and Human Services Secretary Tommy Thompson said it was an isolated case that he probably contracted while on a camping trip.<\/p>\n<p>I was seeing patients in the emergency department at Inova Fairfax when Secretary Thompson\u2019s news conference was broadcast live on CNN. At the time, I didn\u2019t think this sounded right. When I finished my shift, I put together a one-page primer on anthrax detailing what it is, how it presents clinically, what the initial treatments would be, and what it might look like on a chest x-ray and CT scan. I faxed it to all of the hospitals within the Inova Health System and also to my colleagues at the fire department. I wasn\u2019t taking any chances.<\/p>\n<p>On October 15, a letter containing anthrax was opened in the office of Senator Tom Daschle, located in the Hart Senate Office Building. A few days later, on October 19, the first of what would become hundreds of patients with concerns of anthrax exposure came to our emergency department seeking care. The patient\u2019s chief complaint was that he thought he might have been exposed to anthrax.<\/p>\n<p>The Emergency Department physician on duty that evening, Dr. Cecile Murphy, did what all great clinicians do \u2014 she listened to the patient. When he diagnosed himself with anthrax, he did so because he knew his body and something didn\u2019t feel right \u2014 his chest felt strange. So Dr. Murphy asked typical questions like \u201cwhere do you work?\u201d.<\/p>\n<p>The patient said he delivered mail from the Brentwood postal facility. At that time, Brentwood had no special meaning to anyone. Still, Dr. Murphy asked where the bulk of the mail eventually ended up. The patient answered that most of it goes to the Senate. In hindsight it seems pretty apparent what was going on.<\/p>\n<p>However, at that point in time, the Centers for Disease Control and Prevention (CDC) was very clear that unless you were in the Hart Senate Office Building, SE Wing, 5th or 6th floor, between the hours of 9:00 am and 7:00 pm on October15, you had nothing to worry about.<\/p>\n<p>The good news is that most patients don\u2019t read textbooks and many doctors don\u2019t read CDC alerts. What we knew of anthrax, we heard on WTOP. Thankfully, our doctors also convinced us that we couldn\u2019t believe everything published in the Morbidity and Mortality Weekly Report because, based on what CDC had provided as guidance, our patients wouldn\u2019t have been in the high risk group.<\/p>\n<p>So Dr. Murphy pursued the case further. She did an x-ray which just didn\u2019t look right, and then followed that up with a chest CT Scan that was demonstrable for the telltale sign of inhalational anthrax \u2014 a widened mediastinum. Sure enough, it was clear as day that the patient was suffering from inhalation anthrax.<\/p>\n<p>The first call Dr. Murphy made was to the D.C. Department of Health, because she was watching the news and knew D.C. was dealing with this.<\/p>\n<p>At the time, there was limited guidance on the management of a bioterrorist attack. Treatment protocols for anthrax were tucked away in journal articles sitting in the hospital library. And no effective means for managing the multitudinous information that was beginning to ripple across the healthcare community was in place.<\/p>\n<p>Later that same night, another of our emergency department physicians, Dr. Denis Pauze, took care of another postal worker from Brentwood. He came in because he had the worst headache of his life \u2014 which, in the ER, triggers an automatic workup for a leaking aneurysm. He had a normal Head CT scan and a normal spinal tap. Still, he didn\u2019t look right, so Dr. Pauze did a chest X-ray which was borderline abnormal. He followed this up with a chest CT scan, given that the patient told him he was a postal worker from Brentwood (and, by that time, the words \u2018anthrax\u2019 and \u2018Brentwood\u2019 were echoing throughout our large, suburban emergency department like a rifle volley on a firing range). The scan was abnormal, just like the previous case, and all of a sudden, Inova Fairfax had two diagnosed cases of inhalation anthrax sitting in our emergency department. In short, we were inventing the wheel. This wasn\u2019t reinventing the wheel, because virtually no clinicians in the United States had faced this before.<\/p>\n<p>We realized there was no cavalry coming to sort things out, and that we would have to manage most of this ourselves. Part of what contributed to the difficulty in coordinating our efforts was due to what we sometimes call the \u2018Potomac Ocean\u2019 effect \u2014 even though the three surviving cases were in Northern Virginia (we helped contribute to the diagnosis of the third case of inhalational anthrax in a postal worker from the Federal mail facility in Sterling, VA), all the media attention was essentially focused on D.C. Indeed, even the 9\/11 attacks took place in northern Virginia, not D.C.<\/p>\n<p>We created our own treatment protocols and put together an ad-hoc communication information management system that reached all Northern Virginia hospitals. It was very important that we coordinate these emerging protocols with our public health colleagues in the Fairfax County Health Department. Late nights on the phone with Dr. Carol Sharrett and Dr. Gloria Addo-Ayensu produced templates for screening patients, offering prophylaxis countermeasures, and suggesting basic risk communication statements for our regional hospitals to use. We did this under the joint imprimatur of Fairfax County and Inova Health System. And like many in the region, we participated in the gazillion conference calls held to discuss and share information about the emerging and rapidly evolving event, and passed this information along to the rest of the hospitals in our region.<\/p>\n<p>We made clinical decisions on the management of the anthrax cases by committee and involved infectious disease and intensive care doctors. While I helped to contribute to a number of these early discussions, I turned my attention to creating the systems needed to manage the ongoing bioresponse event \u2014 essentially to invent the wheel. Along with colleagues in emergency medicine from across northern Virginia, we created the Northern Virginia Emergency Response Coalition (NVERC), one of the first healthcare coalitions in the country, and the model for much of what HHS\/ASPR has encouraged in the years since these awful attacks. In October 2002, the NVERC was formally re-established as the Northern Virginia Hospital Alliance, governed by the CEOs of the northern Virginia hospitals who comprise its Board of Directors. In the 10 years since the attacks, this group has never failed to have a quorum of participants, which demonstrates the absolute commitment to emergency preparedness by the healthcare system leadership in our community.<\/p>\n<p>We have evolved these efforts into a much stronger community of emergency responders in the decade since the attacks, coordinating closely with, not only our public health colleagues, but those in public safety and emergency management.<\/p>\n<p>September and October 2001 was a frenzied and chaotic time in the history of our country. These successive attacks stretched thin all aspects of the public health system.<\/p>\n<p>As an emergency physician who was deep in the trenches in the fall of 2001, I can tell you that the entire public health community was dealing with a world that was turned upside down. It was clear to me that emergency physicians and nurses were now on the frontlines of the public health response in this new age of catastrophe, terror and fear.<\/p>\n<p>In short, emergency physicians and nurses have become the operational lynchpin of our new focus on public health emergency preparedness. While the emergency department has long comprised a significant portion of the public health safety net, providing equal access to all who seek care, we now find ourselves in the added role of community protector. And it doesn\u2019t stop at the emergency room threshold. In fact, hospital staff have become the \u2018new first responders\u2019 or what has now been termed \u2018first receivers.\u2019 We are all essential personnel in the continued struggle to keep our communities safe and healthy.<\/p>\n<p><em>Dan Hanfling, MD, Special Advisor on Emergency Preparedness and Disaster Response to the Inova HealthSystem; Board Certified Emergency Physician<\/em><\/p>\n<p><em><a href=\"http:\/\/healthyamericans.org\/health-issues\/wp-content\/uploads\/2011\/08\/TFAH911Anthrax10YrAnnv10Hanfling.pdf\">You can download a PDF of the story here.<\/a><br \/>\n<\/em><\/p>\n",
+    "parent": null,
+    "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/story\/public-health-response-to-terrorism-and-bioterrorism-inventing-the-wheel-by-dan-hanfling",
+    "date": "2011-08-04T20:01:12",
+    "modified": "2011-08-04T20:01:12",
+    "format": "standard",
+    "slug": "public-health-response-to-terrorism-and-bioterrorism-inventing-the-wheel-by-dan-hanfling",
+    "guid": "http:\/\/healthyamericans.org\/health-issues\/?post_type=story&#038;p=1172",
+    "excerpt": "<p>On the cloudless, blue sky morning of September 11, 2001, I was driving to Chantilly, VA to the National Reconnaissance Office (NRO) to give a presentation to their facility leadership on steps to take to protect workers in the event of a terrorist attack. Drawing upon some of my experiences as a medical team manager [&hellip;]<\/p>\n",
+    "menu_order": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "date_tz": "UTC",
+    "date_gmt": "2011-08-04T20:01:12",
+    "modified_tz": "UTC",
+    "modified_gmt": "2011-08-04T20:01:12",
+    "meta": {
+      "links": {
+        "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/posts\/1172",
+        "author": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/users\/2",
+        "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/posts",
+        "replies": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/posts\/1172\/comments",
+        "version-history": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/posts\/1172\/revisions"
+      }
+    },
+    "featured_image": null,
+    "terms": {
+      "states": [
+        {
+          "ID": 54,
+          "name": "Arlington",
+          "slug": "arlington-county-va",
+          "description": "county",
+          "taxonomy": "states",
+          "parent": {
+            "ID": 40,
+            "name": "Virginia",
+            "slug": "virginia",
+            "description": "",
+            "taxonomy": "states",
+            "parent": null,
+            "count": 5,
+            "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/states\/virginia",
+            "meta": {
+              "links": {
+                "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms",
+                "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms\/40"
+              }
+            }
+          },
+          "count": 2,
+          "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/states\/arlington-county-va",
+          "meta": {
+            "links": {
+              "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms",
+              "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms\/53"
+            }
+          }
+        },
+        {
+          "ID": 31,
+          "name": "District of Columbia",
+          "slug": "washingtondc",
+          "description": "",
+          "taxonomy": "states",
+          "parent": null,
+          "count": 9,
+          "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/states\/washingtondc",
+          "meta": {
+            "links": {
+              "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms",
+              "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms\/265"
+            }
+          }
+        },
+        {
+          "ID": 40,
+          "name": "Virginia",
+          "slug": "virginia",
+          "description": "",
+          "taxonomy": "states",
+          "parent": null,
+          "count": 5,
+          "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/states\/virginia",
+          "meta": {
+            "links": {
+              "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms",
+              "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms\/40"
+            }
+          }
+        },
+        {
+          "ID": 41,
+          "name": "Washington, D.C.",
+          "slug": "washington-d-c",
+          "description": "",
+          "taxonomy": "states",
+          "parent": {
+            "ID": 31,
+            "name": "District of Columbia",
+            "slug": "washingtondc",
+            "description": "",
+            "taxonomy": "states",
+            "parent": null,
+            "count": 9,
+            "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/states\/washingtondc",
+            "meta": {
+              "links": {
+                "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms",
+                "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms\/265"
+              }
+            }
+          },
+          "count": 9,
+          "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/states\/washington-d-c",
+          "meta": {
+            "links": {
+              "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms",
+              "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms\/31"
+            }
+          }
+        }
+      ],
+      "story_category": [
+        {
+          "ID": 32,
+          "name": "Public Health Provider Response",
+          "slug": "public-health-providers",
+          "description": "",
+          "taxonomy": "story_category",
+          "parent": null,
+          "count": 2,
+          "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/story_category\/public-health-providers",
+          "meta": {
+            "links": {
+              "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+              "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/32"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "ID": 1167,
+    "title": "No News Wasn\u2019t Good News By Jack Herrmann",
+    "status": "publish",
+    "type": "story",
+    "author": {
+      "ID": 2,
+      "username": "albert",
+      "name": "albert",
+      "first_name": "Albert",
+      "last_name": "Lang",
+      "nickname": "albert",
+      "slug": "albert",
+      "URL": "",
+      "avatar": "http:\/\/0.gravatar.com\/avatar\/c0be3abe4f44ef824791c7c929085222?s=96",
+      "description": "",
+      "registered": "2011-06-17T15:21:35+00:00",
+      "meta": {
+        "links": {
+          "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/users\/2",
+          "archives": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/users\/2\/posts"
+        }
+      }
+    },
+    "content": "<p>It is hard to believe that 10 years have gone by since September 11, 2001. In my memory, it feels like yesterday because I can recall the events vividly. That day and the work I did in the days, weeks and months afterward shaped my life in many ways.<\/p>\n<p>When you think about public health and responses to natural or manmade tragedies, you think about the physical destruction these events leave on communities. However, the mental health impact from disasters is also incredibly important to consider. I began my disaster relief response work in 1993 with the American Red Cross and was deployed to my first large scale disaster in1994, the Northridge, CA earthquake. I had seven years of disaster response under my belt before9\/11 and knew firsthand the importance of an integrated behavioral health response.<\/p>\n<p>What I wasn\u2019t ready for was how the events of September 11th would transform my own understanding of terrorism as well as those of most everyone in our country.<\/p>\n<p>At the time of the attacks, I was the New York State Disaster Mental Health Volunteer Lead for the Red Cross and in that leadership role responsible for working with Red Cross chapters across the state recruiting and training disaster mental health responders. At the moment the first tower was struck, I was in an aviation disaster exercise planning meeting with city and airport emergency management officials at the Greater Rochester International Airport in upstate New York. As we watched news footage of the events, the second plane struck the World Trade Center towers. I immediately called the NY State Red Cross Disaster Lead and received instructions to deploy to New York City. I rented a van, went to the local Red Cross chapter to gather supplies, packed a few personal items and began my drive downstate.<\/p>\n<p>Ultimately, I fell into a caravan of state officials and other responders who were deployed to the city as well. Normally a trip that would take five hours was accomplished in three. Having to stop mid-way through my drive, I was separated from the caravan. A short time later I continued my trip and eventually had the city in sight. I was struck by the absence of two of New York City\u2019s most well known landmarks replaced by a landscape of billowing gray-black smoke. I approached the Holland tunnel on the New Jersey side, which was secured by the National Guard. After verifying my identification and seeing I was with the Red Cross, they allowed my van through\u2014 it was a surreal moment being the only person in the tunnel, a transportation landmark that typically sees thousands of cars traveling through it each day.<\/p>\n<p>As I emerged out of the tunnel into lower Manhattan I made my way up the Westside to the New York City Chapter of the Red Cross. Crawling my way up, I was driving over fire hoses and the debris from the fallen towers. At one point I passed close enough to see the rubble from the buildings and the continuing fire and smoke. At that moment I thought to myself: \u201cwhat could I possibly do, as one volunteer, in response to this massive event?\u201d<\/p>\n<p>The thought wasn\u2019t with me for long as I was determined to do what I was trained to do. I needed to get to the Red Cross chapter and begin to coordinate our disaster mental health response. I arrived at the Chapter and was struck by the thousands of people standing inline. Many of them were waiting to donate blood, make a monetary donation, or lend their hand to the response. I entered the Chapter, found the Emergency Services leader, and was briefed on what had transpired and their initial response plan. Throughout the rest of that day and into the first night I provided psychological support to Red Cross personnel that responded immediately to the scene after the first plane struck the tower, many of whom found themselves running for their lives when the buildings began to collapse. I also worked with the staff to coordinate the recruitment and selection of volunteers that would ultimately provide psychological support to victims and their families in the days and weeks to come.<\/p>\n<p>At 4:00 a.m. on September 12, I and my Red Cross colleagues were called to a meeting with representatives from the New York City Mayor\u2019s office to review the plan for opening a Family Assistance Center later that morning. This Center would be the first stop for many that were in search of the whereabouts of their family and friends who had still not returned home after the buildings collapsed.<\/p>\n<p>Initially the plan was to stand up the Assistance Center at New York University Medical Center, but the proposed auditorium could realistically only accommodate 350 people. We knew this would be grossly insufficient \u2014 as we were expecting thousands of people in a matter of hours. It was announced that the center would open at8:00 a.m., and by 6:00 a.m. there were thousands of people in line. We filled the first few hundred seats and began our work. Families were led to rooms to meet with representatives of the New York City Police Department and Medical Examiner\u2019s Office. Many were unprepared for the extensive and at times traumatic questions that would be asked of them. For this reason we also made sure we had mental health and spiritual care volunteers available to support these families through this process. We also posted these professionals outside to walk up and down the line of those waiting to enter the Center.<\/p>\n<p>Because of the volume of people arriving to the center, we quickly ran out of space and later that day needed to relocate to another site. By the second day, those who had loved ones in the World Trade Center Towers likely already had their loved ones safely at home with them or knew of their whereabouts. Those that continued to show up at the center were not so fortunate and as the days progressed the pervading sentiment was \u201cno news wasn\u2019t good news.\u201d<\/p>\n<p>Over the ensuing five days, we moved the Family Assistance Center three times before settling into its permanent location at Pier 94 located on Manhattan\u2019s Westside and the Hudson River.<\/p>\n<p>The two weeks of my deployment and the subsequent year that I spent traveling back and forth from my home in Rochester to New York City, left an indelible mark on me. While my initial role was to coordinate the mental health response to this tragic event and provide emotional support to Red Cross volunteers and the families of those who died in the towers, my subsequent role was to work with City and Red Cross officials to plan for how to address the short and long-term psychological aftermath of this catastrophic incident.<\/p>\n<p>The psychological impact I knew was big not only for those directly involved, but for people like myself that were called to respond. I had been involved with disaster work before, but I never fully appreciated the emotional impact that disasters, such as acts of terrorism can have, even on the most experienced disaster response professionals. This was a real awakening of my own vulnerabilities.<\/p>\n<p>Professionally, it became clear how important it is to prepare and train individuals to work in a disaster environment. Frankly, one of the most challenging situations of managing the response to 9\/11 was managing the staff, their frustrations and grief, and their expectations for what role they would play in this response. In addition, there were thousands of mental health professionals that wanted to help. While many were well- intentioned, few were truly prepared for the roles they would take on as a volunteer.<\/p>\n<p>These were unprecedented times that, in many ways, many of us still find ourselves recovering from. On this, the 10 year anniversary, it has left us reflecting on where we were at the time, what contribution we made to helping those directly impacted by this tragic event, and wondering what would happen if something similar happened again. For those of us who are disaster response leaders, it reinforces the importance of building a robust and prepared nation \u2014 recruiting, training and sustaining a workforce, both volunteer and paid, that has the capability to be at the right place, doing the right things, at the right time.<\/p>\n<p><em>Jack Herrmann, MSEd, NCC, LMHC, Senior Advisor, Public Health Preparedness, National Association ofCounty and City Health Officials (NACCHO)<\/em><\/p>\n<p><em><a href=\"http:\/\/healthyamericans.org\/health-issues\/wp-content\/uploads\/2011\/08\/TFAH911Anthrax10YrAnnv10Hermann1.pdf\">You can download a PDF of the story here.<\/a><br \/>\n<\/em><\/p>\n",
+    "parent": null,
+    "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/story\/no-news-wasn%e2%80%99t-good-news-by-jack-hermann",
+    "date": "2011-08-04T19:43:20",
+    "modified": "2011-08-04T20:12:47",
+    "format": "standard",
+    "slug": "no-news-wasn%e2%80%99t-good-news-by-jack-hermann",
+    "guid": "http:\/\/healthyamericans.org\/health-issues\/?post_type=story&#038;p=1167",
+    "excerpt": "<p>It is hard to believe that 10 years have gone by since September 11, 2001. In my memory, it feels like yesterday because I can recall the events vividly. That day and the work I did in the days, weeks and months afterward shaped my life in many ways. When you think about public health [&hellip;]<\/p>\n",
+    "menu_order": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "date_tz": "UTC",
+    "date_gmt": "2011-08-04T19:43:20",
+    "modified_tz": "UTC",
+    "modified_gmt": "2011-08-04T20:12:47",
+    "meta": {
+      "links": {
+        "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/posts\/1167",
+        "author": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/users\/2",
+        "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/posts",
+        "replies": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/posts\/1167\/comments",
+        "version-history": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/posts\/1167\/revisions"
+      }
+    },
+    "featured_image": null,
+    "terms": {
+      "states": [
+        {
+          "ID": 38,
+          "name": "New York",
+          "slug": "new-york",
+          "description": "",
+          "taxonomy": "states",
+          "parent": null,
+          "count": 10,
+          "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/states\/new-york",
+          "meta": {
+            "links": {
+              "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms",
+              "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms\/38"
+            }
+          }
+        },
+        {
+          "ID": 50,
+          "name": "New York City",
+          "slug": "new-york-city",
+          "description": "",
+          "taxonomy": "states",
+          "parent": {
+            "ID": 38,
+            "name": "New York",
+            "slug": "new-york",
+            "description": "",
+            "taxonomy": "states",
+            "parent": null,
+            "count": 10,
+            "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/states\/new-york",
+            "meta": {
+              "links": {
+                "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms",
+                "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms\/38"
+              }
+            }
+          },
+          "count": 8,
+          "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/states\/new-york-city",
+          "meta": {
+            "links": {
+              "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms",
+              "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms\/49"
+            }
+          }
+        }
+      ],
+      "story_category": [
+        {
+          "ID": 32,
+          "name": "Public Health Provider Response",
+          "slug": "public-health-providers",
+          "description": "",
+          "taxonomy": "story_category",
+          "parent": null,
+          "count": 2,
+          "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/story_category\/public-health-providers",
+          "meta": {
+            "links": {
+              "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+              "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/32"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "ID": 1164,
+    "title": "Questions\/Answers: 2001 Anthrax Attacks Anthony S. Fauci",
+    "status": "publish",
+    "type": "story",
+    "author": {
+      "ID": 2,
+      "username": "albert",
+      "name": "albert",
+      "first_name": "Albert",
+      "last_name": "Lang",
+      "nickname": "albert",
+      "slug": "albert",
+      "URL": "",
+      "avatar": "http:\/\/0.gravatar.com\/avatar\/c0be3abe4f44ef824791c7c929085222?s=96",
+      "description": "",
+      "registered": "2011-06-17T15:21:35+00:00",
+      "meta": {
+        "links": {
+          "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/users\/2",
+          "archives": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/users\/2\/posts"
+        }
+      }
+    },
+    "content": "<h2><strong>Looking back after ten years, what stands out to you most about the 2001 anthrax attacks?<\/strong><\/h2>\n<p>What stands out most to me about the 2001 anthrax attacks is the notion that from that point on, bioterror was a reality and no longer an abstract concept. Although discussions had been under way among public health officials in preparation for such an event, and our National Institute of Allergy and Infectious Diseases (NIAID) had a limited research portfolio in the area, the attacks really were a wake-up call.<\/p>\n<p>Looking back, I am also struck by the uncertainty we all felt at the time.<\/p>\n<p>Today, we know and can dispassionately describe exactly what happened. We know that of the people potentially exposed to anthrax in 2001, 22 people were infected, five of whom died. We know now that the attacks were unlikely concerted effort by a group or organization intended to broadly affect our society and large numbers of people. We know that the attacks likely stemmed from the actions of a single individual who was probably mentally unstable. Today we know the anthrax attacks had a relatively limited and short-lived impact in terms of morbidity and mortality.<\/p>\n<p>However, at the time the entire event was surrounded by uncertainty. No one had any idea who perpetrated the anthrax attacks or what the extent of their impact would be. With the timing of the anthrax attacks coming only weeks after 9\/11, the uncertainty was accompanied by a gripping fear of what might happen next. People worried as they rode the Metro or shopped for their groceries that something unknown and unexpected would happen again, and that they and their families were at risk.<\/p>\n<h2><strong>How would you characterize the overall response to the attacks? What were the biggest challenges you faced?<\/strong><\/h2>\n<p>I had a dual perspective as a scientist and science administrator and as a government spokesperson. As a scientist and science administrator, I headed the effort at NIH to fund and conduct biomedical research to develop countermeasures to protect people against a range of potential agents of bioterrorism. In addition, I served as one of the primary spokespersons for the Federal government, which involved providing the public with information about what we knew and did not know as the situation unfolded day by day. As a spokesperson, it was important for me to provide information in a way that would help calm public fears.<\/p>\n<p>The overall response from a biomedical countermeasures standpoint was good, though not perfect, especially given the fact that this was new ground for us. The situation had been discussed and planned to an extent, but never tested.<\/p>\n<p>I would describe the overall response as a \u201cleaping into action\u201d on the part of scientists and public health officials. We quickly brought together leading scientific experts and developed two important paths forward: the NIAID Strategic Plan for Biodefense Research and the NIAID Biodefense Research Agenda for CDC Category A Agents, a document that describes the Institute\u2019s accelerated research plan for the most threatening bioterrorism agents. These were developed within five months after the anthrax attacks \u2014 and have since been used as a starting point for updates and progress reports for the future.<\/p>\n<p>We asked the important questions in ways that I think were calm, measured, and scientific: Are there enough antibiotics? If not, why not, and how do we procure more? Where do we stand with regard to vaccines? Should we scale-up existing countermeasures? Do we need new countermeasures? Are there counter measures on the horizon that will help us\u00a0achieve our goals or not? How do we develop new countermeasures? What are the readily available options, and what is missing?<\/p>\n<p>Without a doubt, the biggest challenge we faced was to separate the science from the hysteria. We had to ensure that our focus remained on rational planning and on determining the most appropriate, scientifically based actions at the time.<\/p>\n<h2><strong>What are you most proud of about the anthrax response?<\/strong><\/h2>\n<p>One of the things I am most proud of is the fact that we were able to put the situation into perspective and maintain our focus on the scientific and public health issues that we were confronting. We understood at the time that anthrax would not be the end of the story \u2014 that preparedness and development of biomedical countermeasures should not stop with anthrax. The response to the anthrax attacks morphed into a much broader effort that encompassed not only preparedness for anthrax and other potential deliberate biothreats, but also for naturally emerging and re-emerging infectious diseases that threaten both public health and national security.<\/p>\n<p>In this regard, we decided to build basic and translational science capacity, and the intellectual and physical infrastructures to develop biomedical countermeasures in response to abroad range of deliberate and naturally occurring emerging and re-emerging infectious diseases. We were able to convince government officials that even though we need to address individual agents, nature is the worst bioterrorist. Through the anthrax response, we built both a physical and an intellectual infrastructure that can be used to respond to a broad range of emerging health threats.<\/p>\n<p>The result is that today we are in a much better position \u2014 from the perspective of both the research pipeline and public health preparedness\u2014 than we would have been had we addressed anthrax alone. Our improved ability to respond to emerging health threats was reflected in subsequent years as we addressed SARS, the threat of H5N1 influenza, and the2009 H1N1 influenza pandemic.<\/p>\n<h2><strong>What would you like to have been in place at the time that would have improved the response?<\/strong><\/h2>\n<p>At the time, I would have liked to have had biotechnology and pharmaceutical companies experienced in infectious disease countermeasures research, development, and production already invested in responding to unexpected public health threats \u2014 rather than having to build that investment from scratch. Before the anthrax attacks, industry was reluctant to develop biomedical countermeasures for an unpredictable market.<\/p>\n<h2><strong>What were the biggest challenges or gaps at the time?<\/strong> <strong>How have those changed or been addressed during the past decade?<\/strong><\/h2>\n<p>Major gaps existed in at least two areas.<\/p>\n<p>First, there were major gaps in the science. There were fundamental gaps in basic research as well as in applied science with regard to vaccines, diagnostics, and therapeutics to respond to unexpected infectious disease emergencies.<\/p>\n<p>Second, we did not have a clear public health response system in place for handling unexpected public health emergencies. Before, we were completely dependent upon pharmaceutical companies, which based their strategies on products for which there were predictable markets. The challenge was getting industry to invest in biomedical countermeasures for public health threats with unpredictable timelines.<\/p>\n<p>Since the anthrax attacks, we have made substantial and wise investments to address these gaps. Selected examples include:<\/p>\n<ul>\n<li>The NIAID National Biocontainment Laboratories (NBLs) and Regional Biocontainment Laboratories (RBLs) provide high-level biocontainment facilities for research on biodefense and emerging infectious diseases. The biosafety labs also are available in the event of a bioterrorism or infectious disease emergency to assist national, state, and local public health efforts.<\/li>\n<li>The NIAID Regional Centers of Excellence (RCE) for Biodefense and Emerging Infectious Diseases supports research focused on countering threats from bioterror agents and naturally emerging infectious diseases. Each Center is comprised of a consortium of universities and research institutions serving a specific geographical region.<\/li>\n<li>The Biomedical Advanced Research and Development Authority (BARDA), within the HHS Office of the Assistant Secretary for Preparedness and Response, helps address the need for chemical, biological, radiological\u00a0and nuclear (CBRN) countermeasures by assisting the development and purchase of vaccines, therapeutics, and diagnostics for public health emergencies.<\/li>\n<li>Project BioShield, managed by BARDA, helps enable procurement and advanced development of medical countermeasures for CBRN agents, as well as for pandemic influenza and other emerging infectious diseases. BARDA also manages the Public Health Emergency Medical Countermeasures Enterprise (PHEMCE).<\/li>\n<li>The NIAID Concept Acceleration Program (CAP) enables coordination of teams of scientific, medical and product development experts to guide investigators working on multi-use medical products for biodefense, drug resistance and emerging diseases with the goal of nurturing promising concepts that might otherwise not be pursued.<\/li>\n<\/ul>\n<h2><strong>If there were another anthrax attack today, how would the response be different from 2001?<\/strong><\/h2>\n<p>Things are very different today. Without question, if there were another anthrax attack today, our response would be significantly more coordinated. Today we have the Office of the Assistant Secretary for Preparedness and Response (ASPR), a major component of HHS. The title of this office reflects something we did not have before, a \u201cpreparedness and response\u201d focus. Now we have a coordinated multi-agency effort that is plugged into the intelligence community, the Department of Homeland Security and, importantly, the scientific community. To underscore this point, the 2009 influenza pandemic demonstrated a substantially more coordinated public health response than we experienced after the anthrax attacks.<\/p>\n<h2><strong>What are the biggest threats and challenges to bioterrorism preparedness today?<\/strong><\/h2>\n<p>The biggest threat to bioterrorism preparedness today is complacency. If a health threat does not happen, be it naturally occurring or deliberate, we tend to make it a lower priority. The worst thing we can do is to make something a priority after it happens. After it happens is too late; you are playing catch-up. Preparedness for a threat must be a priority before it happens.<\/p>\n<p><em>Anthony S. Fauci, M.D., Director, NIAID\/NIH<\/em><\/p>\n<p><em><a href=\"http:\/\/healthyamericans.org\/health-issues\/wp-content\/uploads\/2011\/08\/TFAH911Anthrax10YrAnnv10FauciQnA.pdf\">TFAH911Anthrax10YrAnnv10FauciQnA<\/a><br \/>\n<\/em><\/p>\n",
+    "parent": null,
+    "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/story\/questionsanswers-2001-anthrax-attacks-anthony-s-fauci",
+    "date": "2011-08-04T19:36:24",
+    "modified": "2011-08-04T19:36:24",
+    "format": "standard",
+    "slug": "questionsanswers-2001-anthrax-attacks-anthony-s-fauci",
+    "guid": "http:\/\/healthyamericans.org\/health-issues\/?post_type=story&#038;p=1164",
+    "excerpt": "<p>Looking back after ten years, what stands out to you most about the 2001 anthrax attacks? What stands out most to me about the 2001 anthrax attacks is the notion that from that point on, bioterror was a reality and no longer an abstract concept. Although discussions had been under way among public health officials [&hellip;]<\/p>\n",
+    "menu_order": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "date_tz": "UTC",
+    "date_gmt": "2011-08-04T19:36:24",
+    "modified_tz": "UTC",
+    "modified_gmt": "2011-08-04T19:36:24",
+    "meta": {
+      "links": {
+        "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/posts\/1164",
+        "author": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/users\/2",
+        "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/posts",
+        "replies": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/posts\/1164\/comments",
+        "version-history": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/posts\/1164\/revisions"
+      }
+    },
+    "featured_image": null,
+    "terms": {
+      "story_category": [
+        {
+          "ID": 33,
+          "name": "Federal Response",
+          "slug": "federal-response",
+          "description": "",
+          "taxonomy": "story_category",
+          "parent": null,
+          "count": 16,
+          "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/story_category\/federal-response",
+          "meta": {
+            "links": {
+              "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+              "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/33"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "ID": 1160,
+    "title": "Questions\/Answers: 2001 Anthrax Attacks Senator Tom Daschle",
+    "status": "publish",
+    "type": "story",
+    "author": {
+      "ID": 2,
+      "username": "albert",
+      "name": "albert",
+      "first_name": "Albert",
+      "last_name": "Lang",
+      "nickname": "albert",
+      "slug": "albert",
+      "URL": "",
+      "avatar": "http:\/\/0.gravatar.com\/avatar\/c0be3abe4f44ef824791c7c929085222?s=96",
+      "description": "",
+      "registered": "2011-06-17T15:21:35+00:00",
+      "meta": {
+        "links": {
+          "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/users\/2",
+          "archives": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/users\/2\/posts"
+        }
+      }
+    },
+    "content": "<h2><strong>What do you remember most about the initial response to the anthrax attacks, both nationally and from your office?<\/strong><\/h2>\n<p>I vividly remember the first report provided to me by my Chief of Staff, Pete Rouse, and my grave concern for each of the affected staff. I remember the agony of calling parents, spouses and families of the exposed staff to inform them of what had happened and to share what little I knew about how we would address the situation.<\/p>\n<p>I also recall the somewhat chaotic environment involving the Centers for Disease Control and Prevention (CDC) and other agencies of government who had limited capacity to respond to the attack and little information about next steps.<\/p>\n<p>Finally, I remember the media frenzy when President Bush made reference to the incident shortly after I informed him of the circumstances.<\/p>\n<p>Fully detailing this experience is hard. I did write a book, Like No Other Time, that includes more information.<\/p>\n<h2><strong>You and your staff were among those most affected by the attacks. Talk about your own experience. As it unfolded, what do you remember thinking, and feeling?<\/strong><\/h2>\n<p>As noted in my book, my greatest concern was the health and safety of my staff and the others who were exposed.<\/p>\n<p>We knew so little about treatment for exposure to anthrax and there were differing points of view on the appropriate antidote.<\/p>\n<p>As the Democratic Leader in the Senate, I was also concerned that a plan of action be developed quickly that would include an investigation to find those responsible, a plan for evacuation of the Senate office building, cleanup and an ongoing means to share information and progress with all interested parties.<\/p>\n<h2><strong>What do you think of the investigation into the attacks? In your mind, what questions remain unanswered?<\/strong><\/h2>\n<p>Unfortunately, the investigation has been a very arduous, frustrating and controversial experience. With both early and ongoing fits and starts, it is accurate to acknowledge that the confidence level relating to assertions by the Federal Bureau of Investigation (FBI) that the case has now been successfully closed is much lower than it should be.<\/p>\n<p>I am reasonably satisfied that the FBI\u2019s conclusion is the correct one, but I must also recognize the legitimate concerns and questions posed by many skeptics since the case was officially closed. Was this attack the work of a lone scientist? If so, what was his motivation? Have we done everything within our means to prevent another attack in the future?<\/p>\n<h2><strong>What role should Congress play in preparing for bioterrorist attacks? What role should it play in investigating such attacks?<\/strong><\/h2>\n<p>Congress must be a full partner with the Executive branch in every aspect of preparing for bioterrorist attacks including policy, funding, information and coordination. Its primary role in the investigations of such attacks should be aggressive oversight.<\/p>\n<h2><strong>What are the most crucial factors to ensure that our country is prepared for a biological emergency?<\/strong><\/h2>\n<p>It is imperative that Congress do four things in the aftermath of this experience. First, it must ensure that the policies of the United States reflect a high priority in both the prevention of and defense from bioterrorism threats. Second, it is essential that the Congress provide all of the necessary funding for research and development of appropriate counter-bioterrorism measures. Third, Congress should readily acknowledge that cooperation in developing appropriate strategies with other governments both within the United States and internationally is critically important. Finally, far more work on public information and education is critically important.<\/p>\n<h2><strong>In the 10 years since the attacks, how has America\u2019s ability to respond changed? Are we more prepared to face a similar attack? How do we remain vulnerable?<\/strong><\/h2>\n<p>America deserves mixed reviews in the aftermath of the attacks. We have spent trillions of dollars in two wars and the creation of new infrastructures in national intelligence, defense and the Department of Homeland Security. We have alienated a large percentage of the Muslim population and we have committed inexcusable acts in violation of even the most basic respect for human rights.<\/p>\n<p>That said, over the past decade, we have improved our safety and security because of the new infrastructure and certain, established policies. We have successfully prevented a number of potential attacks and saved thousands of lives.<\/p>\n<h2><strong>What bioterrorism threats are you most concerned about today? Is this threat being properly addressed on a national and state level?<\/strong><\/h2>\n<p>While I don\u2019t have one particular threat that concerns me more than others, I am concerned about the ubiquity of the threat and our lack of ability to anticipate where and when an attack may occur.<\/p>\n<p>Water and transportation systems are particularly vulnerable to catastrophic levels of harm. Our capacity to anticipate, prevent and respond to these potential threats is still not adequate.<\/p>\n<p><em>Senator Tom Daschle, Former U.S. Senator from South Dakota and Former U.S. Senate Majority Leader<\/em><\/p>\n<p><em><a href=\"http:\/\/healthyamericans.org\/health-issues\/wp-content\/uploads\/2011\/08\/TFAH911Anthrax10YrAnnv10DaschleQnA.pdf\">You can download a PDF of the Q\/A here.<\/a><br \/>\n<\/em><\/p>\n",
+    "parent": null,
+    "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/story\/questionsanswers-2001-anthrax-attacks-senator-tom-daschle",
+    "date": "2011-08-04T19:25:04",
+    "modified": "2011-08-04T19:25:54",
+    "format": "standard",
+    "slug": "questionsanswers-2001-anthrax-attacks-senator-tom-daschle",
+    "guid": "http:\/\/healthyamericans.org\/health-issues\/?post_type=story&#038;p=1160",
+    "excerpt": "<p>What do you remember most about the initial response to the anthrax attacks, both nationally and from your office? I vividly remember the first report provided to me by my Chief of Staff, Pete Rouse, and my grave concern for each of the affected staff. I remember the agony of calling parents, spouses and families [&hellip;]<\/p>\n",
+    "menu_order": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "date_tz": "UTC",
+    "date_gmt": "2011-08-04T19:25:04",
+    "modified_tz": "UTC",
+    "modified_gmt": "2011-08-04T19:25:54",
+    "meta": {
+      "links": {
+        "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/posts\/1160",
+        "author": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/users\/2",
+        "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/posts",
+        "replies": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/posts\/1160\/comments",
+        "version-history": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/posts\/1160\/revisions"
+      }
+    },
+    "featured_image": null,
+    "terms": {
+      "states": [
+        {
+          "ID": 31,
+          "name": "District of Columbia",
+          "slug": "washingtondc",
+          "description": "",
+          "taxonomy": "states",
+          "parent": null,
+          "count": 9,
+          "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/states\/washingtondc",
+          "meta": {
+            "links": {
+              "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms",
+              "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms\/265"
+            }
+          }
+        },
+        {
+          "ID": 41,
+          "name": "Washington, D.C.",
+          "slug": "washington-d-c",
+          "description": "",
+          "taxonomy": "states",
+          "parent": {
+            "ID": 31,
+            "name": "District of Columbia",
+            "slug": "washingtondc",
+            "description": "",
+            "taxonomy": "states",
+            "parent": null,
+            "count": 9,
+            "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/states\/washingtondc",
+            "meta": {
+              "links": {
+                "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms",
+                "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms\/265"
+              }
+            }
+          },
+          "count": 9,
+          "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/states\/washington-d-c",
+          "meta": {
+            "links": {
+              "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms",
+              "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms\/31"
+            }
+          }
+        }
+      ],
+      "story_category": [
+        {
+          "ID": 33,
+          "name": "Federal Response",
+          "slug": "federal-response",
+          "description": "",
+          "taxonomy": "story_category",
+          "parent": null,
+          "count": 16,
+          "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/story_category\/federal-response",
+          "meta": {
+            "links": {
+              "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+              "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/33"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "ID": 1154,
+    "title": "Anthrax, Risk Communication and Crisis Leadership By Howard K. Koh",
+    "status": "publish",
+    "type": "story",
+    "author": {
+      "ID": 2,
+      "username": "albert",
+      "name": "albert",
+      "first_name": "Albert",
+      "last_name": "Lang",
+      "nickname": "albert",
+      "slug": "albert",
+      "URL": "",
+      "avatar": "http:\/\/0.gravatar.com\/avatar\/c0be3abe4f44ef824791c7c929085222?s=96",
+      "description": "",
+      "registered": "2011-06-17T15:21:35+00:00",
+      "meta": {
+        "links": {
+          "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/users\/2",
+          "archives": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/users\/2\/posts"
+        }
+      }
+    },
+    "content": "<p>Until the fall of 2001, I had devoted four years immersed in the demands of a state health commissioner: heading the Massachusetts Department of Public Health (M.D.PH) and overseeing a wide range of health services, four hospitals, and a staff of 3,000 professionals. The work was intense, broad and traditional. Then came 9\/11.<\/p>\n<p>As a member of the National Cancer Institute (NCI) Advisory Board, I was in the greater Washington, D.C. area that morning listening to NCI Director Richard Klausner deliver his resignation speech. Halfway through his remarks, an aide interrupted him and whispered some information\u2014 after which, he abruptly announced that two planes had just hit the World Trade Center and that the meeting was adjourned. In fact, a third plane had also just struck the Pentagon, only several miles away. And unbeknownst to me, of the total of four planes involved in the attacks, two had departed Boston\u2019s Logan Airport that morning, as I had.<\/p>\n<p>Immediately, the entire country was dazed and reeling. Then, to our utter disbelief, October 5began the next chapter of national suffering marked by the first death from inhalational anthrax. The cases started in Florida but over a matter of weeks snaked up the East Coast to northern Connecticut, just a few miles from outstate borders. It seemed unthinkable and inconceivable that bioterrorism could completely engulf our public health agenda. But this unwelcome intruder disrupted the nation for the rest of the Fall, leaving our daily lives in tumult.<\/p>\n<p>The following weeks were a kaleidoscopic blur of briefings, conference calls, meetings, and press conferences. Our Massachusetts Governor immediately convened daily meetings with our state leaders, many of whom I had never previously met. In particular, I found myself connecting feverishly with officials from public safety, fire, police and even the postal service, many of whom became instant, if not unconventional, partners. As reliable information on both the national and state scenes was always elusive, we scrambled to gather accurate data through any conceivable source. For example, once, while driving to speak at a news conference, I heard New York Mayor Rudy Giuliani on the radio announcing yet another anthrax case in New York City. When I arrived, the first press question posed to me was about the specifics of that new case. There were many moments like that.<\/p>\n<p>Our state laboratory officials, traditionally relegated to obscure work in underfunded and archaic facilities, were suddenly thrust into the media limelight. The laboratory was deluged with samples of white powder sent for anthrax testing. Here was a typical scenario: a jittery and unnerved town resident would discover \u201csuspicious\u201d white powder in his community. Immediate notification of the local police or fire department would trigger both the closing of the local post office and the sudden arrival of HAZMAT teams, bedecked in imposing space- suit paraphernalia. The teams would delicately handle the samples under the watchful eye of local media and news cameras. Then, those samples would be delivered to theM.D.PH state laboratory for analysis. A hastily arranged press conference would feature harried state and local officials trying to explain the unfolding developments to an increasingly anxious public. And when testing in the laboratory subsequently yielded negative results for anthrax, that finding would prompt yet another round of news announcements as well. Multiply this situation by several thousand \u2014 and that was the Fall of 2001in our state, and indeed, around the country.<\/p>\n<p>As Commissioner, I was charged with leadingM.D.PH through this time, interacting with other state officials, the press, health professionals, community groups, hospital leaders, advocates, among others. It soon became clear that my primary role was risk communicator- in-chief. The deluge of questions from the press and public alike seemed endless: What is anthrax? Why have we never heard of this before? How many people were infected? How many samples of white powder had been tested? How do I safely open my mail? Should I take antibiotics to protect myself? Is it fair that some people have access to medications while others do not? Would this situation get worse? What if terrorists use smallpox to kill people? Am I safe?<\/p>\n<p>In the midst of this chaos, I understood that each interview had to focus on facts, not speculation. With each press interaction, I shared the information known and promised to share more as soon as it came available. It was important to acknowledge the anxiety without succumbing to it. It was also critical to project some sense of calm, setting an empathetic and compassionate tone. It was difficult to lack ready answers in this constant swirl of uncertainty. But I was honored to emphasize to any audience that thousands of public health professionals had stepped forward in this unprecedented time, working 24\/7 on their behalf. In fact, the crisis represented a tremendous opportunity to underscore and reaffirm publicly the fundamental mission of public health: to protect people against threats \u2014 known and unknown \u2014in a time of crisis. As a physician who has cared for patients for decades, I had had much experience delivering difficult news to anxious patients. But this situation stretched me beyond anything I had ever previously experienced. I had to leverage every possible skill as a physician, scientist and public official to uphold public trust. And across the country, I saw my other public health colleagues also giving it their all, trying to transform a moment of \u201cno hope\u201d to \u201cnew hope\u201d. I was proud of them \u2014 we all will forever share a bond.<\/p>\n<p>When it was all over, the nation witnessed 22 anthrax cases and five deaths, none in Massachusetts; but the trauma left millions in its wake. For the remainder of my tenure as Commissioner, we dealt with the aftermath, dramatically realigning budgets to balance fragile public health programs with new preparedness demands. And when I assumed my new positions as Professor and Associate Dean at the Harvard School of Public Health, I also headed their Center for Public Health Preparedness. We focused on preparedness education and training, risk communication, integration of preparedness and prevention, building better information networks, and using drills and exercises to build a more prepared professional workforce. I brought many of those lessons with me in 2009 to the U.S. Department of Health and Human Services where I now serve as Assistant Secretary for Health.<\/p>\n<p>Looking back at the first decade of the 21st century, our public health history now covers many crises previously viewed as unthinkable. In addition to 9\/11 and anthrax, this remarkable litany of \u201clow probability, high consequence\u201d events now includes SARS (2003), Hurricane Katrina (2005), the H1N1 pandemic (2009) and the Gulf Coast oil spill (2010), among others. Through each of these episodes, as noted by Mitroff1, we have been subjected to the predictable elements of crisis: invalidation of previous fundamental assumptions, the irrelevance of conventional thinking and conventional responses, rapid escalation of events, moral trial by compelling images in the media and tremendous technical and even ethical uncertainty. Since 9\/11, our nation\u2019s ability to coordinate response has certainly grown dramatically. But the next challenge always seems to be just around the corner.<\/p>\n<p>Each new crisis demands renewed leadership. As we seek to train the next generation, we must attract those who are willing and able to step forward and serve at all times and under any circumstance. They must be committed to trying to unify in times of need while acknowledging the unfamiliar and the ambiguous. They must create uncommon bonds among untraditional partners, and mobilize people to want to reach for higher aspirations. This requires not just intelligence and knowledge but also a sense of strategy, personal will and tremendous interpersonal skill. They must be willing to embrace the \u201cpublic\u201d part of public health, since we practice our craft on an open stage. In the final analysis, each crisis can represent an opportunity to create a renewed sense of community, reminding us yet again that we are all interconnected, all interdependent and we all have promises to keep.<\/p>\n<p><em>Howard K. Koh, M.D., M.P.H., U.S. Assistant Secretary for Health, U.S. Department of Health and HumanServices, Massachusetts Commissioner of Public Health, Commonwealth of Massachusetts (1997-2003)<\/em><\/p>\n<p><a href=\"http:\/\/healthyamericans.org\/health-issues\/wp-content\/uploads\/2011\/08\/TFAH911Anthrax10YrAnnv10Koh.pdf\">You can download a PDF of the story here.<\/a><em><br \/>\n<\/em><\/p>\n",
+    "parent": null,
+    "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/story\/anthrax-risk-communication-and-crisis-leadership-by-howard-k-koh",
+    "date": "2011-08-04T19:12:49",
+    "modified": "2011-08-04T19:13:25",
+    "format": "standard",
+    "slug": "anthrax-risk-communication-and-crisis-leadership-by-howard-k-koh",
+    "guid": "http:\/\/healthyamericans.org\/health-issues\/?post_type=story&#038;p=1154",
+    "excerpt": "<p>Until the fall of 2001, I had devoted four years immersed in the demands of a state health commissioner: heading the Massachusetts Department of Public Health (M.D.PH) and overseeing a wide range of health services, four hospitals, and a staff of 3,000 professionals. The work was intense, broad and traditional. Then came 9\/11. As a [&hellip;]<\/p>\n",
+    "menu_order": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "date_tz": "UTC",
+    "date_gmt": "2011-08-04T19:12:49",
+    "modified_tz": "UTC",
+    "modified_gmt": "2011-08-04T19:13:25",
+    "meta": {
+      "links": {
+        "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/posts\/1154",
+        "author": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/users\/2",
+        "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/posts",
+        "replies": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/posts\/1154\/comments",
+        "version-history": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/posts\/1154\/revisions"
+      }
+    },
+    "featured_image": null,
+    "terms": {
+      "story_category": [
+        {
+          "ID": 33,
+          "name": "Federal Response",
+          "slug": "federal-response",
+          "description": "",
+          "taxonomy": "story_category",
+          "parent": null,
+          "count": 16,
+          "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/story_category\/federal-response",
+          "meta": {
+            "links": {
+              "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+              "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/33"
+            }
+          }
+        },
+        {
+          "ID": 36,
+          "name": "State Public Health Response",
+          "slug": "state-public-health-response",
+          "description": "",
+          "taxonomy": "story_category",
+          "parent": null,
+          "count": 8,
+          "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/story_category\/state-public-health-response",
+          "meta": {
+            "links": {
+              "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+              "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/36"
+            }
+          }
+        }
+      ],
+      "states": [
+        {
+          "ID": 42,
+          "name": "Massachusetts",
+          "slug": "massachusetts",
+          "description": "",
+          "taxonomy": "states",
+          "parent": null,
+          "count": 6,
+          "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/states\/massachusetts",
+          "meta": {
+            "links": {
+              "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms",
+              "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms\/41"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "ID": 1149,
+    "title": "Public Health Preparedness since 9\/11 By Nicole Lurie",
+    "status": "publish",
+    "type": "story",
+    "author": {
+      "ID": 2,
+      "username": "albert",
+      "name": "albert",
+      "first_name": "Albert",
+      "last_name": "Lang",
+      "nickname": "albert",
+      "slug": "albert",
+      "URL": "",
+      "avatar": "http:\/\/0.gravatar.com\/avatar\/c0be3abe4f44ef824791c7c929085222?s=96",
+      "description": "",
+      "registered": "2011-06-17T15:21:35+00:00",
+      "meta": {
+        "links": {
+          "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/users\/2",
+          "archives": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/users\/2\/posts"
+        }
+      }
+    },
+    "content": "<p>The tragic event of 9\/11 and the subsequent anthrax attacks horrified the nation and the world and awakened us to the importance of health security as a shared public health homeland security priority. In the decade since these tragic events, public health preparedness has emerged not as a standalone discipline but rather as critical component of public health.<\/p>\n<p>Almost immediately after these events there was an influx of funding to support preparedness for public health and medical infrastructure. Those funds have enhanced the preparedness of our nation to respond to public health and medical emergencies. Now, a decade later, it\u2019s useful to think about how far we have come.<\/p>\n<p>In 2001, we weren\u2019t even sure what a prepared public health system looked like. But we knew there were big gaps. Many health departments did not even have the basics, like computers or access to the internet, and blast fax was considered a new technology. Similarly, numerous health departments lacked the ability to receive and respond to urgent case reports 24\/7 or to use principles of risk communication to rapidly communicate with the public. The use of the Incident Command System was by and large a foreign, uncomfortable concept.<\/p>\n<p>Looking back on the last decade, we have come a long way. Recent reports from both the Public Health Emergency Preparedness and the Hospital Preparedness programs document substantial progress, including enhanced surveillance and laboratory capacity, improved surveillance capability, and better hospital surge capacity. In fact, over 75% of hospitals participating in the Hospital Preparedness Program met 90% of pre-specified goals.<\/p>\n<p>Moreover, the investments in preparedness have strengthened day-to-day public health systems. Numerous health departments now use the incident command system structure to investigate outbreaks, for example, and report that the investigations are faster and more complete. In recent tornados and floods, states have been able to handle medical needs, including hospital and nursing home evacuation, on their own, without federal assistance. Many state and local health departments report that planning and practicing for mass distribution of countermeasures made a major contribution to their ability to respond to the H1N1 pandemic, including through mass vaccination efforts.<\/p>\n<p>Moreover, events since September 11 and the anthrax attacks have moved us from a focus on threat-specific preparedness efforts to the concept of all-hazards preparedness, and to the identification of, and focus on, a core set of capabilities needed for public health and healthcare system preparedness. The response and resilience at the community level demonstrated during recent natural disasters including the Mississippi floods in the Midwest and tornados in Alabama and Joplin, MO are testament to work that has been done at the federal, state, local and hospital level over the past decade. Yet, we still have a ways to go, including in the development of medical countermeasures for chemical, biological, radiological, and nuclear threats. The Secretary\u2019s Public Health Emergency Medical Countermeasures Enterprise Review, published last year, made a number of recommendations for strengthening the medical countermeasure enterprise, and these are now being implemented, with a long term goal of developing rapid, flexible, nimble countermeasure manufacturing capacity to respond to a novel threat, whether natural or man-made.<\/p>\n<p>With tightening federal, state and local budgets, it\u2019s tempting to ask, \u2018are we there yet?\u2019 and to drastically cut or eliminate investments in preparedness. Maintaining and sustaining the capabilities of the people and systems involved in day-to-day public health and preparedness is a critical, continuing requirement for our nation\u2019s health security. While public health departments and hospitals have \u2018bought stuff\u2019 that lasts for a long time, some of it will need replacement. Staffs need continued training and practice, and there are ongoing needs to train new people as the normal turnover of personnel occurs. For me as a primary care doctor, I liken our investments in preparedness to caring for a patient with chronic diseases. There is an initial, substantial investment that has been made in the initial assessment and testing, but my patient\u2019s diabetes or hypertension is not cured after they take medicine for a month. It\u2019s usually medicine they need to take forever, and it is for them a \u2018new normal.\u2019 The same is true for preparedness; the threats will always be with us, and our need to become and stay prepared is our \u2018new normal.\u2019<\/p>\n<p>At the end of the day, preparedness will be built and maintained through strong, day-to-day systems in health care and public health. Conversely, the preparedness imperative has, and will continue to strengthen those systems.<\/p>\n<p>My office, the Assistant Secretary for Preparedness and Response (ASPR) for the U.S. Department of Health and Human Services, is responsible for ensuring that the nation is prepared for, and can respond to and recover from public health emergencies. The National Health Security Strategy charts a course for doing just that. None of us wants to see another public health emergency happen. And while each event\u2014a terrorist attack, a novel infectious disease outbreak, or a massive tornado\u2014is thankfully rare, taken together, it\u2019s extremely likely that another emergency will happen. And we as a country need to be ready for whatever it is.<\/p>\n<p><em>Nicole Lurie M.D., M.S.P.H., Assistant Secretary for Preparedness and Response (ASPR), U.S. Department ofHealth and Human Services<\/em><\/p>\n<p><em><a href=\"http:\/\/healthyamericans.org\/health-issues\/wp-content\/uploads\/2011\/08\/TFAH911Anthrax10YrAnnv10Lurie.pdf\">You can download a PDF of the story here.<\/a><br \/>\n<\/em><\/p>\n",
+    "parent": null,
+    "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/story\/public-health-preparedness-since-911-by-nicole-lurie",
+    "date": "2011-08-04T18:57:04",
+    "modified": "2011-08-04T18:57:04",
+    "format": "standard",
+    "slug": "public-health-preparedness-since-911-by-nicole-lurie",
+    "guid": "http:\/\/healthyamericans.org\/health-issues\/?post_type=story&#038;p=1149",
+    "excerpt": "<p>The tragic event of 9\/11 and the subsequent anthrax attacks horrified the nation and the world and awakened us to the importance of health security as a shared public health homeland security priority. In the decade since these tragic events, public health preparedness has emerged not as a standalone discipline but rather as critical component [&hellip;]<\/p>\n",
+    "menu_order": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "date_tz": "UTC",
+    "date_gmt": "2011-08-04T18:57:04",
+    "modified_tz": "UTC",
+    "modified_gmt": "2011-08-04T18:57:04",
+    "meta": {
+      "links": {
+        "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/posts\/1149",
+        "author": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/users\/2",
+        "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/posts",
+        "replies": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/posts\/1149\/comments",
+        "version-history": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/posts\/1149\/revisions"
+      }
+    },
+    "featured_image": null,
+    "terms": {
+      "story_category": [
+        {
+          "ID": 33,
+          "name": "Federal Response",
+          "slug": "federal-response",
+          "description": "",
+          "taxonomy": "story_category",
+          "parent": null,
+          "count": 16,
+          "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/story_category\/federal-response",
+          "meta": {
+            "links": {
+              "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+              "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/33"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "ID": 1146,
+    "title": "A Decade After Anthrax \u2014 A National Commitment to Leveraging Lessons Learned By Luciana Borio",
+    "status": "publish",
+    "type": "story",
+    "author": {
+      "ID": 2,
+      "username": "albert",
+      "name": "albert",
+      "first_name": "Albert",
+      "last_name": "Lang",
+      "nickname": "albert",
+      "slug": "albert",
+      "URL": "",
+      "avatar": "http:\/\/0.gravatar.com\/avatar\/c0be3abe4f44ef824791c7c929085222?s=96",
+      "description": "",
+      "registered": "2011-06-17T15:21:35+00:00",
+      "meta": {
+        "links": {
+          "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/users\/2",
+          "archives": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/users\/2\/posts"
+        }
+      }
+    },
+    "content": "<p>When the anthrax attack happened in the fall of 2001, I was working at the Center for Civilian Biodefense Studies at the Johns Hopkins Bloomberg School of Public Health. It is fair to say that most public health professionals as well as governmental and other health-related organizations were taken completely by surprise. It was a time marked by considerable uncertainty with respect to the extent of the attack; the number of people who had been exposed; how best to prevent illness in those potentially exposed; how best to treat those who had become ill; and how to prevent additional exposures and illnesses.<\/p>\n<p>My role in the response was primarily one of facilitating information sharing to foster more effective response activities. I, along with my colleagues, organized working groups and built informal networks to identify and share critical clinical information and, later, to disseminate lessons learned. We worked closely with U.S. government officials at the federal, state and local levels and with first responders in the medical and public health communities.<\/p>\n<p>At the time it was very clear that we faced numerous challenges. There was no rapid test to help determine who needed prophylactic antibiotic treatment to prevent potential illness, there were limited supplies of antibiotics, and there was considerable uncertainty regarding how long prophylactic treatment was necessary to prevent illness. There also was a limited supply of anthrax vaccine and a lack of clarity on how best to use it in response to the attack. In addition, there was fear that subsequent attacks would ensue in rapid sequence, and we all knew that capacity at the state and local level to deliver medical countermeasures to large numbers of people was sorely inadequate.<\/p>\n<p>Since the 2001 anthrax attack, preparedness has improved considerably. However much work remains to be done, and if an anthrax attack occurred today, the nation would still face many of the same challenges as in 2001. Although our nation\u2019s armamentarium of medical countermeasures to respond to an anthrax attack has been bolstered, there is still uncertainty regarding how clinicians would manage patients and how public health practitioners would manage the public health emergency. In the event of a large-scale attack, difficult decisions would have to be made on how best to use life-saving resources in a resource-constrained environment. In addition, the capacity to deliver medical countermeasures to large numbers of people and to surge medical care in a mass casualty event is still lacking in many areas.<\/p>\n<p>Recognizing that our nation needs to continue to improve its capability to respond to bioterrorism and emerging infectious disease threats, this past year the President announced a new initiative to increase our capacity to respond faster and more effectively to these threats. As part of this initiative (outlined in the 2010 Public Health Emergency Medical Countermeasures Enterprise Review), the U.S. Food and Drug Administration (FDA) launched its Medical Countermeasures Initiative (MCMi) in August 2010.<\/p>\n<p>I have the privilege to help lead this effort along with the dedicated professionals that I work with at FDA. The mission of the MCMi is to build on the substantive work under way at FDA to promote development of medical countermeasures by enhancing FDA\u2019s regulatory processes, fostering the establishment of clear regulatory pathways for medical countermeasures and facilitating the efficient use of available medical countermeasures by establishing effective regulatory policies and mechanisms.<\/p>\n<p>The new initiatives launched as part of the Enterprise Review have put the United States in a position to begin fully leveraging advances in science and technology to develop innovative, safe and effective medical countermeasures and the systems to deliver them. These initiatives \u2014along with the significant U.S. government investments in bioterrorism preparedness to date\u2014 have put the United States on a trajectory to achieve substantial gains in preparedness and significantly reduce the risks posed by bioterrorism and emerging infectious diseases.<\/p>\n<p>The biggest challenge to preparedness efforts today is complacency. The United States will continue to face a substantial threat from bioterrorism (and emerging infectious diseases) for the foreseeable future. Indeed, bioterrorism is seen as a growing threat as advances in technology will continue to make biological weapons increasingly accessible to state and non-state actors as well as increasing their potential lethality. As such, we must continue and increase our preparedness efforts, which will require an appreciation of the long timelines, risks and high costs associated with developing medical countermeasures and the systems to deliver them; a significant and ongoing investment of resources; abroad-based effort, involving governmental entities at all levels, academia, industry and health professionals; and the continued commitment of our leadership.<\/p>\n<p><em>This writing reflects the views of the author and should not be construed to represent FDA\u2019s views or policies.<\/em><\/p>\n<p><em>Luciana Borio, M.D.,Acting Director, Office of Counterterrorism and Emerging Threats and Assistant Commissionerfor Counterterrorism Policy, Food and Drug Administration<\/em><\/p>\n<p><em><a href=\"http:\/\/healthyamericans.org\/health-issues\/wp-content\/uploads\/2011\/08\/TFAH911Anthrax10YrAnnv10Borio.pdf\">You can download a PDF of the story here.<\/a><br \/>\n<\/em><\/p>\n",
+    "parent": null,
+    "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/story\/a-decade-after-anthrax-%e2%80%94-a-national-commitment-to-leveraging-lessons-learned-by-luciana-borio",
+    "date": "2011-08-04T18:51:42",
+    "modified": "2011-08-04T18:57:24",
+    "format": "standard",
+    "slug": "a-decade-after-anthrax-%e2%80%94-a-national-commitment-to-leveraging-lessons-learned-by-luciana-borio",
+    "guid": "http:\/\/healthyamericans.org\/health-issues\/?post_type=story&#038;p=1146",
+    "excerpt": "<p>When the anthrax attack happened in the fall of 2001, I was working at the Center for Civilian Biodefense Studies at the Johns Hopkins Bloomberg School of Public Health. It is fair to say that most public health professionals as well as governmental and other health-related organizations were taken completely by surprise. It was a [&hellip;]<\/p>\n",
+    "menu_order": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "date_tz": "UTC",
+    "date_gmt": "2011-08-04T18:51:42",
+    "modified_tz": "UTC",
+    "modified_gmt": "2011-08-04T18:57:24",
+    "meta": {
+      "links": {
+        "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/posts\/1146",
+        "author": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/users\/2",
+        "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/posts",
+        "replies": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/posts\/1146\/comments",
+        "version-history": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/posts\/1146\/revisions"
+      }
+    },
+    "featured_image": null,
+    "terms": {
+      "states": [
+        {
+          "ID": 31,
+          "name": "District of Columbia",
+          "slug": "washingtondc",
+          "description": "",
+          "taxonomy": "states",
+          "parent": null,
+          "count": 9,
+          "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/states\/washingtondc",
+          "meta": {
+            "links": {
+              "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms",
+              "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms\/265"
+            }
+          }
+        },
+        {
+          "ID": 41,
+          "name": "Washington, D.C.",
+          "slug": "washington-d-c",
+          "description": "",
+          "taxonomy": "states",
+          "parent": {
+            "ID": 31,
+            "name": "District of Columbia",
+            "slug": "washingtondc",
+            "description": "",
+            "taxonomy": "states",
+            "parent": null,
+            "count": 9,
+            "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/states\/washingtondc",
+            "meta": {
+              "links": {
+                "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms",
+                "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms\/265"
+              }
+            }
+          },
+          "count": 9,
+          "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/states\/washington-d-c",
+          "meta": {
+            "links": {
+              "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms",
+              "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms\/31"
+            }
+          }
+        }
+      ],
+      "story_category": [
+        {
+          "ID": 33,
+          "name": "Federal Response",
+          "slug": "federal-response",
+          "description": "",
+          "taxonomy": "story_category",
+          "parent": null,
+          "count": 16,
+          "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/story_category\/federal-response",
+          "meta": {
+            "links": {
+              "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+              "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/33"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "ID": 1132,
+    "title": "September 11th Attack and the Intentional Release of Anthrax Q&#038;A: CDC AND PUBLIC HEALTH RESPONDS",
+    "status": "publish",
+    "type": "story",
+    "author": {
+      "ID": 2,
+      "username": "albert",
+      "name": "albert",
+      "first_name": "Albert",
+      "last_name": "Lang",
+      "nickname": "albert",
+      "slug": "albert",
+      "URL": "",
+      "avatar": "http:\/\/0.gravatar.com\/avatar\/c0be3abe4f44ef824791c7c929085222?s=96",
+      "description": "",
+      "registered": "2011-06-17T15:21:35+00:00",
+      "meta": {
+        "links": {
+          "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/users\/2",
+          "archives": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/users\/2\/posts"
+        }
+      }
+    },
+    "content": "<p><span style=\"font-size: 13px; line-height: 18px;\">A tragedy is often marked in the lives of those who have experienced it as \u201clife before,\u201d or \u201clife after.\u201d The Centers for Disease Control and Prevention does the same as it reflects on the decade after the terrorist attack of September 11 and the intentional release of anthrax that followed.<\/span><\/p>\n<p>Before that September attack, CDC was busy with a multitude of concerns that embody the work of public health. The headlines before Sept. 11, 2001, tracked CDC\u2019s work on potential health concerns from mosquitoes that stowed away on imported lucky bamboo to a Norwalk-like virus outbreak at two summer camps. The Task Force on Community Prevention Services had just issued a report on increasing physical activity. Internationally, CDC was answering immediate health questions during a refugee crisis in Guinea. It was doing what CDC does: work with state and local public health departments and partners across borders to find and tackle the problems that can plague individuals, communities and the world. And then disaster struck.<\/p>\n<p><em>The following reflects portions of interviews with and reports bypass and present CDC leaders and subject matter experts.<\/em><\/p>\n<h2><strong>What was CDC\u2019s immediate role in responding to the Sept.11, 2001, attacks in the United States?<\/strong><\/h2>\n<p>Our first thoughts were, \u201chow can we help?\u201d<\/p>\n<p>Within hours of the morning attack, CDC sent a small cadre of its public health experts from different disciplines to New York City by private jet.<\/p>\n<p>CDC had previously established a unique FAA-issued priority flight designation that allowed people and materiel to be flown to New York City despite the closure of airspace over the United States.<\/p>\n<p>There were many unknowns that first day, but the team\u2019s primary mission was to support the city health department.CDC expected to help in organizing for mass casualties and conducting immediate biological surveillance for infectious disease illnesses from the possible release of biologic agents.<\/p>\n<p>The team arrived before nightfall and integrated with the New York City Health Department. Concerned about the possibility that hospitals could be overwhelmed with the injured, the NYC health director and CDC\u2019s team-lead agreed that CDC should send up more than a dozen Epidemic Intelligence Service (EIS) officers. In addition, the first emergency mobilization of the National Pharmaceutical Stockpile, arrived that night in New York City.<\/p>\n<p>At the request of the New York City Department of Health, CDC\u2019s Strategic National Stockpile delivered a 50-ton pushpackage of pharmaceuticals and medical supplies to Ground Zero in New York City within seven hours of the federal decision to deploy. In addition, ventilators and their ancillary supplies and other critical medical supplies necessary for the treatment of burn and blast injuries were sent. Along with that, thousands of respirators and other personal protective equipment for response personnel were delivered to New York in the 24 hours after the attack.<\/p>\n<p><span style=\"color: #800000;\"><strong>EIS deployed to emergency departments<\/strong><\/span><\/p>\n<p>The additional EIS officers boarded a plane bound for New York. CDC sent epidemiologists, occupational health specialists, industrial hygienists and other professionals to support the city\u2019s response. The EIS officers deployed to emergency departments in sentinel hospitals to identify unusual disease symptoms or outbreak clusters. Their job would be disease and injury surveillance to help\u00a0identify the types and amount of medical resources needed.<\/p>\n<p>The expectation was that large numbers of people had been injured by the crash and collapse of the buildings. When the sad realization was that hospitals would not be receiving injured survivors because most victims had perished, the CDC team\u2019s attention was also directed to occupational health. Eye injuries and respiratory distress ranked high. Soon attention turned to environmental health concerns such as air quality, food and water safety, and rodent control. Days later, more EIS investigators were deployed both to New York City and to Washington, D.C. to help establish a disease surveillance system.<\/p>\n<h2><strong>What was CDC\u2019s role in responding to the anthrax attacks?<\/strong><\/h2>\n<p>The nation as a whole was still reeling from the terrorist attack of September 11th when public health officials identified a case of inhalation anthrax in a Florida resident, the first such case since 1976 in the United States. As the Department of Health and Human Services\u2019 lead agency for bioterrorism response, CDC had a much more central role for the federal government in the anthrax attack response compared to the terrorist attack on September 11th.<\/p>\n<p>In 1998, CDC had begun to earnestly develop a strategic plan for addressing bioterrorism. Public health was the lead for increased vigilance and preparedness for unexplained illnesses and injuries. There were five components to the plan: preparedness and prevention, surveillance and early detection, diagnosis, response, and communication. These required integrated training and research.<\/p>\n<p>CDC was making incremental progress to define, develop and implement a set of public health capacities at the local, state and federal level to respond to deliberate biologic or chemical attacks on the health of U.S. citizens. In 1999, the CDC had begun providing selected state and local public health jurisdictions with federal funds to develop their public health infrastructure and response capacity. The New York City Department of Health was one of the first city departments funded under this program. In addition, CDC began participating in terrorism response exercises with local, state and federal agencies. Internally, CDC had created the Bioterrorism Preparedness and Response Program. Importantly, CDC established a national repository of emergency drugs and medical equipment, which later became the Strategic National Stockpile.<\/p>\n<p><span style=\"color: #800000;\"><strong>Public health leads<\/strong><\/span><\/p>\n<p>Ready or not, the Florida anthrax event thrust public health and bioterrorism to the front of the line. A CDC trained laboratorian in the Florida Health Department isolated Bacillus anthracis from a patient and alerted his health director and CDC according to protocol. The national Laboratory Response Network was created specifically to ensure the nation had sentinel experts who could correctly identify unusual bacteria from patient specimens and sound the alarm. It worked.CDC and public health as a whole had limited science or past bioterrorism experience to draw upon beyond basic laboratory and epidemiologic understanding. There was great uncertainty about what the nation was dealing with and the magnitude of the event. The days and weeks that followed saw a quick escalation along the East Coast. On October 4, anthrax was confirmed in the first patient and a second patient from the same media company reported being ill. Three days later, a Sunday, CDC confirmed B. anthracis from the office keyboard of the first patient \u2014there was no doubt it was intentional because the organism would not naturally be found in an office setting.<\/p>\n<p>In the weeks that followed, cases accumulated in New York, New Jersey, Washington, D.C. and Connecticut. CDC deployed teams of epidemiologists, occupational health experts, industrial hygienists and environmental health professionals in response. In addition, it gathered nearly a third of its workforce at the headquarters to aid in the response. The response was staged in an old auditorium at the Atlanta headquarters set up on metal tables marked by paper signs, according to their mission.<\/p>\n<p><span style=\"color: #800000;\"><strong>Epidemiology and Surveillance Response<\/strong><\/span><\/p>\n<p>Suspicious envelopes sent on September 18 were meant to reach media company AMI and NBC, ABC, CBS and the New York Post. Envelopes mailed on Oct. 9 were sent to Senator Daschle\u2019s and Senator Leahy\u2019s offices. Four days after the September 18 envelopes were mailed, the first cluster of nine cases began. The second cluster began five days after the October 9 envelopes were mailed.<\/p>\n<p>Officers from CDC\u2019s EIS were deployed to establish surveillance, track exposed individuals and collect epidemiological data to identify risk factors for exposure.<\/p>\n<p>Public health uses specific tools to define the extent of an outbreak. The team at CDC headquarters responsible for characterizing the event created a line list of patients with case descriptions, a database of clinical and environmental specimens from field teams and multiple reports.<\/p>\n<p>The team created an epidemic curve that showed the date of onset of illness for 22 cases of bioterrorism-related anthrax. Two distinct case clusters were noted, with a 13-dayperiod between the clusters in which no cases were reported. A single case of inhalational anthrax was noted in Connecticut 20 days after the second cluster of cases. The epidemiology team mapped out the flow of mail in these areas and identified the positive environmental samples, confirmed anthrax cases, and suspected cases.<\/p>\n<p>Soon, CDC epidemiologists created a field tool kit to guide investigations. The learning curve was steep and the urgent requests for support unrelenting. To capture what was being learned in real time about how public health should respond to an anthrax event, the team created a \u201ctool kit.\u201d<\/p>\n<p>The tool kit included 250 items meant to reduce the learning curve for investigations that followed by health departments and CDC. This practical tool kit included patient handouts, diagnostic and treatment algorithms, prophylaxis clinical materials and guidance, consent forms, training materials, templates for logs, shipping and lab protocols, and helpful hints learned along the way.<\/p>\n<p><span style=\"color: #800000;\"><strong>Environmental Response<\/strong><\/span><\/p>\n<p>CDC collected nearly 10,000 environmental samples to test for the organism\u2019s presence which aided in determining agent sources and exposure pathways. Environmental sampling helped determine the extent and degree of contamination necessary to create risk assessments and support medical treatment and clean-up decisions. Environmental sampling also helped to guide decisions about reoccupying locations.<\/p>\n<p><span style=\"color: #800000;\"><strong>Laboratory Response<\/strong><\/span><\/p>\n<p>In 1996, CDC had only basic microbiology expertise with anthrax. By 2000, CDC had a highly trained but small cadre of laboratorians who could isolate B. anthracis and do the molecular sub typing, which became critical in the criminal investigation. Fortunately, CDC had also developed and trained the Laboratory Response Network so others across the country could isolate and identify anthrax bacterium.<\/p>\n<p>They could identify anthrax bacteria by simple tests such as susceptibility of the anthrax bacteria to lysys by the gamma phage, or by using a more sophisticated approach such as direct fluorescent-antibody staining. Their laboratory capacity also included finding evidence of the organism\u2019s DNA by polymerase chain reaction (PCR) from specimens from a patient\u2019s affected tissue or site.<\/p>\n<p>The first night after samples arrived at CDC, its anthrax laboratory processed 300 clinical and environmental specimens. Molecular sub typing confirmed that this strain was identical to the Ames strain.<\/p>\n<p>Thousands of clinical and environmental specimens were processed by the CDC anthrax lab without a single miss in diagnosis. Isolating the anthrax bacterium from clinical or environmental specimen is not simple. The culture plate used was non-selective and could grow thousands of other bacteria present in these samples, making finding the specific organism a challenging hunt. At CDC, B. anthracis isolates were found on the four suspect envelopes, in 17clinical specimens and in 106 environmental samples.<\/p>\n<p>Across the nation, the laboratory response network tested an estimated 350,000 environmental samples and clinical specimens over an extended period. The results were used in site characterization assessments, post decontamination clearance and forensic investigations.<\/p>\n<p><span style=\"color: #800000;\"><strong>Interventions<\/strong><\/span><\/p>\n<p>Through a combination of environmental sampling and case-cluster investigation, CDC recommended 10,300 people receive antimicrobial prophylaxis for 60 days. An estimated 32,000 began antimicrobial prophylaxis. A small number of persons requested vaccination also. CDC\u2019s Strategic National Stockpile supported hundreds of rapid shipments of antibiotics around the country.<\/p>\n<p>As the investigation progressed, EIS officers helped administer antibiotics, performed logistics management, and helped with risk communication. More than 100 EIS officers were in the field during the anthrax investigations.<\/p>\n<p>Educational materials and counseling was initiated in small groups and health fairs were held to encourage people to continue the full course of antibiotics. CDC monitored for adherence and found that those who perceived the risk to be higher were more likely to finish the course of antibiotics. Importantly, no case of anthrax developed among the more than 10,000 people who received a course of antibiotics as a precaution based on their exposure risk.<\/p>\n<p><span style=\"color: #800000;\"><strong>Information Response and Partnership<\/strong><\/span><\/p>\n<p>Information sharing in the response became as essential as oxygen is to life. The demand for news and guidance at all levels of government, media, and a concerned public was crushing. Between September 11 and the end of November 2001, CDC issued more than 175 updates on the response reaching an estimated 7 million health professionals and the public.<\/p>\n<p>HHS and CDC worked extensively to reach out to various groups within the health delivery system to inform them of what they knew. In addition to updates in the CDC MMWR, CDC sent notifications through its Health Alert Network and Lab Alert Network to state and local health departments.<\/p>\n<h2><strong>How did CDC work with state and local health departments during the anthrax response?<\/strong><\/h2>\n<p>In 2001, CDC had more than half a century of experience collaborating with state and local health departments and it knew their value during any outbreak response. CDC is not a regulatory agency and is invited by states and local health departments to work with them. During an event of national importance CDC\u2019s footprint may be larger, but the need to collaborate remains.<\/p>\n<p>No one knows a community or population better that the public health officials who serve them. However, a strong, integrated national public health infrastructure is critical to protecting the public\u2019s health during large events. In 2001, CDC was not yet there, although it had been working to increase local capacity in critical response areas. The work state and local health departments did with the limited resources they had was immense. Naturally, the chaos of an event of this magnitude strained capacities and relationships. Overall, CDC tried to share what it knew as quickly as it knew it with all of those involved. In reverse, CDC saw its local and state partners strive to do the same.<\/p>\n<p>The anthrax cases in Florida provided a good example of how CDC worked with state and local officials. After the first case resulted in death, CDC moved quickly to confirm the case of the second victim early on the evening of October 7. The CDC, HHS, FBI, DOJ, Florida Governor\u2019s Office, Florida Public Health Department, and a local public health department quickly formulated a plan that got the word out overnight to the affected employees that they needed to come to the clinic for medicine and testing that very next morning. CDC shipped medicine to Florida overnight so it was there when the people arrived in the morning. And CDC and Florida officials issued a joint release at 11 p.m. on October 7 notifying the media and public of the second case. It was a good example of local, state, and federal officials working together to get out a message, send medicine and mobilize people to come get treatment \u2014 literally overnight on a Sunday evening.<\/p>\n<h2><strong>How would CDC characterize the response efforts? What were the most difficult aspects to respond to?<\/strong><\/h2>\n<p>The response efforts were unprecedented. CDC, public health, and the nation faced a silent enemy with unknown capacity. Uncertainty permeated the environment in which local, state, and federal governments along with private medical-care systems and organizations bravely and incessantly went to work. Collectively, public health and medicine had very little science or past bioterrorism experience to draw on as well as an out-dated, weakened public health infrastructure just beginning to get its footing in bioterrorism preparedness.<\/p>\n<p>We took every available public health tool and adapted it to this new situation. Public health was innovative, dedicated, and relentless in working to stop the threat from this intentional release. We did it alongside new federal partners and under intense scrutiny. We disseminated public health information promptly and delivered medicine to people who needed it. As a result, five people too many lost their lives and countless others were saved. Deaths in this outbreak were far below expectations in that the fatality rate for inhalation anthrax was thought to be around 80 percent. The fatality rate in these attacks was about 40 percent. Nonetheless, the desire is always to do more, better.<\/p>\n<h2><strong>What were the biggest challenges or gaps? How have these changed or been addressed during the past decade?<\/strong><\/h2>\n<p>CDC was challenged by the magnitude of the event and the weight of demand for information and recommendations. Situational awareness became more and more difficult and people did resort to informal ways to find out what they needed.<\/p>\n<p>Our local and state partners were frustrated by \u201cwatching the sausage get made\u201d at CDC as information changed and guidance changed with it. Information never flowed fast enough and completely enough for all of the stakeholders involved, including the public.<\/p>\n<p>CDC had not yet adopted the incident command system and had challenges in forming systems to move vital information in multiple directions.<\/p>\n<p>There were gaps in knowledge or gaps in the number of people with needed knowledge. For example, the fact that the first cutaneous cases were unrecognized in clinical settings demonstrated the challenge when preparing to respond to unusual diseases.<\/p>\n<p>There were gaps in laboratory protocols, regulatory requirements and procedures to alert local and state health departments.<\/p>\n<p>CDC has had a decade of events on which to hone its preparedness skills. From anthrax it moved on to respond to SARS, monkeypox, Hurricane Katrina, H1N1, Haiti earthquake and cholera outbreak, the oil spill and recently the Japan disasters.<\/p>\n<p>CDC has come a long way from attempting to respond to9\/11 at a few tables in a conference room. Today CDC applies the incident command system with modifications to allow us to collaborate and communicate more efficiently.CDC has created the Office of Public Health Preparedness and Response that includes a Division of Emergency Operations which stands ready to assemble the teams necessary and scale up as required for any public health emergency. These functions now operate in a state-of-the-art facility that serves as a 24\/7 command center for monitoring and coordinating CDC\u2019s emergency response to public threats across the nation and abroad.<\/p>\n<p>CDC laboratories and the National Laboratory Response Network are more proficient in detecting a range of biological agents that could be used as a weapon. CDC also has greatly increased its oversight of the safety and security of dangerous biological agents (such as the agent that causes anthrax) and toxins. In addition, CDC experts have worked with states to develop their plans for receiving and distributing antibiotics and other medical assets from CDC\u2019s Strategic National Stockpile during a public health emergency including a bioterrorist attack. All 50 states now have these plans in place. During the anthrax response, CDC learned that the linkages forged between clinical and public health communities are strong and these linkages saved lives by detecting illness early. We learned how to shorten the time lag between acquiring new knowledge, communication and action. We confirmed that close collaboration of local, state, and federal public health personnel builds confidence in local response. We have modified recommendations, refocused investigations and are quicker to adapt new scientific information into our response.<\/p>\n<h2><strong>If there were an anthrax attack today, do you think the response would be different? How?<\/strong><\/h2>\n<p>That\u2019s a natural question to ask on a milestone anniversary. The simplest answer is CDC has multi-disciplined experienced and trained professionals now supported by a emergency operation center that could provide the surge capacity and evolving support needed if another anthrax event were to occur. CDC\u2019s scientists and public health professionals have done exhaustive follow-up research and published extensively what they learned during and after the anthrax response in 2001.As such, CDC\u2019s approach for communicating to the public and partners in a crisis has changed. CDC has added laboratory protocols and operating procedures for sampling and shipping specimens. It has refined safety training and conducted joint exercises for biologic agents. CDC has developed an environmental microbiology framework to identify threat agents, determine the risk of infection, and evaluate methods to reduce risk. CDC has described the reasons people may reject public health recommendations and treatment and developed educational materials to address their concerns.<\/p>\n<p>CDC plays a key role in preparing the nation for all types of public health threats, including natural, biological, chemical, radiological and nuclear incidents. When a disaster occurs, CDC is prepared to respond and support national, state and local partners to save lives and reduce suffering.CDC also helps these partners recover and restore public health functions after the initial response.<\/p>\n<p>CDC\u2019s Office of Public Health Preparedness and Response (OPHPR) provides strategic direction, support, and coordination for CDC\u2019s preparedness and emergency response activities.<\/p>\n<p>Protecting the public from health threats involves public health preparedness as well as medical preparedness. Both are essential for national health security and, hence, to the overall preparedness of the nation.<\/p>\n<ul>\n<li><strong>Public health preparedness<\/strong> is the ability of the public health system, community, and individuals to prevent, protect against, quickly respond to, and recover from health emergencies, particularly those in which scale, timing, or unpredictability threatens to overwhelm routine capabilities.<\/li>\n<li><strong>Medical preparedness<\/strong> is the ability of the health care system to prevent, protect against, quickly respond to, and recover from health emergencies, particularly those whose\u00a0scale, timing, or unpredictability threatens to overwhelm routine capabilities. Medical preparedness generally is the responsibility of agencies other than CDC.<\/li>\n<\/ul>\n<p>Emergency preparedness requires attention not just to specific types of hazards but also to steps that increase preparedness for any type of hazard, including training and exercises.CDC developed an emergency preparedness exercise toolkit intended to guide local public health agency staff in developing, implementing, and evaluating emergency drills and exercises, and facilitating the public health aspects of larger, multiagency emergency exercise events. The toolkit provides essential guidance including templates, checklists and forms to assist with every stage of the exercise process. Emphasis is on identification of objectives during the planning phase, a critical step for ensuring a meaningful post-exercise evaluation.<\/p>\n<p>The resources below reflect the increasingly robust resources available from CDC to support the public health response.<\/p>\n<ul>\n<li><strong>The Health Alert Network (HAN)<\/strong> HAN is a strong national program that provides Health Alerts, Health Advisories, Updates and Info Service Messages to state and local health officers, public information officers, epidemiologists and HAN coordinators as well as clinician organizations.<\/li>\n<li><strong>SNAPS: Snap Shots of State Population Data<\/strong> SNAPS provides local-level community profile information nationwide. It can be browsed by county and state and searched by zip code. SNAPS serves as a valuable tool when responding to public health emergency events at the state, tribal, and local levels.<\/li>\n<li><strong>Surveillance<\/strong> CDC has multiple resources for case definitions, illness recognition and detection, planning and systems.<\/li>\n<li><strong>Training &amp; Education<\/strong> CDC offers support and best practices for risk communications, public health and clinical training, and laboratory training.<\/li>\n<li><strong>Clinician Outreach and Communication Activity (COCA)<\/strong> CDC\u2019s COCA establishes partnerships with national clinician organizations to communicate information about disease outbreaks and terrorism events.<\/li>\n<li><strong>Healthcare Facilities<\/strong> CDC has specific resources for individuals at healthcare facilities tasked with ensuring that their facility is as prepared as possible for an emergency.<\/li>\n<li><strong>Labs<\/strong> CDC provides guidance on testing, agent identification, biosafety, specimen collection and shipping.<\/li>\n<\/ul>\n<p>Collectively these and thousands of other steps have made CDC better prepared. While outcomes can\u2019t be promised, CDC can promise it has learned what did and did not work during the anthrax attack and has held itself accountable for being as prepared as possible for future known and unknown threats to public health.<\/p>\n<p>To learn more about CDC preparedness for anthrax and other hazards, visit <a href=\"http:\/\/emergency.cdc.gov\/cdc\/\">http:\/\/emergency.cdc.gov\/cdc\/<\/a><\/p>\n<h2><strong>What do you think are the biggest threats or challenges to bioterrorism preparedness today?<\/strong><\/h2>\n<p>A potential threat may be the misguided belief that preparedness is a thing, something you create once and simply take off the shelf when you need it. Being prepared is an ongoing process and a collective mindset among all public officials and citizenry to the degree they are willing to invest time, resources and attention.<\/p>\n<p>Our society is interconnected and accessible from anywhere across the globe. New technology and ill purpose can wreak havoc without notice.<\/p>\n<p>Preparedness means good public health with an ability to deal with day-to-day disease threats, including detecting and responding to unusual diseases, having the capacity to diagnose rare illnesses, the laboratory acumen to know what you have, and the insight to know what it means to our citizenry\u2019s health. Collectively, these things and the means to respond swiftly are the foundation of preparedness against acts of bioterrorism.<\/p>\n<p>Because of its unique abilities to respond to infectious, occupational, or environmental outbreaks and events, CDC plays a pivotal role in public health preparedness for catastrophic events. CDC focuses on strengthening response capabilities within the agency as well as externally by providing resources to help strengthen preparedness at state, local, tribal and territorial levels. Many preparedness activities occur on a daily basis, such as monitoring for real or potential public health emergency threats. These and other types of activities can be expanded to respond to emergency scenarios such as pandemic influenza.<\/p>\n<p>National emergency preparedness requires a coordinated effort involving every level of government as well as the private sector, non-govern mental organizations and individual citizens. CDC\u2019s work in preparedness supports the Department of Homeland Security, which has overall authority for emergency response activities as laid out in the National Response Framework.<\/p>\n<p>CDC is committed to working with other federal agencies and partners as well as state and local public health departments to ensure the health and medical care of our citizens. The best public health strategy to protect the health of civilians against biological terrorism is a strengthened public health system including public health laboratory capacity, increased surveillance and outbreak investigation capacity and education and training at the local, state and federal level.<\/p>\n<p>CDC works 24\/7 saving lives, protecting people from health threats and saving money through prevention resulting in a more secure nation. CDC puts science and prevention into action to make the healthy choice the easy choice. CDC helps people live longer and healthier to lead productive lives.<\/p>\n<p>To learn more about CDC public health emergency preparedness and response, visit: www.cdc.gov\/phpr.<\/p>\n<p><a href=\"http:\/\/healthyamericans.org\/health-issues\/wp-content\/uploads\/2011\/08\/TFAH911Anthrax10YrAnnv10CDC_QnA.pdf\">Download the Q\/A and photos here.<\/a><\/p>\n",
+    "parent": null,
+    "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/story\/september-11th-attack-and-the-intentional-release-of-anthrax-qa-cdc-and-public-health-responds",
+    "date": "2011-08-04T15:42:30",
+    "modified": "2011-08-04T15:42:58",
+    "format": "standard",
+    "slug": "september-11th-attack-and-the-intentional-release-of-anthrax-qa-cdc-and-public-health-responds",
+    "guid": "http:\/\/healthyamericans.org\/health-issues\/?post_type=story&#038;p=1132",
+    "excerpt": "<p>A tragedy is often marked in the lives of those who have experienced it as \u201clife before,\u201d or \u201clife after.\u201d The Centers for Disease Control and Prevention does the same as it reflects on the decade after the terrorist attack of September 11 and the intentional release of anthrax that followed. Before that September attack, [&hellip;]<\/p>\n",
+    "menu_order": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "date_tz": "UTC",
+    "date_gmt": "2011-08-04T15:42:30",
+    "modified_tz": "UTC",
+    "modified_gmt": "2011-08-04T15:42:58",
+    "meta": {
+      "links": {
+        "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/posts\/1132",
+        "author": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/users\/2",
+        "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/posts",
+        "replies": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/posts\/1132\/comments",
+        "version-history": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/posts\/1132\/revisions"
+      }
+    },
+    "featured_image": null,
+    "terms": {
+      "states": [
+        {
+          "ID": 57,
+          "name": "Atlanta",
+          "slug": "atlanta",
+          "description": "",
+          "taxonomy": "states",
+          "parent": {
+            "ID": 43,
+            "name": "Georgia",
+            "slug": "georgia",
+            "description": "",
+            "taxonomy": "states",
+            "parent": null,
+            "count": 5,
+            "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/states\/georgia",
+            "meta": {
+              "links": {
+                "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms",
+                "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms\/42"
+              }
+            }
+          },
+          "count": 13,
+          "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/states\/atlanta",
+          "meta": {
+            "links": {
+              "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms",
+              "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms\/56"
+            }
+          }
+        },
+        {
+          "ID": 31,
+          "name": "District of Columbia",
+          "slug": "washingtondc",
+          "description": "",
+          "taxonomy": "states",
+          "parent": null,
+          "count": 9,
+          "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/states\/washingtondc",
+          "meta": {
+            "links": {
+              "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms",
+              "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms\/265"
+            }
+          }
+        },
+        {
+          "ID": 44,
+          "name": "Florida",
+          "slug": "florida",
+          "description": "",
+          "taxonomy": "states",
+          "parent": null,
+          "count": 11,
+          "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/states\/florida",
+          "meta": {
+            "links": {
+              "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms",
+              "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms\/43"
+            }
+          }
+        },
+        {
+          "ID": 38,
+          "name": "New York",
+          "slug": "new-york",
+          "description": "",
+          "taxonomy": "states",
+          "parent": null,
+          "count": 10,
+          "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/states\/new-york",
+          "meta": {
+            "links": {
+              "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms",
+              "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms\/38"
+            }
+          }
+        },
+        {
+          "ID": 50,
+          "name": "New York City",
+          "slug": "new-york-city",
+          "description": "",
+          "taxonomy": "states",
+          "parent": {
+            "ID": 38,
+            "name": "New York",
+            "slug": "new-york",
+            "description": "",
+            "taxonomy": "states",
+            "parent": null,
+            "count": 10,
+            "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/states\/new-york",
+            "meta": {
+              "links": {
+                "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms",
+                "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms\/38"
+              }
+            }
+          },
+          "count": 8,
+          "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/states\/new-york-city",
+          "meta": {
+            "links": {
+              "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms",
+              "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms\/49"
+            }
+          }
+        },
+        {
+          "ID": 40,
+          "name": "Virginia",
+          "slug": "virginia",
+          "description": "",
+          "taxonomy": "states",
+          "parent": null,
+          "count": 5,
+          "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/states\/virginia",
+          "meta": {
+            "links": {
+              "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms",
+              "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms\/40"
+            }
+          }
+        },
+        {
+          "ID": 41,
+          "name": "Washington, D.C.",
+          "slug": "washington-d-c",
+          "description": "",
+          "taxonomy": "states",
+          "parent": {
+            "ID": 31,
+            "name": "District of Columbia",
+            "slug": "washingtondc",
+            "description": "",
+            "taxonomy": "states",
+            "parent": null,
+            "count": 9,
+            "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/states\/washingtondc",
+            "meta": {
+              "links": {
+                "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms",
+                "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms\/265"
+              }
+            }
+          },
+          "count": 9,
+          "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/states\/washington-d-c",
+          "meta": {
+            "links": {
+              "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms",
+              "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms\/31"
+            }
+          }
+        }
+      ],
+      "story_category": [
+        {
+          "ID": 33,
+          "name": "Federal Response",
+          "slug": "federal-response",
+          "description": "",
+          "taxonomy": "story_category",
+          "parent": null,
+          "count": 16,
+          "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/story_category\/federal-response",
+          "meta": {
+            "links": {
+              "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+              "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/33"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "ID": 1127,
+    "title": "Questions\/Answers with James M. Hughes President of the Infectious Diseases Society of America",
+    "status": "publish",
+    "type": "story",
+    "author": {
+      "ID": 2,
+      "username": "albert",
+      "name": "albert",
+      "first_name": "Albert",
+      "last_name": "Lang",
+      "nickname": "albert",
+      "slug": "albert",
+      "URL": "",
+      "avatar": "http:\/\/0.gravatar.com\/avatar\/c0be3abe4f44ef824791c7c929085222?s=96",
+      "description": "",
+      "registered": "2011-06-17T15:21:35+00:00",
+      "meta": {
+        "links": {
+          "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/users\/2",
+          "archives": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/users\/2\/posts"
+        }
+      }
+    },
+    "content": "<h2><\/h2>\n<h2><strong>What was CDC\u2019s role in responding to the 9\/11 tragedies?<\/strong><\/h2>\n<p>Consultation and support for NYC and D.C. health departments in numerous activities; deployment of National Pharmaceutical Stockpile (NPS) pushpack to NYC.<\/p>\n<h2><strong>What was CDC\u2019s role in responding to the anthrax attacks?<\/strong><\/h2>\n<p>National surveillance; epidemiologic investigations in collaboration with state and local health departments; support for state public health labs through the Laboratory Response Network(LRN); laboratory diagnostic support through the Rapid Response and Advanced Technology Laboratory (RRAT Lab),Anthrax Laboratory, and Pathology Laboratory for case confirmation; clinical consultation; professional and public education; advice on post exposure prophylaxis; deployment of antimicrobial agents and supplies through the Vendor Managed Inventory of the NPS; consultation on environmental decontamination; development of treatment recommendations.<\/p>\n<h2><strong>How did the CDC work with state and local health departments during the response efforts to 9\/11 and the anthrax attacks?<\/strong><\/h2>\n<p>Deployed field teams to Dade County, NYC, NJ, Washington, D.C. and CT to assist state, local and district health departments in ongoing investigations of cases, surveillance and outbreak control. Staff from CDC Ft Collins, CO assisted state and local authorities in the investigation of a suspect case there. Assisted LRN laboratories in the assessment of numerous powders. Received and processed numerous clinical and environmental specimens and provided reference diagnostic services. Assisted in coordination of epidemiologic and law enforcement investigations.<\/p>\n<h2><strong>How would you characterize the response efforts? What were the most difficult aspects to respond to?<\/strong><\/h2>\n<p>Response efforts were generally effective, given resources available at the time. Major challenges related to uncertainties regarding who was in charge at the national and local levels, dealing with the 24 hour news cycle, staying ahead of CNN in release of information, maintaining situational awareness (worked best in NYC), keeping the clinical and public health communities informed, communicating clear and consistent messages, characterizing powder preparations associated with cases (including concerns about indicators of weaponization), sharing information among many agencies involved in the investigation.<\/p>\n<h2><strong>What were the biggest challenges or gaps?<\/strong><\/h2>\n<p>How have those changed or been addressed during the past decade? Initial lack of an Emergency Operations Center and experience with incident command structure and operations. Maintaining situational awareness in all involved areas. Risk communication. Responding to 24 hour news cycle and staying ahead of media in release of information. Meeting the \u201cneed to know\u201d requirements of numerous individuals and organizations. Meeting need for rapid development of recommendations for post-exposure prophylaxis. Maintaining relationships with Department, White House, and law enforcement. Expanding CDC laboratory capacity. Coping with fatigue and burnout. Considerable progress has been made in addressing each of these issues though challenges remain.<\/p>\n<h2><strong>Looking back, has your perception of the attacks or the response changed from how you saw them 10 years ago?<\/strong><\/h2>\n<p>Anthrax attacks ushered in a new era in outbreak preparedness and response at national, state, and local levels. CDC and the nation are much better prepared to respond today. The attacks drove home the reality of the threat posed by terrorism and the need to be prepared to address the unexpected. Numerous challenges remain, two of which are lack of surge capacity of the healthcare system in today\u2019s just in time economy and vulnerability to cyber terrorism.<\/p>\n<h2><strong>If there were another anthrax attack today, do you think the response would be different? How?<\/strong><\/h2>\n<p>Greater familiarity with clinical and epidemiologic features of the disease (old dogma would be ignored). Situational awareness, coordination among agencies, incident command, emergency operations, risk communication capacities much improved. Management of complexity of social media environment and timely provision and administration of medical countermeasures would be challenging.<\/p>\n<h2><strong>What do you think are the biggest threats or challenges to bioterrorism preparedness today?<\/strong><\/h2>\n<p>Complacency (10 years have passed without another major incident) leading to funding reductions which negatively impact state and local preparedness efforts. Lack of healthcare surge capacity and medical countermeasures including new antimicrobial agents to address the threat posed by genetically engineered organisms which is markedly increased today compared with 10 years ago. Just in time economy introduces additional preparedness challenges.<\/p>\n<h2><strong>What remains to be done to make sure that we can respond effectively to bioterrorism attacks?<\/strong><\/h2>\n<p>Maintenance of political will. Strengthened national and global biosurveillance capacity to ensure early detection and situational awareness. Continued support for medical countermeasures development Elimination of barriers to sharing of critical information including etiologic agents during emergency responses. Strengthened biosecurity and biosafety programs internationally. Support for effective implementation of IHR 2005 in all countries, including the US.<\/p>\n<p><em>James M. Hughes is president of the Infectious Diseases Society of American and Professor ofMedicine and Public Health at Emory University; Former Director of the National Center for Infectious Diseases(NCID) at CDC and Rear Admiral and Assistant Surgeon General in the U.S. Public Health Service<\/em><\/p>\n<p><em><a href=\"http:\/\/healthyamericans.org\/health-issues\/wp-content\/uploads\/2011\/08\/TFAH911Anthrax10YrAnnv10HughesQnA.pdf\">You can download a PDF of the Q and A here.<\/a><br \/>\n<\/em><\/p>\n",
+    "parent": null,
+    "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/story\/questionsanswers-with-james-m-hughes-president-of-the-infectious-diseases-society-of-america",
+    "date": "2011-08-04T15:17:23",
+    "modified": "2011-08-04T15:17:33",
+    "format": "standard",
+    "slug": "questionsanswers-with-james-m-hughes-president-of-the-infectious-diseases-society-of-america",
+    "guid": "http:\/\/healthyamericans.org\/health-issues\/?post_type=story&#038;p=1127",
+    "excerpt": "<p>What was CDC\u2019s role in responding to the 9\/11 tragedies? Consultation and support for NYC and D.C. health departments in numerous activities; deployment of National Pharmaceutical Stockpile (NPS) pushpack to NYC. What was CDC\u2019s role in responding to the anthrax attacks? National surveillance; epidemiologic investigations in collaboration with state and local health departments; support for [&hellip;]<\/p>\n",
+    "menu_order": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "date_tz": "UTC",
+    "date_gmt": "2011-08-04T15:17:23",
+    "modified_tz": "UTC",
+    "modified_gmt": "2011-08-04T15:17:33",
+    "meta": {
+      "links": {
+        "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/posts\/1127",
+        "author": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/users\/2",
+        "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/posts",
+        "replies": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/posts\/1127\/comments",
+        "version-history": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/posts\/1127\/revisions"
+      }
+    },
+    "featured_image": null,
+    "terms": {
+      "states": [
+        {
+          "ID": 57,
+          "name": "Atlanta",
+          "slug": "atlanta",
+          "description": "",
+          "taxonomy": "states",
+          "parent": {
+            "ID": 43,
+            "name": "Georgia",
+            "slug": "georgia",
+            "description": "",
+            "taxonomy": "states",
+            "parent": null,
+            "count": 5,
+            "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/states\/georgia",
+            "meta": {
+              "links": {
+                "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms",
+                "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms\/42"
+              }
+            }
+          },
+          "count": 13,
+          "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/states\/atlanta",
+          "meta": {
+            "links": {
+              "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms",
+              "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms\/56"
+            }
+          }
+        },
+        {
+          "ID": 31,
+          "name": "District of Columbia",
+          "slug": "washingtondc",
+          "description": "",
+          "taxonomy": "states",
+          "parent": null,
+          "count": 9,
+          "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/states\/washingtondc",
+          "meta": {
+            "links": {
+              "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms",
+              "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms\/265"
+            }
+          }
+        },
+        {
+          "ID": 38,
+          "name": "New York",
+          "slug": "new-york",
+          "description": "",
+          "taxonomy": "states",
+          "parent": null,
+          "count": 10,
+          "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/states\/new-york",
+          "meta": {
+            "links": {
+              "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms",
+              "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms\/38"
+            }
+          }
+        },
+        {
+          "ID": 50,
+          "name": "New York City",
+          "slug": "new-york-city",
+          "description": "",
+          "taxonomy": "states",
+          "parent": {
+            "ID": 38,
+            "name": "New York",
+            "slug": "new-york",
+            "description": "",
+            "taxonomy": "states",
+            "parent": null,
+            "count": 10,
+            "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/states\/new-york",
+            "meta": {
+              "links": {
+                "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms",
+                "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms\/38"
+              }
+            }
+          },
+          "count": 8,
+          "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/states\/new-york-city",
+          "meta": {
+            "links": {
+              "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms",
+              "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms\/49"
+            }
+          }
+        },
+        {
+          "ID": 41,
+          "name": "Washington, D.C.",
+          "slug": "washington-d-c",
+          "description": "",
+          "taxonomy": "states",
+          "parent": {
+            "ID": 31,
+            "name": "District of Columbia",
+            "slug": "washingtondc",
+            "description": "",
+            "taxonomy": "states",
+            "parent": null,
+            "count": 9,
+            "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/states\/washingtondc",
+            "meta": {
+              "links": {
+                "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms",
+                "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms\/265"
+              }
+            }
+          },
+          "count": 9,
+          "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/states\/washington-d-c",
+          "meta": {
+            "links": {
+              "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms",
+              "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/states\/terms\/31"
+            }
+          }
+        }
+      ],
+      "story_category": [
+        {
+          "ID": 33,
+          "name": "Federal Response",
+          "slug": "federal-response",
+          "description": "",
+          "taxonomy": "story_category",
+          "parent": null,
+          "count": 16,
+          "link": "http:\/\/tfah.demo.newsig.com\/health-issues\/story_category\/federal-response",
+          "meta": {
+            "links": {
+              "collection": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+              "self": "http:\/\/tfah.demo.newsig.com\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/33"
+            }
+          }
+        }
+      ]
+    }
+  }
+]

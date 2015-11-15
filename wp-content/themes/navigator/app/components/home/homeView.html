@@ -1,77 +1,42 @@
-<div id="content" class="site-content page-wrapper page-template-page_home">
+<div id="content" class="site-content page-wrapper page-template-page_home" ng-controller="homeController as home">
 
-<section class="main-pov">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-6">
-                <div class="main-pov__content">
-                    <h1>Healhty Communities Navigator</h1>
+    <section class="main-pov">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6">
+                    <div class="main-pov__content">
+                        <h1>{{::home.data.acf.homepage_intro_heading}}</h1>
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tellus est, condimentum sit amet bibendum et, porta tincidunt dolor.</p>
+                        <p>{{::home.data.acf.homepage_intro_content}}</p>
 
-                    <div class="main-pov__cta">
-                        <a href="#" class="btn btn-basic">Access the Toolkit</a>
-                        <span>or</span>
-                        <a href="#" class="btn btn-ghost">Learn More about the Toolkit</a>
+                        <div class="main-pov__cta">
+                            <a ng-href="{{::home.data.acf.intro_buttons[0].homepage_cta_url}}"
+                               class="btn btn-basic large">{{::home.data.acf.intro_buttons[0].homepage_cta_text}}</a>
+                            <span>or</span>
+                            <a ng-href="{{::home.data.acf.intro_buttons[1].homepage_cta_url}}"
+                               class="btn btn-ghost large">{{::home.data.acf.intro_buttons[1].homepage_cta_text}}</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<section class="home-articles">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-4">
+    <section class="home-articles">
+        <div class="container">
+            <div class="row">
 
-                <article class="post">
-                    <header>
-                        <h2 class="post__title"><a href="#">Lorem ipsum dolor sit amet, adipisicing elit.</a>
-                        </h2>
-                    </header>
-                    <div class="entry">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur magni, minus. Ab
-                            adipisci cupiditate debitis dolorum est harum impedit in ipsum natus, nostrum odio optio
-                            possimus, praesentium quis quo voluptatem?</p>
-                    </div>
-                </article>
-            </div>
-            <div class="col-xs-4">
+                <div ng-repeat="hp in home.data.acf.homepage_content" class="col-xs-4">
+                    <article class="post">
+                        <header>
+                            <h2 class="post__title"><a href="#">{{::hp.homepage_content_heading}}</a>
+                            </h2>
+                        </header>
+                        <div class="entry" ng-bind-html="hp.homepage_content_text | toTrusted"></div>
+                    </article>
+                </div>
 
-                <article class="post">
-                    <header>
-                        <h2 class="post__title"><a href="#">Ipsum sit amet, consectetur adipisicing elit.</a>
-                        </h2>
-                    </header>
-                    <div class="entry">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur magni, minus. Ab
-                            adipisci cupiditate debitis dolorum est harum impedit in ipsum natus, nostrum odio optio
-                            possimus, praesentium quis quo voluptatem?</p>
-                    </div>
-                </article>
-            </div>
-            <div class="col-xs-4">
-
-                <article class="post">
-                    <header>
-                        <h2 class="post__title"><a href="#">Dolor sit amet, consectetur adipisicing elit.</a>
-                        </h2>
-                    </header>
-                    <div class="entry">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur magni, minus. Ab
-                            adipisci cupiditate debitis dolorum est harum impedit in ipsum natus, nostrum odio optio
-                            possimus, praesentium quis quo voluptatem?</p>
-
-                        <p>
-                            <a href="#">Veritatis voluptatibus</a>
-                            <br>
-                            <a href="#">Nesciunt numquam quibusdam</a>
-                        </p>
-                    </div>
-                </article>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 </div><!-- #content -->

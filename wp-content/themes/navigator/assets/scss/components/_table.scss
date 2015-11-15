@@ -1,0 +1,131 @@
+.table {
+  thead {
+    background: #646464;
+    th {
+      text-align: left;
+    }
+  }
+  .sort-indicator {
+    color: white;
+    text-shadow: none;
+
+  }
+
+  a:hover, a:focus {
+    cursor: pointer;
+  }
+
+}
+
+.grant-overview-table {
+  .grant-name-col, .organization-name-col {
+    width: 38%;
+  }
+  .year-col, .amount-col {
+    width: 12%;
+  }
+}
+
+.grant-detail-table, .grantee-detail-table {
+  .year-col, .amount-col {
+    width: 12%;
+  }
+}
+
+.ng-table th.sortable .sort-indicator {
+  &:after, &:before {
+    border-color: white transparent;
+  }
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background: $athens;
+}
+
+.ng-table-counts {
+  button:last-child {
+    span {
+      display: none;
+    }
+    &:after {
+      // Hack to replace number with string
+      content: "All";
+    }
+  }
+}
+
+// Override pagination
+.pagination {
+  float: right;
+  clear: right;
+  margin: 20px -5px 20px 0;
+  > li {
+
+    > a, > span {
+      background: $biscay;
+      color: white;
+      margin-right: 5px;
+      border: none;
+      min-width: 36px;
+      text-align: center;
+    }
+
+    &:last-child > a, &:last-child > span {
+      border-radius: 0;
+    }
+
+    > a:hover, > a:focus, > span:hover, > span:focus {
+      background: $dixie;
+      color: white;
+
+    }
+    &:first-child > a, &:first-child > span {
+      border-radius: 0;
+    }
+
+  }
+}
+
+.pagination > .disabled {
+
+  > span, > span:hover, > span:focus, > a, > a:hover, > a:focus {
+    background: $biscay;
+    color: white;
+
+  }
+}
+
+.pagination > .active {
+  > a, > a:hover, > a:focus, > span, > span:hover, > span:focus {
+    background: $dixie;
+  }
+}
+
+
+.ng-table-counts {
+  .ng-table-counts-text {
+    float: left;
+    margin-right: 13px;
+    padding-top: 5px;
+  }
+  button:nth-child(2) {
+    border-top-left-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+  }
+}
+
+.share-btn-placeholder {
+  display: none;
+}
+
+
+.site-main .alert {
+  width: 40%;
+  text-align: center;
+  padding: 30px;
+  margin: 15px auto;
+}
+
+body>.ui-select-bootstrap.open {
+  z-index: 1115;
+}

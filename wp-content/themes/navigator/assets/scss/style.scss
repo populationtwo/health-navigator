@@ -36,6 +36,7 @@ Author: New Signature
 //Globally available tools, mixins, & functions
 
 @import "tools/_functions";
+@import "tools/_font-icons";
 
 /*------------------------------------------------------------------
 
@@ -89,6 +90,10 @@ Author: New Signature
 @import "components/_post";
 @import "components/_buttons";
 @import "components/_tabs";
+@import "components/_filter";
+@import "components/_table";
+@import "components/_map";
+@import "components/_animation";
 
 
 /*------------------------------------------------------------------

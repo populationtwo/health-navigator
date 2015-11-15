@@ -1,0 +1,78 @@
+<!--
+// Grant View
+// Display all organizations have been awarded certain grant.
+//
+// ControllerAs: grantDetail
+-->
+
+<div ng-controller="grantDetailCtrl as grantDetail" class="grant-view">
+    <a ui-sref="navigator.main"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+        Go Back</a>
+
+    <div class="row">
+        <div class="col-xs-8"><h2 class="table-title">{{grantDetail.getGrantName(grantDetail.grantId)}}</h2></div>
+        <div class="col-xs-4"><p class="view-name">Grant View</p></div>
+        <div class="col-xs-12 table-desc">
+            <p>
+                The following <em>organizations</em> have been awarded <strong>{{grantDetail.getGrantName(grantDetail.grantId)}}</strong>
+                grant
+            </p>
+        </div>
+    </div>
+
+    <table ng-table="grantDetail.tableParams" show-filter="false" class="table table-striped grant-detail-table"
+           export-csv="csv" template-pagination="{{::main.templates.pagination.url}}">
+        <tr ng-repeat="grtd in $data">
+            <td data-title="'Grantee Organization'" filter="{ 'organization_id': 'number' }"
+                sortable="'organization_id'" class="organization-name-col">
+                <a ng-click="grantDetail.toGranteeAwardPage(grtd.organization_id, grtd.grant_id)">
+                    {{::grtd.organization_name}} <span class="debug">{{::grtd.organization_id}}</span>
+                </a>
+            </td>
+            <td data-title="'Year'" sortable="'year'" class="year-col">
+                {{::grtd.year}}
+            </td>
+            <td data-title="'Amount'" sortable="'amount'" class="amount-col">
+                {{::grtd.amount < 0 ? "N/A" : (grtd.amount | currency:"$":0)}}
+            </td>
+        </tr>
+    </table>
+
+    <footer>
+        <div class="row">
+            <div class="col-xs-7">
+                <ul class="utility-btn list-inline">
+                    <li>
+                        <a href="#"
+                           socialshare
+                           socialshare-provider="facebook"
+                           socialshare-text="Healthy Communities Navigator"
+                           socialshare-url="{{grantDetail.urlPlaceholder}}" class="social-share">
+                            <i class="font-icon icon-facebook-squared"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"
+                           socialshare
+                           socialshare-provider="twitter"
+                           socialshare-text="Explore cross-sector grants, success stories & policy papers from the Healthy Communities Navigator"
+                           socialshare-url="{{grantDetail.shortUrl}}" class="social-share">
+                            <i class="font-icon icon-twitter"></i>
+                        </a>
+                    </li>
+                </ul>
+
+
+        </div>
+</div>
+</footer>
+
+<div class="debug">
+    <button ng-click="grantDetail.tableParams.sorting({})" class="btn btn-default pull-right">Clear sorting</button>
+    <button ng-click="grantDetail.tableParams.filter({})" class="btn btn-default pull-right">Clear filter</button>
+    <p><strong>Sorting:</strong> {{::grantDetail.tableParams.sorting()|json}}</p>
+
+    <p><strong>Filter:</strong> {{::grantDetail.tableParams.filter()|json}}
+    </p>
+</div>
+</div>

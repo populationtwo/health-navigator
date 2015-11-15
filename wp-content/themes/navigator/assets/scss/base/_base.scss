@@ -5,6 +5,7 @@ html {
   box-sizing: border-box;
 }
 
+
 * {
   /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
   box-sizing: inherit;
@@ -13,7 +14,11 @@ html {
 	box-sizing: inherit;
   }
 }
-
+html, body {
+  min-width: 1200px;
+  //height: 100%;
+  //overflow: auto;
+}
 body {
   background: #fff;
   /* Fallback for when there is no custom background color defined. */
@@ -88,3 +93,6 @@ object {
   max-width: 100%;
 }
 
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}

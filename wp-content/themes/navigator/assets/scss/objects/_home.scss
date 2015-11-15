@@ -1,12 +1,13 @@
 .main-pov {
-  background: $zodiac url("../img/pov-intro-1.jpg") 0 0 no-repeat;
+  background: $zodiac url("../img/pov-intro-2.jpg") 0 0 no-repeat;
   background-size: cover;
-  height: 883px;
+  height: 882px;
 }
 
 .main-pov__content {
   color: white;
   margin-top: 120px;
+  min-height: 600px;
   h1 {
     font-size: 70px;
     margin-bottom: 30px;

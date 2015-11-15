@@ -14,14 +14,22 @@
     "test",
     "tests"
   ],
-  "dependencies": {
-    "angular-bootstrap": "~0.13.3",
-    "bootstrap-sass": "~3.3.5",
-    "normalize": "~1.0.4",
-    "normalize.css": "~3.0.3"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "angular-animate": "~1.4.7",
+    "angular-bootstrap": "~0.14.2",
     "angular-datamaps": "~0.1.2",
-    "angular-ui-router": "~0.2.15"
+    "angular-ui-router": "~0.2.15",
+    "angular-ui-select3": "ui-select#*",
+    "bootstrap-sass": "~3.3.5",
+    "lodash": "~3.10.1",
+    "ng-table": "~0.8.3",
+    "ng-table-export": "*",
+    "normalize": "~1.0.4",
+    "normalize.css": "~3.0.3",
+    "ui-select": "angular-ui-select#~0.12.1",
+    "angular-animate-css": "~0.0.4",
+    "angular-clipboard": "~1.1.1",
+    "angular-socialshare": "angularjs-socialshare#~0.1.14"
   }
 }

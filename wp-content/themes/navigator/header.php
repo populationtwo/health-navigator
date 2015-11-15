@@ -12,16 +12,28 @@
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
-	<base href="http://tfah-navigator.dev/">
+	<base href="<?php get_bloginfo('wpurl')?>">
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
-	<link rel="profile" href="http://gmpg.org/xfn/11">
+    <meta name="viewport" content="width=1200, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+
+    <meta property="og:title" content="Healthy Communities Navigator"/>
+    <meta property="og:description" content="Explore cross-sector grants, success stories & policy papers from the Healthy Communities Navigator"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:site_name" content="Healthy Communities Navigator"/>
+    <meta property="og:image" content="<?php get_stylesheet_directory_uri();?>'/assets/img/tfah-og.jpg"/>
 
 	<?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?> ng-app="navigatorApp">
-<div id="page" class="hfeed site">
+
+<div ng-hide="(allGrantsDataLoaded && storyDataLoaded) || acfDataLoaded" class="preloader nga-default nga-stagger nga-fade">
+    <!-- image here via CSS -->
+</div>
+
+<div id="page" class="hfeed site" >
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'navigator' ); ?></a>
 
 	<header id="masthead" class="site-header" role="banner">
@@ -44,18 +56,7 @@
 				</div>
 
 			</div>
-			<div class="row">
-				<ul class="list-inline">
 
-					<li><a ui-sref="home">Home</a></li>
-					<li><a ui-sref="navigator.main">Grant Overview</a></li>
-					<li><a ui-sref="navigator.grantee">Grant Detail</a></li>
-					<li><a ui-sref="navigator.granteeAward">Grant Award & Grantee</a></li>
-					<li><a ui-sref="about">about</a></li>
-					<li><a ui-sref="faq">faq</a></li>
-
-				</ul>
-			</div>
 		</div>
 
 	</header>

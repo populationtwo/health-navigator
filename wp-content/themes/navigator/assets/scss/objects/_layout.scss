@@ -1,11 +1,12 @@
 .site-header {
-  background: $biscay;
+  background: $biscay url(../img/page-header-bg.jpg) top center no-repeat;
+
   padding: 23px 0;
 }
 
 .site-footer {
   background: $ecru;
-  padding-top: 75px;
+  padding: 75px 0;
   .widget-area {
     margin-bottom: 50px;
   }
@@ -15,7 +16,7 @@
 
 
 .page-wrapper {
-  padding: 70px 0 80px;
+  padding: 70px 0 0;
 }
 .page-template-page_home.page-wrapper {
   padding: 0;
@@ -27,6 +28,9 @@
   @include post-heading;
   @extend .heading-line-bold;
   font-size: 46px;
+  &.mb-0 {
+    margin-bottom: 0;
+  }
 }
 
 
@@ -43,4 +47,14 @@
   @include post-heading;
   @extend .heading-line;
 
+}
+
+
+
+.fake-sidebar{
+  background: url("../img/bar.jpg") 840px 0 repeat-y;
+}
+
+.content-area {
+  padding-bottom: 70px;
 }

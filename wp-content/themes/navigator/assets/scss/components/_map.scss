@@ -1,0 +1,64 @@
+.state-map {
+  border: 1px solid black(0.2);
+  padding: 25px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.map-label {
+  background-color: #E0E0E0;
+  padding: 6px 15px;
+  border-radius: 6px;
+  border: 1px solid #999;
+  position: absolute;
+  width: 55px;
+  text-align: center;
+  z-index: 1100;color: #555;
+  &:hover {
+    text-decoration: none;
+    background-color: #f29c24;
+  }
+  &.active {
+    background-color: $dixie;
+
+  }
+  &.nh, &.ri, &.nj, &.md {
+    top: 260px;
+    right: 151px;
+  }
+  &.ri {
+    top: 305px;
+  }
+  &.nj {
+    top: 350px;
+  }
+  &.md {
+    top: 395px;
+  }
+
+
+  &.vt, &.ma, &.ct, &.de, &.dc {
+    top: 240px;
+    right: 86px;
+  }
+  &.ma {
+    top: 285px;
+  }
+  &.ct {
+    top:330px;
+  }
+  &.de {
+    top: 375px;
+  }
+  &.dc {
+    top: 420px;
+  }
+}
+
+.state-map__overlay {
+  background: rgba(255,255,255,0.6);
+  width: 1118px;
+  height: 600px;
+  position: absolute;
+  z-index: 1110;
+}

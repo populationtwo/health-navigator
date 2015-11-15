@@ -1,5 +1,70 @@
-<h3>List of Route 1 Items</h3>
-<ul>
-    <li ng-repeat="item in items">{{item}}</li>
-</ul>
-Grantee detail here
+<!--
+// Grantee View
+// Display all grants awards awarded to Grantee organizations
+//
+// ControllerAs: granteeDetail
+-->
+
+<div ng-controller="granteeDetailCtrl as granteeDetail" class="grantee-view">
+
+    <a ui-sref="navigator.main"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+        Go Back</a>
+
+    <div class="row">
+        <div class="col-xs-8"><h2 class="table-title">
+            {{::granteeDetail.getOrganizationName(granteeDetail.granteeId)}}</h2></div>
+        <div class="col-xs-4"><p class="view-name">Grantee View</p></div>
+        <div class="col-xs-12 table-desc">
+            <p>
+                The following <em>grants</em> have been awarded to <strong>{{::granteeDetail.getOrganizationName(granteeDetail.granteeId)}}</strong>
+            </p>
+        </div>
+    </div>
+
+    <table ng-table="granteeDetail.tableParams" show-filter="false" class="table table-striped grantee-detail-table"
+           export-csv="csv" template-pagination="{{::main.templates.pagination.url}}">
+        <tr ng-repeat="grd in $data">
+            <td data-title="'Grant Name'" filter="{ 'grant_id': 'number' }"
+                sortable="'grant_id'" class="grant-name-col">
+                <a ng-click="granteeDetail.toGranteeAwardPage(grd.organization_id, grd.grant_id)">
+                    {{::grd.grant_name}} <span class="debug">{{::grd.grant_id}}</span>
+                </a>
+            </td>
+            <td data-title="'Year'" sortable="'year'" class="year-col">
+                {{::grd.year}}
+            </td>
+            <td data-title="'Amount'" sortable="'amount'" class="amount-col">
+                {{::grd.amount < 0 ? "N/A" : (grd.amount | currency:"$":0)}}
+            </td>
+        </tr>
+    </table>
+    <footer>
+        <div class="row">
+            <div class="col-xs-7">
+                <ul class="utility-btn list-inline">
+                    <li>
+                        <a href="#"
+                           socialshare
+                           socialshare-provider="facebook"
+                           socialshare-text="Healthy Communities Navigator"
+                           socialshare-url="{{granteeDetail.urlPlaceholder}}" class="social-share">
+                            <i class="font-icon icon-facebook-squared"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"
+                           socialshare
+                           socialshare-provider="twitter"
+                           socialshare-text="Explore cross-sector grants, success stories & policy papers from the Healthy Communities Navigator"
+                           socialshare-url="{{granteeDetail.shortUrl}}" class="social-share">
+                            <i class="font-icon icon-twitter"></i>
+                        </a>
+                    </li>
+
+                </ul>
+
+
+            </div>
+        </div>
+    </footer>
+</div>

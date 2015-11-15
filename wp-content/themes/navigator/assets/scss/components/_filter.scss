@@ -1,0 +1,102 @@
+
+.filter__topic {
+  @extend .col;
+  width: 40%;
+  min-height: 87px;
+  > span {
+    font-weight: 800;
+  }
+}
+
+.filter__state, .filter__city, .filter__county {
+  @extend .col;
+
+  width: 20%;
+  > span {
+    font-weight: 800;
+  }
+}
+
+.state-map__filter {
+
+  header {
+    margin-bottom: 20px;
+  }
+  .dropdown-multiselect {
+    width: 100%;
+    button {
+      width: 100%;
+
+    }
+  }
+  .reset {
+    text-align: right;
+  }
+}
+
+.state-map__filter__header {
+  font-size: 22px;
+  color: $falu-red;
+  margin: 0;
+
+}
+
+
+.line {
+height: 3px;
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  display: block;
+  width: 200px;
+  top: 75px;
+  left: 16px;
+}
+
+.filter__topic {
+  .line {
+    width: 430px;
+  }
+}
+
+////UI Select overrides
+.ui-select-multiple.ui-select-bootstrap {
+  padding: 3px 8px 0 8px;
+  height: 34px;
+}
+
+.ui-select-match {
+  position: relative;
+  top: 60px;
+  left: -10px;
+
+  .ui-select-match-item {
+    display: block;
+    font-size: 14px;
+    text-align: left;
+    color: $biscay;
+    border: none;
+    background: transparent;
+  }
+
+} .ui-select-search {
+    position: absolute;
+    top: 3px;
+  }
+  .ui-select-match-close {
+    background-color: $biscay;
+    padding: 0 5px 0 0;
+    text-shadow: none;
+    color: white;
+    opacity: 1;
+  }
+
+.ui-select-multiple.ui-select-bootstrap .ui-select-match .close {
+  line-height: 1;
+  float: left;
+  margin-right: 10px;
+}
+
+
+//.ui-select-multiple.ui-select-bootstrap {
+//  height: 34px;
+//}

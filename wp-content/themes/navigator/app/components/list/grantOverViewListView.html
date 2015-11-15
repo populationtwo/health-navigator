@@ -1,0 +1,26 @@
+<section class="tool-results" ng-controller="grantOverviewListCtrl as grantOverview">
+    <div class="debug">
+        grant Id: {{grantOverview.grId}}<br/>
+        grant award Id: {{grantOverview.grAwId}}<br/>
+        topic Id: {{grantOverview.tpId}}<br/>
+        term Id: {{grantOverview.termId}}<br/>
+        grant Id: {{grId}}<br/>
+        grant award Id: {{grAwId}}
+        topic Id: {{tpId}}
+        term Id: {{termId}}
+    </div>
+    <div>
+        <!-- Load list/tabs/*.html-->
+        <uib-tabset class="tab-overview">
+            <uib-tab heading="Grants ({{main.tableParams.total()}})">
+                <div ng-include="main.templates.grants.url"></div>
+            </uib-tab>
+            <uib-tab heading="Stories ({{main.filteredStories.length}})">
+                <div ng-include="main.templates.stories.url"></div>
+            </uib-tab>
+            <uib-tab heading="Resources ({{main.filteredResources.length}})">
+                <div ng-include="main.templates.resources.url"></div>
+            </uib-tab>
+        </uib-tabset>
+    </div>
+</section>

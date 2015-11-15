@@ -4,6 +4,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+
 // Core variables and mixins
 @import "bootstrap/variables";
 @import "bootstrap/mixins";
@@ -35,20 +37,20 @@
 @import "bootstrap/labels";
 @import "bootstrap/badges";
 //@import "bootstrap/jumbotron";
-@import "bootstrap/thumbnails";
+//@import "bootstrap/thumbnails";
 @import "bootstrap/alerts";
 //@import "bootstrap/progress-bars";
-@import "bootstrap/media";
-@import "bootstrap/list-group";
-@import "bootstrap/panels";
+//@import "bootstrap/media";
+//@import "bootstrap/list-group";
+//@import "bootstrap/panels";
 //@import "bootstrap/responsive-embed";
-@import "bootstrap/wells";
+//@import "bootstrap/wells";
 @import "bootstrap/close";
 
 // Components w/ JavaScript
 //@import "bootstrap/modals";
-//@import "bootstrap/tooltip";
-//@import "bootstrap/popovers";
+@import "bootstrap/tooltip";
+@import "bootstrap/popovers";
 //@import "bootstrap/carousel";
 
 // Utility classes
@@ -60,3 +62,4 @@
   max-width: none !important;
   width: 1200px;
 }
+

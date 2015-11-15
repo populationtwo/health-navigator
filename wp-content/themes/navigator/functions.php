@@ -41,7 +41,9 @@ function navigator_setup() {
 	register_nav_menus( array(
 		'primary' => esc_html__( 'Primary Menu', 'navigator' ),
 	) );
-
+	register_nav_menus( array(
+		'footer' => esc_html__( 'Footer Menu', 'navigator' ),
+	) );
 	// Set up the WordPress core custom background feature.
 	add_theme_support( 'custom-background', apply_filters( 'navigator_custom_background_args', array(
 		'default-color' => 'ffffff',
@@ -103,9 +105,9 @@ add_action( 'widgets_init', 'navigator_widgets_init' );
 function navigator_scripts() {
 	wp_enqueue_style( 'custom-style', get_template_directory_uri() . '/assets/css/style.css' );
 	wp_enqueue_style( 'navigator-style', get_stylesheet_uri() );
-//	wp_enqueue_script( 'navigator-navigation', get_template_directory_uri() . '/assets/js/navigation.js', array(), '20120206', true );
+	wp_enqueue_script( 'navigator-navigation', get_template_directory_uri() . '/assets/js/navigation.js', array(), '20120206', true );
 //	wp_enqueue_script( 'navigator-skip-link-focus-fix', get_template_directory_uri() . '/assets/js/skip-link-focus-fix.js', array(), '20130115', true );
-	wp_enqueue_script( 'typekit', get_template_directory_uri() . '/assets/js/typekit.js', array(), '', true );
+	wp_enqueue_script( 'typekit', get_template_directory_uri() . '/assets/js/typekit.js', array(), '', false );
 
 	// WP Comments
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
@@ -113,4 +115,66 @@ function navigator_scripts() {
 	}
 }
 
-add_action( 'wp_enqueue_scripts', 'navigator_scripts' );
+add_action( 'wp_enqueue_scripts', 'navigator_scripts', 15 );
+
+if( function_exists('acf_add_options_page') ) {
+
+	acf_add_options_page(array(
+		'page_title' 	=> 'General Settings',
+		'menu_title'	=> 'General Settings',
+		'menu_slug' 	=> 'theme-general-settings',
+		'capability'	=> 'edit_posts',
+		'redirect'		=> false
+	));
+
+	acf_add_options_sub_page(array(
+		'page_title' 	=> 'Home Page Settings',
+		'menu_title'	=> 'Home Page',
+		'parent_slug'	=> 'theme-general-settings',
+	));
+
+	acf_add_options_sub_page(array(
+		'page_title' 	=> 'Footer Settings',
+		'menu_title'	=> 'Footer',
+		'parent_slug'	=> 'theme-general-settings',
+	));
+
+
+}
+
+
+/**
+ * Advanced Custom Fields plugin configuration
+ *
+ */
+
+// Local JSON feature
+// A JSON file will be created / updated with the field group and field settings each time user save a field group. The JSON file will be named using the field’s unique key.
+
+//Customize the default save point (folder)
+add_filter('acf/settings/save_json', 'navigator_acf_json_save_point');
+function navigator_acf_json_save_point( $path ) {
+
+	// update path
+	$path = get_stylesheet_directory() . '/assets/js/json/acf-json';
+
+	// return
+	return $path;
+}
+
+
+add_filter('acf/settings/load_json', 'navigator_acf_json_load_point');
+function navigator_acf_json_load_point( $paths ) {
+
+	// remove original path (optional)
+	unset($paths[0]);
+
+	// append path
+	$path = get_stylesheet_directory() . '/assets/js/json/acf-json';
+
+	// return
+	return $paths;
+}
+
+// Hide ACF field group menu item. Comment this to edit ACF from admin.
+//add_filter('acf/settings/show_admin', '__return_false');

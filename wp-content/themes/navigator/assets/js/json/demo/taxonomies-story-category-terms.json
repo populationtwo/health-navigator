@@ -1,0 +1,1266 @@
+[
+  {
+    "ID": 80,
+    "name": "Access to Healthy Foods\/Food Deserts",
+    "slug": "access-to-healthy-foods",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 31,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/access-to-healthy-foods",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/79"
+      }
+    }
+  },
+  {
+    "ID": 92,
+    "name": "Accountable Care Organizations",
+    "slug": "accountable-care-communitiesorganizations",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 5,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/accountable-care-communitiesorganizations",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/89"
+      }
+    }
+  },
+  {
+    "ID": 220,
+    "name": "Accountable Health Communities",
+    "slug": "accountable-health-communities",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 0,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/accountable-health-communities",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/219"
+      }
+    }
+  },
+  {
+    "ID": 221,
+    "name": "Active Transportation\/Active Living",
+    "slug": "active-transportationactive-living",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 8,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/active-transportationactive-living",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/220"
+      }
+    }
+  },
+  {
+    "ID": 222,
+    "name": "Advocacy",
+    "slug": "advocacy",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 0,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/advocacy",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/221"
+      }
+    }
+  },
+  {
+    "ID": 85,
+    "name": "Asthma",
+    "slug": "asthma",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 3,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/asthma",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/84"
+      }
+    }
+  },
+  {
+    "ID": 223,
+    "name": "Behavioral Health",
+    "slug": "behavioral-health",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 3,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/behavioral-health",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/222"
+      }
+    }
+  },
+  {
+    "ID": 78,
+    "name": "Built Environment",
+    "slug": "the-built-environment-health",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 21,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/the-built-environment-health",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/77"
+      }
+    }
+  },
+  {
+    "ID": 224,
+    "name": "Business",
+    "slug": "business",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 2,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/business",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/223"
+      }
+    }
+  },
+  {
+    "ID": 225,
+    "name": "Cardiovascular Disease\/Heart Disease",
+    "slug": "cardiovascular-diseaseheart-disease",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 3,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/cardiovascular-diseaseheart-disease",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/224"
+      }
+    }
+  },
+  {
+    "ID": 226,
+    "name": "Care Coordination",
+    "slug": "care-coordination",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 4,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/care-coordination",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/225"
+      }
+    }
+  },
+  {
+    "ID": 79,
+    "name": "Childhood Obesity",
+    "slug": "childhood-obesity-prevention",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 30,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/childhood-obesity-prevention",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/78"
+      }
+    }
+  },
+  {
+    "ID": 227,
+    "name": "Children",
+    "slug": "children",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 8,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/children",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/226"
+      }
+    }
+  },
+  {
+    "ID": 228,
+    "name": "Chronic Absenteeism",
+    "slug": "chronic-absenteeism",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 0,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/chronic-absenteeism",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/227"
+      }
+    }
+  },
+  {
+    "ID": 229,
+    "name": "Chronic Disease",
+    "slug": "chronic-disease",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 13,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/chronic-disease",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/228"
+      }
+    }
+  },
+  {
+    "ID": 230,
+    "name": "Clinical-Community Linkages",
+    "slug": "clinical-community-linkages",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 8,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/clinical-community-linkages",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/229"
+      }
+    }
+  },
+  {
+    "ID": 111,
+    "name": "Coalition\/collaboration",
+    "slug": "community-collaboration",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 16,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/community-collaboration",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/108"
+      }
+    }
+  },
+  {
+    "ID": 231,
+    "name": "Collective Impact",
+    "slug": "collective-impact",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 0,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/collective-impact",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/230"
+      }
+    }
+  },
+  {
+    "ID": 87,
+    "name": "Community Benefit",
+    "slug": "community-benefit",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 9,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/community-benefit",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/86"
+      }
+    }
+  },
+  {
+    "ID": 232,
+    "name": "Community Health Needs Assessments",
+    "slug": "community-health-needs-assessments",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 3,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/community-health-needs-assessments",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/231"
+      }
+    }
+  },
+  {
+    "ID": 209,
+    "name": "Community Health Workers\/Promotores\/Navigators\/Lay-workers",
+    "slug": "community-health-workers",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 5,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/community-health-workers",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/206"
+      }
+    }
+  },
+  {
+    "ID": 184,
+    "name": "Data\/Information",
+    "slug": "data-registry",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 8,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/data-registry",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/181"
+      }
+    }
+  },
+  {
+    "ID": 103,
+    "name": "Diabetes Prevention",
+    "slug": "diabetes-prevention-control",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 19,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/diabetes-prevention-control",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/100"
+      }
+    }
+  },
+  {
+    "ID": 195,
+    "name": "Disaster Preparedness\/emergency preparedness",
+    "slug": "public-health-preparedness",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 2,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/public-health-preparedness",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/192"
+      }
+    }
+  },
+  {
+    "ID": 88,
+    "name": "Disparities",
+    "slug": "health-disparities",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 19,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/health-disparities",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/87"
+      }
+    }
+  },
+  {
+    "ID": 233,
+    "name": "Early Childhood",
+    "slug": "early-childhood",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 5,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/early-childhood",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/232"
+      }
+    }
+  },
+  {
+    "ID": 234,
+    "name": "Economic Development\/Community Economic Development\/CED",
+    "slug": "economic-developmentcommunity-economic-developmentced",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 0,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/economic-developmentcommunity-economic-developmentced",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/233"
+      }
+    }
+  },
+  {
+    "ID": 235,
+    "name": "Education\/Schools",
+    "slug": "educationschools",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 4,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/educationschools",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/234"
+      }
+    }
+  },
+  {
+    "ID": 236,
+    "name": "Elderly\/Seniors",
+    "slug": "elderlyseniors",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 1,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/elderlyseniors",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/235"
+      }
+    }
+  },
+  {
+    "ID": 237,
+    "name": "Employment\/job training",
+    "slug": "employmentjob-training",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 0,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/employmentjob-training",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/236"
+      }
+    }
+  },
+  {
+    "ID": 75,
+    "name": "Faith-based",
+    "slug": "faith-based",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 7,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/faith-based",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/74"
+      }
+    }
+  },
+  {
+    "ID": 33,
+    "name": "Federal Response",
+    "slug": "federal-response",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 16,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/federal-response",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/33"
+      }
+    }
+  },
+  {
+    "ID": 194,
+    "name": "Food Safety",
+    "slug": "food-safety",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 1,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/food-safety",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/191"
+      }
+    }
+  },
+  {
+    "ID": 238,
+    "name": "Health Home",
+    "slug": "health-home",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 0,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/health-home",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/237"
+      }
+    }
+  },
+  {
+    "ID": 77,
+    "name": "Health in all Policies",
+    "slug": "health-in-all-policies",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 17,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/health-in-all-policies",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/76"
+      }
+    }
+  },
+  {
+    "ID": 82,
+    "name": "Health Plan\/Insurer\/Private Insurer\/Managed Care Organization",
+    "slug": "payers",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 14,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/payers",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/81"
+      }
+    }
+  },
+  {
+    "ID": 239,
+    "name": "Healthcare Costs",
+    "slug": "healthcare-costs",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 7,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/healthcare-costs",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/238"
+      }
+    }
+  },
+  {
+    "ID": 191,
+    "name": "Healthy Eating",
+    "slug": "healthyeating",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 11,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/healthyeating",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/188"
+      }
+    }
+  },
+  {
+    "ID": 240,
+    "name": "Healthy Weight",
+    "slug": "healthy-weight",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 6,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/healthy-weight",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/239"
+      }
+    }
+  },
+  {
+    "ID": 241,
+    "name": "Hospitals\/Health Systems",
+    "slug": "hospitalshealth-systems",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 10,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/hospitalshealth-systems",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/240"
+      }
+    }
+  },
+  {
+    "ID": 84,
+    "name": "Housing",
+    "slug": "healthy-housing",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 11,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/healthy-housing",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/83"
+      }
+    }
+  },
+  {
+    "ID": 242,
+    "name": "Hunger",
+    "slug": "hunger",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 0,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/hunger",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/241"
+      }
+    }
+  },
+  {
+    "ID": 243,
+    "name": "Hypertension",
+    "slug": "hypertension",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 7,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/hypertension",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/242"
+      }
+    }
+  },
+  {
+    "ID": 179,
+    "name": "Injury Prevention",
+    "slug": "injury-prevention",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 2,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/injury-prevention",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/176"
+      }
+    }
+  },
+  {
+    "ID": 244,
+    "name": "Integrator\/quarterback",
+    "slug": "integratorquarterback",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 4,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/integratorquarterback",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/243"
+      }
+    }
+  },
+  {
+    "ID": 245,
+    "name": "Literacy",
+    "slug": "literacy",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 0,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/literacy",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/244"
+      }
+    }
+  },
+  {
+    "ID": 35,
+    "name": "Local Public Health Response",
+    "slug": "local-public-health-response",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 8,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/local-public-health-response",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/35"
+      }
+    }
+  },
+  {
+    "ID": 246,
+    "name": "Low-income Populations",
+    "slug": "low-income-populations",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 8,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/low-income-populations",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/245"
+      }
+    }
+  },
+  {
+    "ID": 247,
+    "name": "Medicaid",
+    "slug": "medicaid",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 5,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/medicaid",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/246"
+      }
+    }
+  },
+  {
+    "ID": 248,
+    "name": "Medicare",
+    "slug": "medicare",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 7,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/medicare",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/247"
+      }
+    }
+  },
+  {
+    "ID": 249,
+    "name": "Mental Health",
+    "slug": "mental-health",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 3,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/mental-health",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/248"
+      }
+    }
+  },
+  {
+    "ID": 74,
+    "name": "Obesity",
+    "slug": "obesity-prevention",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 28,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/obesity-prevention",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/216"
+      }
+    }
+  },
+  {
+    "ID": 250,
+    "name": "Parks",
+    "slug": "parks",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 5,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/parks",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/249"
+      }
+    }
+  },
+  {
+    "ID": 86,
+    "name": "Payment Models\/Financing",
+    "slug": "payment-models",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 2,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/payment-models",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/85"
+      }
+    }
+  },
+  {
+    "ID": 96,
+    "name": "Physical Activity",
+    "slug": "opportunities-for-physical-activity",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 34,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/opportunities-for-physical-activity",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/93"
+      }
+    }
+  },
+  {
+    "ID": 251,
+    "name": "Policy, Environmental and Systems Change",
+    "slug": "policy-environmental-and-systems-change",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 2,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/policy-environmental-and-systems-change",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/250"
+      }
+    }
+  },
+  {
+    "ID": 190,
+    "name": "Population Health\/Social Determinants of Health\/Upstream Factors\/Socially-complex\/Non-medical determinants",
+    "slug": "population-health",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 16,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/population-health",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/187"
+      }
+    }
+  },
+  {
+    "ID": 252,
+    "name": "Poverty",
+    "slug": "poverty",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 7,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/poverty",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/251"
+      }
+    }
+  },
+  {
+    "ID": 253,
+    "name": "Private Funding",
+    "slug": "private-funding",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 0,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/private-funding",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/252"
+      }
+    }
+  },
+  {
+    "ID": 254,
+    "name": "Public Funding",
+    "slug": "public-funding",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 0,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/public-funding",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/253"
+      }
+    }
+  },
+  {
+    "ID": 255,
+    "name": "Public Health Departments\/Local Health Department\/Health Department\/Public Safety",
+    "slug": "public-health-departmentslocal-health-departmenthealth-departmentpublic-safety",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 5,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/public-health-departmentslocal-health-departmenthealth-departmentpublic-safety",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/254"
+      }
+    }
+  },
+  {
+    "ID": 34,
+    "name": "Public Health Laboratory Response",
+    "slug": "public-health-laboratory-response",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 6,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/public-health-laboratory-response",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/34"
+      }
+    }
+  },
+  {
+    "ID": 32,
+    "name": "Public Health Provider Response",
+    "slug": "public-health-providers",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 2,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/public-health-providers",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/32"
+      }
+    }
+  },
+  {
+    "ID": 219,
+    "name": "Resilience\/Community Resilience\/Community Health Resilience",
+    "slug": "resiliencecommunity-resiliencecommunity-health-resilience",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 2,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/resiliencecommunity-resiliencecommunity-health-resilience",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/218"
+      }
+    }
+  },
+  {
+    "ID": 177,
+    "name": "Return on Investment",
+    "slug": "return-on-investment",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 9,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/return-on-investment",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/174"
+      }
+    }
+  },
+  {
+    "ID": 256,
+    "name": "Rural",
+    "slug": "rural",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 6,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/rural",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/255"
+      }
+    }
+  },
+  {
+    "ID": 164,
+    "name": "Safe Routes to School",
+    "slug": "safe-routes-to-school",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 4,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/safe-routes-to-school",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/161"
+      }
+    }
+  },
+  {
+    "ID": 257,
+    "name": "School Health",
+    "slug": "school-health",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 4,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/school-health",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/256"
+      }
+    }
+  },
+  {
+    "ID": 36,
+    "name": "State Public Health Response",
+    "slug": "state-public-health-response",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 8,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/state-public-health-response",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/36"
+      }
+    }
+  },
+  {
+    "ID": 83,
+    "name": "Substance Abuse\/Drug Abuse\/Prescription Drug Abuse",
+    "slug": "drug-abuse-prevention",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 4,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/drug-abuse-prevention",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/82"
+      }
+    }
+  },
+  {
+    "ID": 258,
+    "name": "Telehealth",
+    "slug": "telehealth",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 0,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/telehealth",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/257"
+      }
+    }
+  },
+  {
+    "ID": 73,
+    "name": "Tobacco Cessation\/Smoking Cessation",
+    "slug": "tobacco-cessation-prevention",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 16,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/tobacco-cessation-prevention",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/72"
+      }
+    }
+  },
+  {
+    "ID": 259,
+    "name": "Tools\/toolkits",
+    "slug": "toolstoolkits",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 3,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/toolstoolkits",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/258"
+      }
+    }
+  },
+  {
+    "ID": 261,
+    "name": "Trauma\/Trauma-informed Care",
+    "slug": "traumatrauma-informed-care",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 1,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/traumatrauma-informed-care",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/260"
+      }
+    }
+  },
+  {
+    "ID": 262,
+    "name": "Upstream Prevention",
+    "slug": "upstream-prevention",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 1,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/upstream-prevention",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/261"
+      }
+    }
+  },
+  {
+    "ID": 263,
+    "name": "Violence\/violence prevention",
+    "slug": "violenceviolence-prevention",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 2,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/violenceviolence-prevention",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/262"
+      }
+    }
+  },
+  {
+    "ID": 264,
+    "name": "Wellness Trust",
+    "slug": "wellness-trust",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 0,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/wellness-trust",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/263"
+      }
+    }
+  },
+  {
+    "ID": 265,
+    "name": "Workforce",
+    "slug": "workforce",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 3,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/workforce",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/264"
+      }
+    }
+  },
+  {
+    "ID": 76,
+    "name": "Worksite Wellness",
+    "slug": "worksite-wellness",
+    "description": "",
+    "taxonomy": "story_category",
+    "parent": null,
+    "count": 17,
+    "link": "http:\/\/healthyamericans.org\/health-issues\/story_category\/worksite-wellness",
+    "meta": {
+      "links": {
+        "collection": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms",
+        "self": "http:\/\/healthyamericans.org\/health-issues\/wp-json\/taxonomies\/story_category\/terms\/217"
+      }
+    }
+  }
+]

@@ -1,0 +1,287 @@
+{
+  "AL": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 93
+  },
+  "AK": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 207
+  },
+  "AS": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 702
+  },
+  "AZ": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 45
+  },
+  "AR": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 204
+  },
+  "CA": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 48
+  },
+  "CO": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 155
+  },
+  "CT": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 37
+  },
+  "DE": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 95
+  },
+  "DC": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 703
+  },
+  "FM": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 704
+  },
+  "FL": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 777
+  },
+  "GA": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 43
+  },
+  "GU": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 705
+  },
+  "ID": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 208
+  },
+  "IL": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 60
+  },
+  "IN": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 102
+  },
+  "IA": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 151
+  },
+  "KS": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 706
+  },
+  "KY": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 103
+  },
+  "LA": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 153
+  },
+  "ME": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 211
+  },
+  "MH": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 707
+  },
+  "MD": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 39
+  },
+  "MA": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 41
+  },
+  "MI": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 112
+  },
+  "MN": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 184
+  },
+  "MS": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 114
+  },
+  "MO": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 45
+  },
+  "MT": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 116
+  },
+  "NE": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 118
+  },
+  "NV": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": ""
+  },
+  "NH": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 210
+  },
+  "NJ": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 30
+  },
+  "NM": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 209
+  },
+  "NY": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 38
+  },
+  "NC": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 46
+  },
+  "ND": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": ""
+  },
+  "MP": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 708
+  },
+  "OH": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 122
+  },
+  "OK": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 124
+  },
+  "OR": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 110
+  },
+  "PW": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 709
+  },
+  "PA": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 126
+  },
+  "PR": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 710
+  },
+  "RI": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 711
+  },
+  "SC": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 128
+  },
+  "TN": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 131
+  },
+  "TX": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 133
+  },
+  "UT": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 137
+  },
+  "VT": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 109
+  },
+  "VI": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 712
+  },
+  "VA": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 40
+  },
+  "WA": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 48
+  },
+  "WV": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 140
+  },
+  "WI": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 141
+  },
+  "WY": {
+    "fillKey": "defaultFill",
+    "selected": "ACTIVE",
+    "term_id": 713
+  }
+}

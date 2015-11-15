@@ -1,0 +1,177 @@
+<!--
+// Grantee Award View
+// Display all Grantee Award details
+//
+// ControllerAs: granteeAward
+-->
+
+<div ng-controller="granteeAwardCtrl as granteeAward" class="grantee-award-view">
+
+    <a ui-sref="{{granteeAward.back()}}"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span> Go Back</a>
+
+    <div class="row">
+        <div class="col-xs-8"><h2 class="table-title">
+            {{::granteeAward.getOrganizationName(granteeAward.granteeId)}}</h2>
+        </div>
+        <div class="col-xs-4"><p class="view-name">Grantee Award View</p></div>
+        <div class="col-xs-12 table-desc">
+            <p>
+                The following <em>data</em> is associated with the <strong>{{::granteeAward.getGrantName(granteeAward.grantId)}}</strong>
+                grant awarded to <strong>{{::granteeAward.getOrganizationName(granteeAward.granteeId)}}</strong> in
+                <strong>{{::granteeAward.wpData.grData.grants_awards[granteeAward.grantAwardIndex].year}}</strong>.
+            </p>
+        </div>
+
+    </div>
+
+    <!--//TODO: Move to external file-->
+    <script type="text/ng-template" id="accordion-template.html">
+        <div class="panel {{::panelClass || 'panel-default'}}">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-xs-11">
+                        <h4 class="panel-title">
+                            <a href tabindex="0" class="accordion-toggle" ng-click="toggleOpen()"
+                               uib-accordion-transclude="heading">
+                                <span ng-class="{'text-muted': isDisabled}">{{::heading}}</span>
+                            </a>
+                        </h4>
+                    </div>
+                    <div class="col-xs-1">
+                        <a ng-click="toggleOpen()" class="accordion-toggle-btn">
+                            <span ng-show="!isOpen">Open<span class="glyphicon glyphicon-triangle-bottom"></span></span>
+                            <span ng-show="isOpen">Close<span class="glyphicon glyphicon-triangle-top"></span></span>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="panel-collapse collapse" uib-collapse="!isOpen">
+                <div class="panel-body" ng-transclude></div>
+            </div>
+        </div>
+    </script>
+
+    <uib-accordion close-others="false">
+        <uib-accordion-group is-open="granteeAward.openAccordion" template-url="accordion-template.html">
+            <uib-accordion-heading>
+                Award Details
+            </uib-accordion-heading>
+
+            <dl class="dl-horizontal">
+                <dt>Award URL:</dt>
+                <dd>
+                    <a ng-href="{{::granteeAward.wpData.grData.grants_awards[granteeAward.grantAwardIndex].program_url}}"
+                       target="_blank"
+                       ng-if="granteeAward.wpData.grData.grants_awards[granteeAward.grantAwardIndex].program_url">{{::granteeAward.wpData.grData.grants_awards[granteeAward.grantAwardIndex].program_url}}</a>
+                    <span ng-if="!granteeAward.wpData.grData.grants_awards[granteeAward.grantAwardIndex].program_url">N/A</span>
+                </dd>
+                <dt>Award Year:</dt>
+                <dd>{{::granteeAward.wpData.grData.grants_awards[granteeAward.grantAwardIndex].year}}</dd>
+                <dt>Award Length:</dt>
+                <dd>{{::granteeAward.wpData.grData.grants_awards[granteeAward.grantAwardIndex].length}} year</dd>
+                <dt>Amount:</dt>
+                <dd>{{::granteeAward.wpData.grData.grants_awards[granteeAward.grantAwardIndex].amount < 0 ? "N/A" :
+                    (granteeAward.wpData.grData.grants_awards[granteeAward.grantAwardIndex].amount | currency:"$":0)}}
+                </dd>
+                <dt>Health Topic:</dt>
+                <dd>
+                    <!--{{::granteeAward.grantId}}-->
+                    {{::granteeAward.getTopicName(granteeAward.grantId)}}
+
+                </dd>
+                <dt>Scope:</dt>
+                <dd>
+                    {{::!granteeAward.wpData.grData.grants_awards[granteeAward.grantAwardIndex].scope? "N/A" :
+                    granteeAward.wpData.grData.grants_awards[granteeAward.grantAwardIndex].scope }}
+                </dd>
+            </dl>
+        </uib-accordion-group>
+
+        <uib-accordion-group template-url="accordion-template.html">
+            <uib-accordion-heading>
+                Grantee Organization
+            </uib-accordion-heading>
+            <dl class="dl-horizontal">
+                <dt>Grantee Name:</dt>
+                <dd>{{::granteeAward.getOrganizationObj(granteeAward.granteeId).name}}
+                </dd>
+                <dt>Grantee Organization URL:</dt>
+                <dd><a ng-href="{{::granteeAward.getOrganizationObj(granteeAward.granteeId).url}}" target="_blank">{{::granteeAward.getOrganizationObj(granteeAward.granteeId).url}}</a>
+                </dd>
+
+            </dl>
+        </uib-accordion-group>
+
+        <uib-accordion-group template-url="accordion-template.html"
+                             ng-if="granteeAward.getContacts(granteeAward.granteeId).length">
+            <uib-accordion-heading>
+                Grantee Contact
+            </uib-accordion-heading>
+            <div ng-repeat="person in granteeAward.getContacts(granteeAward.granteeId)">
+                <p>{{::person.first_name}} {{::person.last_name}}<br/>
+                    {{::person.email}}<br/>
+                    {{::person.phone}}</p>
+            </div>
+        </uib-accordion-group>
+
+        <uib-accordion-group template-url="accordion-template.html">
+            <uib-accordion-heading>
+                Grant Details
+            </uib-accordion-heading>
+            <dl class="dl-horizontal">
+                <dt>Name</dt>
+                <dd> {{::granteeAward.getGrants(granteeAward.grantId).name}}</dd>
+                <dt>URL</dt>
+                <dd>
+                    <a ng-href="{{::granteeAward.getGrants(granteeAward.grantId).url}}"
+                       target="_blank" ng-if="granteeAward.getGrants(granteeAward.grantId).url">{{::granteeAward.getGrants(granteeAward.grantId).url}}</a>
+                    <span ng-if="!granteeAward.getGrants(granteeAward.grantId).url">N/A</span>
+                </dd>
+                <dt>Award</dt>
+                <dd>{{::granteeAward.getGrants(granteeAward.grantId).award}}</dd>
+                <dt>Awardee URL</dt>
+                <dd>
+                    <a ng-href="{{::granteeAward.getGrants(granteeAward.grantId).awardee_url}}"
+                       target="_blank" ng-if="granteeAward.getGrants(granteeAward.grantId).awardee_url">{{::granteeAward.getGrants(granteeAward.grantId).awardee_url}}</a>
+                    <span ng-if="!granteeAward.getGrants(granteeAward.grantId).awardee_url">N/A</span>
+                </dd>
+                <dt>Expiration Date</dt>
+                <dd>
+                    {{!granteeAward.getGrants(granteeAward.grantId).expiration_date? "N/A" :
+                    granteeAward.getGrants(granteeAward.grantId).expiration_date | date:"MMM d, y"}}
+                </dd>
+            </dl>
+        </uib-accordion-group>
+
+        <uib-accordion-group template-url="accordion-template.html">
+            <uib-accordion-heading>
+                Grantor Organization
+            </uib-accordion-heading>
+            <dl class="dl-horizontal">
+                <dt>Grantor Name:</dt>
+                <dd> {{::granteeAward.getOrganizationObj(granteeAward.getGrantorId(granteeAward.grantId)).name}}
+                </dd>
+                <dt>Grantor Organization URL:</dt>
+                <dd>
+                    <a ng-href="{{::granteeAward.getOrganizationObj(granteeAward.getGrantorId(granteeAward.grantId)).url}}"
+                       target="_blank">
+                        {{::granteeAward.getOrganizationObj(granteeAward.getGrantorId(granteeAward.grantId)).url}}</a>
+                </dd>
+
+            </dl>
+        </uib-accordion-group>
+    </uib-accordion>
+
+    <div class="debug">
+        Item Index {{::granteeAward.grantAwardIndex}}<br><br>
+        Item array {{::granteeAward.grantAwardItems}}<br><br>
+        {{::granteeAward.getOrganizationObj(granteeAward.granteeId).name}}<br><br>
+        {{::granteeAward.getContacts(granteeAward.granteeId)}}<br><br>
+        {{::granteeAward.getGrants(granteeAward.grantId)}}<br><br>
+        {{::granteeAward.getOrganizationObj(granteeAward.getGrantorId(granteeAward.grantId))}}<br><br>
+    </div>
+
+
+</div>

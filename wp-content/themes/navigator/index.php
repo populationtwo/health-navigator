@@ -12,5 +12,7 @@
  * @package navigator
  */
 get_header(); ?>
+<div class="ui-view-container">
 	<div ui-view></div>
+</div>
 <?php get_footer(); ?>

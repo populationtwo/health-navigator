@@ -23,3 +23,11 @@ assets/
 ----- js/       // JavaScript files written for your app that are not for angular
 ----- libs/     // Third-party libraries such as jQuery, Moment, Underscore, etc.
 index.html
+
+
+All the syntax are based on Angular-styleguide https://github.com/johnpapa/angular-styleguide
+
+
+//TODO: Map directive
+//TODO: Test UI select
+//TODO: Test UI table

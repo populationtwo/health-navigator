@@ -1,16 +1,12 @@
-
-
-//.btn {
-//  color:white;
-//  text-decoration:none;
-//  padding: 20px 40px;
-//  border-radius: 6px;
-//  font-size: 14px;
-//  text-transform: uppercase;
-//}
+.btn.large {
+  padding: 20px 50px;
+}
 
 .btn-basic {
   @include button-bg($citron);
+  text-transform: uppercase;
+  color: white;
+  border-radius: 6px;
   &:hover, &:active {
     color: white;
   }
@@ -18,15 +14,43 @@
 
 .btn-ghost {
   @extend .btn;
+  text-transform: uppercase;
   border: 1px solid $citron;
   color: $citron;
   &:hover {
-    background: darken($citron,8%);
+    background: darken($citron, 8%);
     transition: all 0.3s ease;
     color: white;
   }
   &:active {
     color: $citron;
-    background: darken($citron,25%);
+    background: darken($citron, 25%);
+  }
+}
+
+.utility-btn {
+  margin-top: 60px;
+  .font-icon, .glyphicon {
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .font-icon:before {
+    font-size: 20px;
+    margin: 0;
+    width: 20px;
+  }
+  .social-share:hover, .social-share:focus {
+    text-decoration: none;
+  }
+}
+
+.grantee-view, .grant-view {
+  .utility-btn {
+    margin-top: 2px;
+  }
+}
+
+.stories-view, .resources-view {
+  .utility-btn {
+    margin-top: 20px;
   }
 }

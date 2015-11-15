@@ -1,4 +1,5 @@
-=== navigator ===
+# Navigator
+TODO: Write a project description
 
 Contributors: New Signature
 Tags:
@@ -9,20 +10,25 @@ Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A theme built for TFAH.
-
-== Description ==
-
 This is An Angular App with WordPress back end.
 
-== Installation ==
-	
-1. In your admin panel, go to Appearance > Themes and click the Add New button.
-2. Click Upload and Choose File, then select the theme's .zip file. Click Install Now.
-3. Click Activate to use your new theme right away.
+## Installation
+TODO: Describe the installation process
 
+## Usage
+TODO: Write usage instructions
+## Contributing
 
-== Changelog ==
-
+## Changelog
+TODO: Write history
 = 1.0 - May 12 2015 =
 * Initial release
+
+## Credits
+TODO: Write credits
+
+## License
+TODO: Write license
+
+## TO DO
+1. Create Gulp build script for production and staging

@@ -17,6 +17,10 @@
     float: left;
     position: relative;
     padding: 0 25px;
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    &:last-child {
+      border-right: none;
+    }
   }
   a {
     display: block;
@@ -85,3 +89,24 @@
   text-align: right;
   width: 50%;
 }
+
+
+
+//Tabs
+
+.nav-tabs {
+ li a {
+   border-color: transparent;
+   border-radius: 0;
+ }
+  > li.active > {a, a:focus, a:hover {
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 4px solid $dixie;
+  }}
+}
+
+
+//.nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus
+//.nav-tabs>li.active>a,
